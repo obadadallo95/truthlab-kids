@@ -1,9 +1,6 @@
 'use client';
 
-import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { useRouter } from '@/i18n/routing';
-import { AgeGroup, useAppStore } from '@/store/useAppStore';
 import { ProfessionalAgeSelection } from '@/components/ProfessionalAgeSelection';
 
 export default function AgeSelection() {

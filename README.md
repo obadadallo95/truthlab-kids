@@ -1,5 +1,9 @@
 # 🧪 Truth Lab - Media Literacy Educational Platform
 
+<div align="center">
+  <img src="https://github.com/obadadallo95/truthlab-kids/blob/main/public/assets/truthlab-logo.svg" alt="Truth Lab Logo" width="200" height="200">
+</div>
+
 ## 🌟 Overview
 
 Truth Lab is an interactive multilingual educational platform designed to empower youth with information verification skills and media literacy in the digital age. The platform uses advanced technologies including artificial intelligence and intelligent analytics to provide a comprehensive and effective educational experience.

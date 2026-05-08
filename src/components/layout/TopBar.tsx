@@ -1,9 +1,10 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { Bell, FlaskConical, Star } from 'lucide-react';
+import { Bell, Star } from 'lucide-react';
 import LanguageSwitcher from './LanguageSwitcher';
 import { Link, usePathname } from '@/i18n/routing';
+import TruthLabLogo from '@/components/brand/TruthLabLogo';
 
 export default function TopBar() {
   const t = useTranslations('Common');
@@ -14,9 +15,9 @@ export default function TopBar() {
     <header className="sticky top-0 z-50 border-b border-white/10 bg-[#02080b]/92 text-white shadow-[0_10px_40px_rgba(0,0,0,0.22)] backdrop-blur-xl">
       <div className="lab-container flex min-h-[72px] items-center justify-between gap-6">
         <div className="flex items-center gap-10">
-          <Link href="/" className="flex items-center gap-3 text-[#7dd3fc]">
-            <FlaskConical size={30} strokeWidth={2.2} />
-            <span className="text-xl font-bold tracking-tight sm:text-2xl">{t('title')}</span>
+          <Link href="/" className="group flex items-center gap-3">
+            <TruthLabLogo className="transition duration-300 group-hover:scale-[1.02]" />
+            <span className="sr-only">{t('title')}</span>
           </Link>
           <nav className="hidden items-center gap-7 lg:flex">
             {nav.map((item) => (

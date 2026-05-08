@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { ReactNode } from 'react';
+import { ElementType, ReactNode } from 'react';
 
 interface AnimatedTextProps {
   children: ReactNode;
@@ -9,7 +9,7 @@ interface AnimatedTextProps {
   delay?: number;
   duration?: number;
   stagger?: number;
-  as?: keyof JSX.IntrinsicElements;
+  as?: ElementType;
 }
 
 const containerVariants = {
