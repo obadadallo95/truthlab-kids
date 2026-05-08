@@ -1,8 +1,10 @@
-import { useTranslations } from 'next-intl';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { CheckCircle2, FileText, Image as ImageIcon, Microscope, Upload } from 'lucide-react';
 
-export default function VerificationToolkitPage() {
-  const t = useTranslations('VerificationToolkit');
+export default async function VerificationToolkitPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: 'VerificationToolkit' });
   const checklist = t.raw('checklist') as string[];
 
   return (

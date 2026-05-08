@@ -1,8 +1,10 @@
-import { useTranslations } from 'next-intl';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { ProfessionalHomePage } from '@/components/ProfessionalHomePage';
 
-export default function Home() {
-  const t = useTranslations('Common');
+export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: 'Common' });
 
   return (
     <ProfessionalHomePage

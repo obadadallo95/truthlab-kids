@@ -766,5 +766,16 @@
         "earned": false
       }
     ]
+  },
+  "NotFound": {
+    "title": "Diese Seite wurde nicht gefunden",
+    "description": "Es scheint, als hätten Sie sich vom Weg verirrt. Machen Sie sich keine Sorgen, selbst Wahrheitssucher verlaufen sich manchmal. Lassen Sie uns wieder auf den richtigen Weg bringen.",
+    "goHome": "Zur Startseite",
+    "exploreContent": "Inhalte erkunden",
+    "needHelp": "Benötigen Sie Hilfe bei der Suche nach dem, was Sie suchen?",
+    "learningPath": "Lernpfad",
+    "truthLab": "Wahrheitslabor",
+    "spreadSimulator": "Verbreitungs-Simulator",
+    "goBack": "Zurück"
   }
 }

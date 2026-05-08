@@ -36,7 +36,7 @@
         "description": "Advanced AI algorithms for content analysis"
       },
       "analytics": {
-        "title": "Analytics Dashboard", 
+        "title": "Analytics Dashboard",
         "description": "Real-time insights and progress tracking"
       },
       "security": {
@@ -289,7 +289,24 @@
     "investigators": "Source Analysts",
     "scholars": "Civic Researchers",
     "back": "Back",
-    "continue": "Continue"
+    "continue": "Continue",
+    "fundamentalConcepts": "Foundational concepts",
+    "interactiveScenarios": "Interactive scenarios",
+    "visualLearning": "Visual learning",
+    "sourceInvestigation": "Source investigation",
+    "contextAnalysis": "Context analysis",
+    "claimVerification": "Claim verification",
+    "advancedAIConcepts": "Advanced AI concepts",
+    "algorithmAnalysis": "Algorithm analysis",
+    "evidenceStandards": "Evidence standards",
+    "progressiveLearningPath": "Progressive learning path",
+    "progressiveLearningPathDesc": "Move from basic fairness and rumor checks to advanced public verification work.",
+    "foundationStage": "Foundation stage",
+    "foundationStageDesc": "Fairness, facts, opinion, rumor, and careful sharing.",
+    "explorationStage": "Exploration stage",
+    "explorationStageDesc": "Sources, context, viral spread, and AI-generated media.",
+    "advancedStage": "Advanced stage",
+    "advancedStageDesc": "Algorithms, synthetic evidence, OSINT basics, and public verification briefs."
   },
   "ProfessionalAgeSelection": {
     "title": "How old are you?",
@@ -420,7 +437,24 @@
     "completePrevious": "Complete Previous Module",
     "moduleFallbackDesc": "A practical investigation module with evidence checks, discussion prompts, and a short decision task.",
     "modulesAvailable": "modules available",
-    "moduleLabel": "Module"
+    "moduleLabel": "Module",
+    "back": "Back to selection",
+    "learningTime": "Learning time",
+    "averageScore": "Average score",
+    "currentLevel": "Current level",
+    "currentLevelLabel": "Source Analyst",
+    "learningModules": "Learning modules",
+    "learningModulesSubtitle": "Choose any module in the selected age track.",
+    "achievementsTitle": "Achievements",
+    "achievementsSubtitle": "Skills earned through careful verification practice.",
+    "firstStepsTitle": "First Steps",
+    "firstStepsDesc": "Completed the first evidence-based module.",
+    "criticalThinkerTitle": "Critical Thinker",
+    "criticalThinkerDesc": "Compared claims with sources and context.",
+    "mediaExpertTitle": "Media Expert",
+    "mediaExpertDesc": "Practiced media and AI verification methods.",
+    "truthDefenderTitle": "Truth Defender",
+    "truthDefenderDesc": "Built a responsible public verification brief."
   },
   "ProfessionalPath": {
     "title": "Your Learning Journey",
@@ -530,7 +564,7 @@
     "toolTitle": "Investigation Workspace",
     "toolSubtitle": "Transform viral claims into responsible judgments",
     "imageAnalysis": "Image Analysis",
-    "sourceInvestigation": "Source Investigation", 
+    "sourceInvestigation": "Source Investigation",
     "metadata": "Data Metadata",
     "claimsTitle": "Case Library",
     "claimsSubtitle": "Professional verification cases from real-world scenarios",
@@ -1666,7 +1700,57 @@
     "parametersBody": "Adjust the pressure points behind a viral claim and discuss what would slow it down: better context, credible corrections, and slower sharing.",
     "sensationalism": "Emotional intensity",
     "algorithmBoost": "Platform amplification",
-    "sourceTrust": "Source credibility"
+    "sourceTrust": "Source credibility",
+    "start": "Start",
+    "pause": "Pause",
+    "reset": "Reset",
+    "download": "Download",
+    "back": "Back",
+    "eyebrow": "Spread dynamics lab",
+    "simulationTitle": "Information spread simulation",
+    "simulationSubtitle": "Watch how claims move through a network in real time.",
+    "selectScenario": "Select scenario",
+    "networkVisualization": "Network visualization",
+    "monitorDescription": "Monitor how attention, trust, and friction change reach.",
+    "realTime": "Real time",
+    "networkEffect": "Network effect",
+    "viralContent": "Viral content",
+    "platformStats": "Platform stats",
+    "engagement": "Engagement",
+    "reach": "Reach",
+    "speed": "Speed",
+    "influence": "Influence",
+    "participants": "Participants",
+    "shares": "Shares",
+    "learningObjectives": "Learning objectives",
+    "learningSubtitle": "Understand information dynamics in digital public life.",
+    "criticalAnalysis": "Critical analysis",
+    "criticalAnalysisDesc": "Identify the factors that make claims persuasive or risky.",
+    "criticalAnalysisStats": "Evidence-first",
+    "digitalDefense": "Digital defense",
+    "digitalDefenseDesc": "Practice interventions that reduce harm before sharing.",
+    "digitalDefenseStats": "Friction tools",
+    "strategicThinking": "Strategic thinking",
+    "strategicThinkingDesc": "Design corrections that reach the same audience as the claim.",
+    "strategicThinkingStats": "Repair reach",
+    "scenarios": {
+      "viralNews": {
+        "title": "Viral breaking-news claim",
+        "description": "A dramatic post spreads before the source and location are confirmed."
+      },
+      "celebrityGossip": {
+        "title": "Public figure rumor",
+        "description": "A claim uses emotion and screenshots to move faster than verification."
+      },
+      "politicalMeme": {
+        "title": "Civic meme with missing context",
+        "description": "A simplified graphic turns a complex public issue into a misleading claim."
+      },
+      "healthInformation": {
+        "title": "Health advice post",
+        "description": "A helpful-sounding tip needs source, date, and expert context."
+      }
+    }
   },
   "VerificationToolkit": {
     "sideTitle": "Verification toolkit",
@@ -1733,5 +1817,16 @@
         "earned": false
       }
     ]
+  },
+  "NotFound": {
+    "title": "This page could not be found",
+    "description": "It looks like you've wandered off the path. Don't worry, even truth seekers get lost sometimes. Let's get you back on track.",
+    "goHome": "Go Home",
+    "exploreContent": "Explore Content",
+    "needHelp": "Need help finding what you're looking for?",
+    "learningPath": "Learning Path",
+    "truthLab": "Truth Lab",
+    "spreadSimulator": "Spread Simulator",
+    "goBack": "Go Back"
   }
 }

@@ -1,8 +1,10 @@
-import { useTranslations } from 'next-intl';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { ProfessionalFacilitator } from '@/components/ProfessionalFacilitator';
 
-export default function FacilitatorPage() {
-  const t = useTranslations('Facilitator');
+export default async function FacilitatorPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: 'Facilitator' });
   const rows = t.raw('rows') as { name: string; module: string; progress: number; status: string }[];
 
   return (

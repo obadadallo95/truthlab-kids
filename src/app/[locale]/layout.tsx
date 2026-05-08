@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist_Mono, Lexend, Noto_Sans_Arabic, Noto_Sans_KR } from "next/font/google";
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
+import { getMessages, setRequestLocale } from 'next-intl/server';
 import { routing } from '@/i18n/routing';
 import { notFound } from 'next/navigation';
 import TopBar from '@/components/layout/TopBar';
@@ -30,6 +30,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
+
 export const metadata: Metadata = {
   title: "TruthLab Kids",
   description: "A media literacy learning experience for young digital citizens.",
@@ -44,9 +48,11 @@ export default async function RootLayout({
 }>) {
   const { locale } = await params;
   
-  if (!routing.locales.includes(locale as (typeof routing.locales)[number])) {
+  if (!(routing.locales as readonly string[]).includes(locale)) {
     notFound();
   }
+
+  setRequestLocale(locale);
  
   const messages = await getMessages();
 

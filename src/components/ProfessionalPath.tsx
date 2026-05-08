@@ -91,7 +91,7 @@ export function ProfessionalPath({ translations }: ProfessionalPathProps) {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950">
+    <div className="min-h-screen overflow-x-hidden bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950">
       {/* Hero Section */}
       <section className="relative py-20 px-4 overflow-hidden">
         {/* 3D Background */}
@@ -129,7 +129,7 @@ export function ProfessionalPath({ translations }: ProfessionalPathProps) {
               <span>Learning Journey</span>
             </div>
             
-            <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-white via-blue-100 to-cyan-100 bg-clip-text text-transparent mb-6">
+            <h1 className="break-words text-4xl font-bold bg-gradient-to-r from-white via-blue-100 to-cyan-100 bg-clip-text text-transparent mb-6 md:text-6xl">
               {translations.title}
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">

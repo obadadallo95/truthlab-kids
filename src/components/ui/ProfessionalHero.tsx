@@ -108,28 +108,37 @@ export function ProfessionalHero({ title, subtitle, primaryAction, secondaryActi
         />
 
         {/* 3D Particles */}
-        {[...Array(20)].map((_, i) => (
-          <motion.div
-            key={i}
-            className="absolute w-2 h-2 bg-white rounded-full opacity-30"
-            animate={{
-              opacity: [0.1, 0.5, 0.1],
-              scale: [1, 2, 1],
-              y: [0, -30, 0],
-              x: [0, Math.random() * 20 - 10, 0],
-            }}
-            transition={{
-              duration: 3 + Math.random() * 2,
-              repeat: Infinity,
-              delay: i * 0.1,
-              ease: 'easeInOut',
-            }}
-            style={{
-              left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`,
-            }}
-          />
-        ))}
+        {[...Array(20)].map((_, i) => {
+          // Use deterministic values based on index to avoid hydration mismatch
+          const seed = i * 12345; // Simple seed based on index
+          const leftPos = ((seed * 9301 + 49297) % 233280) / 233280 * 100;
+          const topPos = ((seed * 49297 + 233280) % 233280) / 233280 * 100;
+          const xMovement = ((seed * 233280 + 9301) % 20000 - 10000) / 1000;
+          const duration = 3 + ((seed * 9301) % 2000) / 1000;
+          
+          return (
+            <motion.div
+              key={i}
+              className="absolute w-2 h-2 bg-white rounded-full opacity-30"
+              animate={{
+                opacity: [0.1, 0.5, 0.1],
+                scale: [1, 2, 1],
+                y: [0, -30, 0],
+                x: [0, xMovement, 0],
+              }}
+              transition={{
+                duration: duration,
+                repeat: Infinity,
+                delay: i * 0.1,
+                ease: 'easeInOut',
+              }}
+              style={{
+                left: `${leftPos}%`,
+                top: `${topPos}%`,
+              }}
+            />
+          );
+        })}
       </div>
 
       {/* Content */}

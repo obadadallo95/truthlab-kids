@@ -1,8 +1,10 @@
-import { useTranslations } from 'next-intl';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Award, Brain, CheckCircle2, Database, FileText, Search, Shield } from 'lucide-react';
 
-export default function ProfilePage() {
-  const t = useTranslations('Profile');
+export default async function ProfilePage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: 'Profile' });
   const badges = t.raw('badges') as { title: string; body: string; earned: boolean }[];
   const icons = [CheckCircle2, Brain, Shield, Search, Database];
 

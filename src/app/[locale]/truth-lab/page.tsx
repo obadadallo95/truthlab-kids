@@ -1,8 +1,10 @@
-import { useTranslations } from 'next-intl';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { ProfessionalTruthLab } from '@/components/ProfessionalTruthLab';
 
-export default function TruthLabPage() {
-  const t = useTranslations('TruthLab');
+export default async function TruthLabPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: 'TruthLab' });
   const claims = t.raw('claims') as { title: string; body: string; status: string; type: string; risk: string; action: string; featured?: boolean }[];
 
   return (

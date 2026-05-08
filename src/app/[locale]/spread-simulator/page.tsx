@@ -1,8 +1,10 @@
-import { useTranslations } from 'next-intl';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { ProfessionalSpreadSimulator } from '@/components/ProfessionalSpreadSimulator';
 
-export default function SpreadSimulatorPage() {
-  const t = useTranslations('SpreadSimulator');
+export default async function SpreadSimulatorPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: 'SpreadSimulator' });
 
   const scenarios = [
     {
