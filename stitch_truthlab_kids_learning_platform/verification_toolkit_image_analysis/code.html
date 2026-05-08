@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>TruthLab Kids - Image Analysis</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface": "#f7fafb",
+                    "on-secondary": "#ffffff",
+                    "on-tertiary": "#ffffff",
+                    "primary": "#005c68",
+                    "secondary-fixed-dim": "#f5be55",
+                    "surface-container-high": "#e5e9ea",
+                    "primary-fixed-dim": "#80d3e3",
+                    "on-tertiary-fixed-variant": "#6c3a04",
+                    "on-secondary-container": "#745200",
+                    "secondary-fixed": "#ffdea8",
+                    "inverse-on-surface": "#eef1f2",
+                    "tertiary": "#7b4610",
+                    "surface-container-highest": "#e0e3e4",
+                    "on-primary-fixed": "#001f25",
+                    "surface-container": "#ebeeef",
+                    "on-surface": "#181c1d",
+                    "on-secondary-fixed": "#271900",
+                    "on-error-container": "#93000a",
+                    "on-error": "#ffffff",
+                    "outline": "#6e797b",
+                    "surface-variant": "#e0e3e4",
+                    "on-primary-fixed-variant": "#004e59",
+                    "outline-variant": "#bec8cb",
+                    "tertiary-fixed": "#ffdcc3",
+                    "on-tertiary-container": "#ffe9da",
+                    "on-primary": "#ffffff",
+                    "secondary-container": "#fec65d",
+                    "primary-container": "#0d7685",
+                    "on-secondary-fixed-variant": "#5e4200",
+                    "on-primary-container": "#c8f5ff",
+                    "secondary": "#7c5800",
+                    "primary-fixed": "#a0efff",
+                    "on-surface-variant": "#3e484b",
+                    "error": "#ba1a1a",
+                    "on-background": "#181c1d",
+                    "inverse-primary": "#80d3e3",
+                    "tertiary-fixed-dim": "#ffb77c",
+                    "surface-container-low": "#f1f4f5",
+                    "surface-dim": "#d7dadb",
+                    "background": "#f7fafb",
+                    "surface-bright": "#f7fafb",
+                    "on-tertiary-fixed": "#2e1500",
+                    "inverse-surface": "#2d3132",
+                    "error-container": "#ffdad6",
+                    "surface-tint": "#006876",
+                    "tertiary-container": "#985d27",
+                    "surface-container-lowest": "#ffffff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "base": "8px",
+                    "xl": "48px",
+                    "gutter": "24px",
+                    "md": "16px",
+                    "xs": "4px",
+                    "lg": "24px",
+                    "sm": "8px",
+                    "margin": "32px"
+            },
+            "fontFamily": {
+                    "h2": [
+                            "Lexend"
+                    ],
+                    "body-lg": [
+                            "Lexend"
+                    ],
+                    "h1": [
+                            "Lexend"
+                    ],
+                    "button": [
+                            "Lexend"
+                    ],
+                    "h3": [
+                            "Lexend"
+                    ],
+                    "body-md": [
+                            "Lexend"
+                    ],
+                    "label-caps": [
+                            "Lexend"
+                    ]
+            },
+            "fontSize": {
+                    "h2": [
+                            "32px",
+                            {
+                                    "lineHeight": "1.25",
+                                    "fontWeight": "600"
+                            }
+                    ],
+                    "body-lg": [
+                            "18px",
+                            {
+                                    "lineHeight": "1.6",
+                                    "fontWeight": "400"
+                            }
+                    ],
+                    "h1": [
+                            "40px",
+                            {
+                                    "lineHeight": "1.2",
+                                    "fontWeight": "600"
+                            }
+                    ],
+                    "button": [
+                            "16px",
+                            {
+                                    "lineHeight": "1",
+                                    "fontWeight": "500"
+                            }
+                    ],
+                    "h3": [
+                            "24px",
+                            {
+                                    "lineHeight": "1.3",
+                                    "fontWeight": "500"
+                            }
+                    ],
+                    "body-md": [
+                            "16px",
+                            {
+                                    "lineHeight": "1.6",
+                                    "fontWeight": "400"
+                            }
+                    ],
+                    "label-caps": [
+                            "12px",
+                            {
+                                    "lineHeight": "1",
+                                    "letterSpacing": "0.05em",
+                                    "fontWeight": "600"
+                            }
+                    ]
+            }
+    },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .material-symbols-outlined.fill {
+            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface h-screen overflow-hidden flex font-body-md text-body-md antialiased">
+<!-- JSON Component: SideNavBar -->
+<nav class="bg-[#F9FAFB] dark:bg-gray-900 h-screen w-64 border-r border-r border-gray-200 dark:border-gray-800 flat no shadows flex flex-col h-full p-4 space-y-2 z-10 shrink-0">
+<div class="flex items-center gap-3 mb-6 px-2 pt-2">
+<div class="w-10 h-10 rounded-full bg-primary-container flex items-center justify-center text-on-primary-container shrink-0 overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="A clean, minimalist 3D rendering of a stylized scholarly owl avatar with small glasses, solid teal background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDkVkkc4Dzpt9X_AntJ3QJDKVhEuK1bw6mr9Upg52I8PsBLgSOuXal1y6H6XkN3mTdlQC3GcB8qEtmGunkz9lk3UNzoD9zyzINFOYOfaJd1sxEENosrBl1cFmfVTffYceTAlsZQLuoNCik_XvbvKLn1gkXVML0vejNUYlE8KWSGB9q0i9U5tlST1aC7rTqQraa7cXXg9D1CjvtD1a6Vnu4UQHNugO4sAOZvbxVrbKogO59MgwSit92Vcs810ZcwFQ9aKW975GMFmbA"/>
+</div>
+<div>
+<h2 class="text-lg font-bold text-[#0D7685] leading-tight">Investigation Tools</h2>
+<p class="font-['Lexend'] text-sm text-gray-500">Scholarly Lab Alpha</p>
+</div>
+</div>
+<div class="flex-1 space-y-2">
+<!-- Active Tab: Image Analysis -->
+<a class="flex items-center gap-3 bg-white dark:bg-gray-800 text-[#0D7685] font-bold rounded-lg p-3 shadow-sm border border-gray-100 dark:border-gray-700 hover:translate-x-1 transition-transform" href="#">
+<span class="material-symbols-outlined text-[#0D7685]" data-icon="image_search">image_search</span>
+<span class="font-['Lexend'] text-sm">Image Analysis</span>
+</a>
+<!-- Inactive Tabs -->
+<a class="flex items-center gap-3 text-gray-500 dark:text-gray-400 p-3 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg hover:translate-x-1 transition-transform" href="#">
+<span class="material-symbols-outlined" data-icon="microscope">magnification_small</span>
+<span class="font-['Lexend'] text-sm">Source Investigation</span>
+</a>
+<a class="flex items-center gap-3 text-gray-500 dark:text-gray-400 p-3 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg hover:translate-x-1 transition-transform" href="#">
+<span class="material-symbols-outlined" data-icon="database">database</span>
+<span class="font-['Lexend'] text-sm">Data Metadata</span>
+</a>
+</div>
+<div class="mt-auto pt-4">
+<button class="w-full bg-primary text-on-primary font-button text-button py-3 rounded-lg shadow-sm hover:opacity-90 transition-opacity flex justify-center items-center gap-2">
+<span class="material-symbols-outlined text-sm">add</span>
+                Start New Report
+            </button>
+</div>
+</nav>
+<!-- Main Content Area -->
+<div class="flex-1 flex flex-col h-screen overflow-hidden">
+<!-- JSON Component: TopNavBar -->
+<header class="bg-white dark:bg-gray-950 docked full-width top-0 border-b border-b border-gray-200 dark:border-gray-800 flat no shadows flex justify-between items-center w-full px-8 py-4 max-w-full z-10 shrink-0">
+<div class="flex items-center gap-8">
+<div class="text-xl font-bold text-[#0D7685] tracking-tight">
+                    TruthLab Kids
+                </div>
+<nav class="hidden md:flex gap-6">
+<a class="font-['Lexend'] text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-[#0D7685] hover:bg-gray-50 dark:hover:bg-gray-900 transition-colors py-1" href="#">Lab Dashboard</a>
+<a class="font-['Lexend'] text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-[#0D7685] hover:bg-gray-50 dark:hover:bg-gray-900 transition-colors py-1" href="#">Spread Simulator</a>
+<a class="font-['Lexend'] text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-[#0D7685] hover:bg-gray-50 dark:hover:bg-gray-900 transition-colors py-1" href="#">Learning Path</a>
+<!-- Active Link -->
+<a class="font-['Lexend'] text-sm font-medium text-[#0D7685] border-b-2 border-[#0D7685] pb-1 font-semibold hover:bg-gray-50 dark:hover:bg-gray-900 transition-colors" href="#">Truth Lab</a>
+</nav>
+</div>
+<div class="flex items-center gap-6">
+<div class="font-['Lexend'] text-sm font-medium text-secondary-container bg-secondary-container/10 px-3 py-1 rounded-full flex items-center gap-1">
+<span class="material-symbols-outlined text-sm fill">toll</span>
+                    Points: 1,250
+                </div>
+<div class="flex items-center gap-3">
+<button class="text-gray-600 hover:bg-gray-50 p-2 rounded-full transition-colors flex items-center justify-center">
+<span class="material-symbols-outlined" data-icon="language">language</span>
+</button>
+<button class="text-gray-600 hover:bg-gray-50 p-2 rounded-full transition-colors flex items-center justify-center relative">
+<span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+<span class="absolute top-1.5 right-1.5 w-2 h-2 bg-error rounded-full"></span>
+</button>
+<div class="w-8 h-8 rounded-full bg-gray-200 overflow-hidden border border-gray-300 ml-2 cursor-pointer">
+<img alt="User profile avatar" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCh_bBlwEw-DqPT5p59YTN294mvSappsjohpbrSsuuUfeYwqxJIp6YAezei-DiT_kQ7TEl2eDQAZM6t2TCEf_FvUe2HvZaZvhbxJOQWHum0RkoVrzZi2-Xxl6gxZmHjLJAWmccLX5cdsEdzfC8PNuADLJ3fOpJAhZTlD4NrIHjHS69uYNxS7VOEgZLPrfelMyo_fYINKnYjCzQbgIxIWe9IPeroQAMkEmZRqzQ0A5iL9Kam5IDeB9zidTZY28Njpltj_-ShkiijVOY"/>
+</div>
+</div>
+</div>
+</header>
+<!-- Tool Canvas -->
+<main class="flex-1 overflow-y-auto bg-surface relative">
+<div class="max-w-[1600px] mx-auto p-margin grid grid-cols-12 gap-gutter">
+<!-- Header Title -->
+<div class="col-span-12 flex justify-between items-end mb-sm">
+<div>
+<h1 class="font-h2 text-h2 text-on-surface mb-xs">Analyzing: Viral Moon Photo</h1>
+<p class="font-body-md text-body-md text-on-surface-variant flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">schedule</span> Case opened: 10 mins ago
+                        </p>
+</div>
+<div class="flex gap-2">
+<button class="px-4 py-2 rounded-lg border border-outline-variant text-on-surface font-button text-button hover:bg-surface-variant transition-colors flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">download</span> Save Draft
+                        </button>
+</div>
+</div>
+<!-- Main Image Viewer (Bento Span 8) -->
+<section class="col-span-12 lg:col-span-8 bg-surface-container-lowest rounded-xl border border-outline-variant flex flex-col overflow-hidden min-h-[600px] shadow-sm">
+<!-- Viewer Toolbar -->
+<div class="h-12 border-b border-outline-variant bg-surface-container-low flex items-center justify-between px-md shrink-0">
+<div class="flex items-center gap-4 text-on-surface-variant text-sm font-medium">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">aspect_ratio</span> 1024x768</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">image</span> JPEG</span>
+</div>
+<div class="flex items-center gap-2">
+<button class="p-1.5 rounded hover:bg-surface-variant text-on-surface-variant transition-colors" title="Toggle Grid">
+<span class="material-symbols-outlined">grid_on</span>
+</button>
+<button class="p-1.5 rounded hover:bg-surface-variant text-on-surface-variant transition-colors" title="View Original">
+<span class="material-symbols-outlined">history</span>
+</button>
+</div>
+</div>
+<!-- Image Area -->
+<div class="flex-1 relative bg-surface-container-highest overflow-hidden flex items-center justify-center p-md">
+<!-- Checkerboard background pattern for transparency indication -->
+<div class="absolute inset-0 opacity-10" style="background-image: linear-gradient(45deg, #000 25%, transparent 25%), linear-gradient(-45deg, #000 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #000 75%), linear-gradient(-45deg, transparent 75%, #000 75%); background-size: 20px 20px; background-position: 0 0, 0 10px, 10px -10px, -10px 0px;"></div>
+<div class="relative max-w-full max-h-full rounded shadow-md overflow-hidden ring-1 ring-black/5">
+<img class="object-contain max-h-[500px] w-auto" data-alt="A highly manipulated, dramatic night sky photo showing an unnaturally large, detailed moon hovering closely over a dark silhouette of a city skyline, with unnatural purple hues and visible digital artifacts" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAGfMYisSSTwtEK4mzsSfcBwyRYPTT1Th6MRKEozGmO8WS7e0GRrb0n8uP0SRyuNY3GXyy9Bs6t7zHA6XGJbnT7iHb09TshYbk0jqUvmct4rkhJBUc4wX1lHYGewaSI_agUme1WLiHUsRBmsG90AgE2WPuZXr-JyjCC2HO3WcDZ_hfvSQu1GPVvdWMrJjKU2RtFayhyveJz0HvhHNb1sdhv0UAh0ggPc4o9aaqc0N-OAioBx7dY5VLFOPuDnTcENOpQyTbbhhJQ3F8"/>
+<!-- Scanner Overlay Effect -->
+<div class="absolute top-0 left-0 w-full h-[40%] bg-gradient-to-b from-transparent via-primary/10 to-primary/30 border-b-2 border-primary pointer-events-none mix-blend-color-burn"></div>
+<!-- Anomaly Highlight Box -->
+<div class="absolute top-[20%] right-[30%] w-24 h-24 border-2 border-error border-dashed rounded-sm bg-error/10 flex items-start justify-end p-1">
+<span class="bg-error text-on-error text-[10px] font-bold px-1 rounded uppercase tracking-wider">Artifacts</span>
+</div>
+</div>
+<!-- Floating Toolbox -->
+<div class="absolute bottom-6 left-1/2 -translate-x-1/2 bg-inverse-surface/90 backdrop-blur-md p-2 rounded-full flex items-center gap-1 shadow-lg border border-white/10 z-20">
+<button class="w-10 h-10 rounded-full flex items-center justify-center text-inverse-on-surface hover:bg-white/20 transition-colors" title="Zoom Out">
+<span class="material-symbols-outlined">zoom_out</span>
+</button>
+<div class="w-px h-6 bg-white/20 mx-1"></div>
+<span class="text-inverse-on-surface font-label-caps text-label-caps px-2">150%</span>
+<div class="w-px h-6 bg-white/20 mx-1"></div>
+<button class="w-10 h-10 rounded-full flex items-center justify-center text-inverse-on-surface hover:bg-white/20 transition-colors" title="Zoom In">
+<span class="material-symbols-outlined">zoom_in</span>
+</button>
+<div class="w-px h-6 bg-white/20 mx-1"></div>
+<button class="w-10 h-10 rounded-full flex items-center justify-center text-inverse-on-surface hover:bg-white/20 transition-colors" title="Rotate">
+<span class="material-symbols-outlined">rotate_90_degrees_cw</span>
+</button>
+<button class="w-10 h-10 rounded-full flex items-center justify-center text-inverse-on-surface hover:bg-white/20 transition-colors bg-primary-container text-on-primary-container" title="Filters / ELA">
+<span class="material-symbols-outlined">tune</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Investigation Checklist (Bento Span 4) -->
+<aside class="col-span-12 lg:col-span-4 bg-surface-container-lowest rounded-xl border border-outline-variant p-lg flex flex-col shadow-sm">
+<h3 class="font-h3 text-h3 text-on-surface mb-md flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">fact_check</span>
+                        Analysis Checklist
+                    </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-lg">Complete the steps below to build your lab report.</p>
+<div class="flex flex-col gap-3 flex-1">
+<!-- Completed Item -->
+<div class="flex items-start gap-3 p-3 rounded-lg border border-outline-variant bg-surface-container-lowest transition-colors cursor-pointer hover:bg-surface-container-low">
+<span class="material-symbols-outlined text-primary mt-0.5 fill">check_circle</span>
+<div>
+<h4 class="font-button text-button text-on-surface">Reverse Image Search</h4>
+<p class="text-sm text-on-surface-variant mt-1 line-clamp-2">Found 14 older matches. Original context differs significantly.</p>
+</div>
+</div>
+<!-- Active/In-Progress Item -->
+<div class="flex items-start gap-3 p-3 rounded-lg border-2 border-primary-container bg-primary-container/5 transition-colors cursor-pointer relative overflow-hidden">
+<div class="absolute left-0 top-0 bottom-0 w-1 bg-primary-container"></div>
+<span class="material-symbols-outlined text-primary-container mt-0.5 animate-pulse">radar</span>
+<div>
+<h4 class="font-button text-button text-on-surface font-semibold">Visual Anomalies</h4>
+<p class="text-sm text-on-surface-variant mt-1">Scanning for cloning, unnatural lighting, and Error Level Analysis (ELA).</p>
+<div class="w-full bg-surface-variant h-1.5 rounded-full mt-3 overflow-hidden">
+<div class="bg-primary-container h-full rounded-full w-[65%]"></div>
+</div>
+</div>
+</div>
+<!-- Pending Item -->
+<div class="flex items-start gap-3 p-3 rounded-lg border border-surface-variant bg-surface-container-lowest transition-colors cursor-pointer hover:bg-surface-container-low opacity-70">
+<span class="material-symbols-outlined text-outline mt-0.5">radio_button_unchecked</span>
+<div>
+<h4 class="font-button text-button text-on-surface">Metadata (EXIF)</h4>
+<p class="text-sm text-outline mt-1">Extract camera data, date, and location tags.</p>
+</div>
+</div>
+<!-- Pending Item -->
+<div class="flex items-start gap-3 p-3 rounded-lg border border-surface-variant bg-surface-container-lowest transition-colors cursor-pointer hover:bg-surface-container-low opacity-70">
+<span class="material-symbols-outlined text-outline mt-0.5">radio_button_unchecked</span>
+<div>
+<h4 class="font-button text-button text-on-surface">Source Validation</h4>
+<p class="text-sm text-outline mt-1">Evaluate the credibility of the poster and platform.</p>
+</div>
+</div>
+</div>
+</aside>
+<!-- Lab Report & Verdict (Full Width Bottom) -->
+<section class="col-span-12 bg-surface-container-lowest rounded-xl border border-outline-variant p-lg flex flex-col md:flex-row items-start md:items-center justify-between gap-xl shadow-sm mt-md relative overflow-hidden">
+<!-- Decorative background element -->
+<div class="absolute right-0 top-0 bottom-0 w-1/3 bg-gradient-to-l from-secondary-container/10 to-transparent pointer-events-none"></div>
+<div class="flex-1 z-10">
+<h2 class="font-h3 text-h3 text-on-surface mb-xs">Lab Report Summary</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Based on the evidence gathered, formulate your final conclusion.</p>
+<div class="flex gap-4 mt-4">
+<div class="flex items-center gap-1 text-sm text-on-surface-variant bg-surface-container-low px-2 py-1 rounded">
+<span class="material-symbols-outlined text-[16px] text-error">warning</span>
+                                2 Anomalies Found
+                            </div>
+<div class="flex items-center gap-1 text-sm text-on-surface-variant bg-surface-container-low px-2 py-1 rounded">
+<span class="material-symbols-outlined text-[16px] text-primary">history</span>
+                                Older Context Found
+                            </div>
+</div>
+</div>
+<div class="flex-1 flex flex-col items-start md:items-center z-10 w-full md:w-auto">
+<span class="font-label-caps text-label-caps text-outline mb-2 block uppercase">Select Verdict</span>
+<div class="flex flex-wrap gap-2 w-full justify-start md:justify-center">
+<button class="px-4 py-2 rounded-full border border-outline-variant text-on-surface text-sm font-medium hover:bg-surface-variant transition-colors bg-surface">
+                                Verified Authentic
+                            </button>
+<button class="px-4 py-2 rounded-full border border-outline-variant text-on-surface text-sm font-medium hover:bg-surface-variant transition-colors bg-surface">
+                                Needs Context
+                            </button>
+<!-- Selected State for Manipulated -->
+<button class="px-4 py-2 rounded-full border-2 border-error text-on-error-container bg-error-container text-sm font-bold flex items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-sm">dangerous</span>
+                                Likely Manipulated
+                            </button>
+</div>
+</div>
+<div class="z-10 w-full md:w-auto flex justify-end">
+<button class="w-full md:w-auto bg-primary text-on-primary font-button text-button py-4 px-8 rounded-xl shadow-md hover:bg-primary/90 hover:shadow-lg transition-all flex items-center justify-center gap-2 transform active:scale-95">
+<span class="material-symbols-outlined fill text-secondary-fixed-dim">stars</span>
+<span>Submit &amp; Claim <strong class="text-secondary-fixed-dim ml-1">50 Points</strong></span>
+</button>
+</div>
+</section>
+</div>
+<!-- JSON Component: Footer -->
+<footer class="bg-white dark:bg-gray-950 full-width border-t border-t border-gray-200 dark:border-gray-800 flat no shadows w-full py-8 px-8 flex flex-col md:flex-row justify-between items-center gap-4 mt-margin">
+<div class="text-sm font-bold text-gray-400">
+                    TruthLab Kids
+                </div>
+<div class="flex flex-wrap gap-6 items-center justify-center">
+<a class="font-['Lexend'] text-xs text-gray-500 text-gray-400 hover:text-gray-600 hover:underline decoration-2 transition-colors" href="#">Educational Resources</a>
+<a class="font-['Lexend'] text-xs text-gray-500 text-gray-400 hover:text-gray-600 hover:underline decoration-2 transition-colors" href="#">Lab Ethics</a>
+<a class="font-['Lexend'] text-xs text-gray-500 text-gray-400 hover:text-gray-600 hover:underline decoration-2 transition-colors" href="#">Privacy Policy</a>
+<a class="font-['Lexend'] text-xs text-gray-500 text-[#0D7685] font-medium hover:underline decoration-2 transition-colors" href="#">Contact Researcher</a>
+</div>
+<div class="font-['Lexend'] text-xs text-gray-500 text-gray-400">
+                    © 2024 TruthLab Kids. All scholarly credits reserved.
+                </div>
+</footer>
+</main>
+</div>
+</body></html>

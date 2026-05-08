@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>TruthLab Kids - Scholarly Lab</title>
+<!-- Google Fonts: Lexend -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Theme Configuration -->
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface": "#f7fafb",
+                    "on-secondary": "#ffffff",
+                    "on-tertiary": "#ffffff",
+                    "primary": "#005c68",
+                    "secondary-fixed-dim": "#f5be55",
+                    "surface-container-high": "#e5e9ea",
+                    "primary-fixed-dim": "#80d3e3",
+                    "on-tertiary-fixed-variant": "#6c3a04",
+                    "on-secondary-container": "#745200",
+                    "secondary-fixed": "#ffdea8",
+                    "inverse-on-surface": "#eef1f2",
+                    "tertiary": "#7b4610",
+                    "surface-container-highest": "#e0e3e4",
+                    "on-primary-fixed": "#001f25",
+                    "surface-container": "#ebeeef",
+                    "on-surface": "#181c1d",
+                    "on-secondary-fixed": "#271900",
+                    "on-error-container": "#93000a",
+                    "on-error": "#ffffff",
+                    "outline": "#6e797b",
+                    "surface-variant": "#e0e3e4",
+                    "on-primary-fixed-variant": "#004e59",
+                    "outline-variant": "#bec8cb",
+                    "tertiary-fixed": "#ffdcc3",
+                    "on-tertiary-container": "#ffe9da",
+                    "on-primary": "#ffffff",
+                    "secondary-container": "#fec65d",
+                    "primary-container": "#0d7685",
+                    "on-secondary-fixed-variant": "#5e4200",
+                    "on-primary-container": "#c8f5ff",
+                    "secondary": "#7c5800",
+                    "primary-fixed": "#a0efff",
+                    "on-surface-variant": "#3e484b",
+                    "error": "#ba1a1a",
+                    "on-background": "#181c1d",
+                    "inverse-primary": "#80d3e3",
+                    "tertiary-fixed-dim": "#ffb77c",
+                    "surface-container-low": "#f1f4f5",
+                    "surface-dim": "#d7dadb",
+                    "background": "#f7fafb",
+                    "surface-bright": "#f7fafb",
+                    "on-tertiary-fixed": "#2e1500",
+                    "inverse-surface": "#2d3132",
+                    "error-container": "#ffdad6",
+                    "surface-tint": "#006876",
+                    "tertiary-container": "#985d27",
+                    "surface-container-lowest": "#ffffff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "base": "8px",
+                    "xl": "48px",
+                    "gutter": "24px",
+                    "md": "16px",
+                    "xs": "4px",
+                    "lg": "24px",
+                    "sm": "8px",
+                    "margin": "32px"
+            },
+            "fontFamily": {
+                    "h2": ["Lexend"],
+                    "body-lg": ["Lexend"],
+                    "h1": ["Lexend"],
+                    "button": ["Lexend"],
+                    "h3": ["Lexend"],
+                    "body-md": ["Lexend"],
+                    "label-caps": ["Lexend"]
+            },
+            "fontSize": {
+                    "h2": ["32px", {"lineHeight": "1.25", "fontWeight": "600"}],
+                    "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "h1": ["40px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                    "button": ["16px", {"lineHeight": "1", "fontWeight": "500"}],
+                    "h3": ["24px", {"lineHeight": "1.3", "fontWeight": "500"}],
+                    "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "label-caps": ["12px", {"lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "600"}]
+            }
+          }
+        }
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .fill-icon {
+            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-surface font-body-md text-on-surface antialiased min-h-screen flex flex-col">
+<!-- TopNavBar -->
+<nav class="w-full bg-surface-container-lowest border-b border-outline-variant py-md px-margin z-50">
+<div class="max-w-7xl mx-auto flex justify-between items-center">
+<!-- Brand -->
+<div class="flex items-center gap-sm">
+<span class="material-symbols-outlined text-primary-container fill-icon" style="font-size: 28px;">science</span>
+<span class="font-h3 text-h3 text-primary-container tracking-tight">TruthLab Kids</span>
+</div>
+<!-- Navigation Links (Desktop) -->
+<div class="hidden md:flex items-center gap-gutter">
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary-container transition-colors" href="#">Lab Dashboard</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary-container transition-colors" href="#">Spread Simulator</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary-container transition-colors" href="#">Learning Path</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary-container transition-colors" href="#">Truth Lab</a>
+</div>
+<!-- Trailing Actions -->
+<div class="flex items-center gap-md">
+<!-- Points Display -->
+<div class="hidden sm:flex items-center gap-xs px-md py-sm bg-surface-container rounded-full border border-outline-variant">
+<span class="material-symbols-outlined text-secondary-container" style="font-size: 18px;">stars</span>
+<span class="font-button text-button text-on-surface">Points: 0</span>
+</div>
+<!-- Notifications -->
+<button class="p-sm text-on-surface-variant hover:text-primary-container hover:bg-surface-container rounded-full transition-colors">
+<span class="material-symbols-outlined">notifications</span>
+</button>
+</div>
+</div>
+</nav>
+<!-- Main Content Canvas -->
+<main class="flex-grow">
+<!-- Hero Section -->
+<section class="relative w-full overflow-hidden bg-surface py-xl md:py-[120px] px-margin border-b border-outline-variant">
+<!-- Subtle abstract background elements -->
+<div class="absolute inset-0 z-0 opacity-10 pointer-events-none flex justify-center items-center">
+<div class="w-[800px] h-[800px] rounded-full border border-outline border-dashed absolute animate-[spin_120s_linear_infinite]"></div>
+<div class="w-[600px] h-[600px] rounded-full border border-outline absolute"></div>
+</div>
+<div class="max-w-4xl mx-auto relative z-10 flex flex-col items-center text-center">
+<!-- Prominent Language Selector -->
+<div class="mb-lg flex items-center gap-sm bg-surface-container-lowest border border-outline-variant rounded-full p-xs shadow-sm">
+<span class="material-symbols-outlined text-on-surface-variant ml-sm mr-xs" style="font-size: 18px;">language</span>
+<button class="px-md py-xs rounded-full font-button text-button text-on-surface hover:bg-surface-container transition-colors">EN</button>
+<button class="px-md py-xs rounded-full font-button text-button text-on-surface-variant hover:bg-surface-container transition-colors">AR</button>
+<button class="px-md py-xs rounded-full font-button text-button text-on-surface-variant hover:bg-surface-container transition-colors">DE</button>
+<button class="px-md py-xs rounded-full font-button text-button text-on-surface-variant hover:bg-surface-container transition-colors">KO</button>
+</div>
+<!-- Hero Content -->
+<h1 class="font-h1 text-h1 text-on-surface mb-md">Empowering Young Minds in the Digital Age</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mb-xl">Master the art of fact-checking and media literacy through interactive lab experiments.</p>
+<!-- CTAs -->
+<div class="flex flex-col sm:flex-row items-center gap-md">
+<button class="w-full sm:w-auto px-xl py-md bg-primary-container text-on-primary-container font-button text-button rounded-lg hover:opacity-90 transition-opacity flex items-center justify-center gap-sm">
+                        Start Learning
+                        <span class="material-symbols-outlined" style="font-size: 20px;">arrow_forward</span>
+</button>
+<button class="w-full sm:w-auto px-xl py-md bg-transparent border border-primary-container text-primary-container font-button text-button rounded-lg hover:bg-surface-container transition-colors">
+                        For Facilitators
+                    </button>
+</div>
+</div>
+</section>
+<!-- Bento Grid Value Prop Section -->
+<section class="py-xl px-margin max-w-7xl mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-lg auto-rows-[280px]">
+<!-- Featured Card -->
+<div class="md:col-span-8 bg-surface-container-lowest border border-outline-variant rounded-xl overflow-hidden relative group">
+<div class="absolute inset-0 bg-gradient-to-br from-surface-container-lowest to-surface-container-high opacity-50 z-0"></div>
+<img alt="Abstract network lines connecting glowing nodes on a clean white background conveying data flow" class="absolute right-0 bottom-0 w-2/3 h-full object-cover opacity-20 mix-blend-multiply z-0" data-alt="Abstract network lines connecting glowing nodes on a clean white background conveying data flow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuNx6WpQcXhJdZMCu5RESvwU5cQIcS790m__PhIf5dQNR6ulmyrEyuEO0AwkPmeaSGd2-UYxNhUHBzgkX7NSdGptNPd5CQpcseyagJQ0DQBVyK_IWZ5WEOpBSP-n_8_jEzMCtPPBd1lZP9v99daJqnX7nSt7NuVMoAiOXCSMzL6R9HjCx2KhM_aL-XAr-z1-QketxopQbt2RWhqBnXsqZfTuUH-tP-_vspaAroS83XrYBRDth_OkT7qsEv2TDaXpxwMs4RBHQNBzc"/>
+<div class="relative z-10 p-lg h-full flex flex-col justify-between">
+<div>
+<span class="material-symbols-outlined text-primary-container mb-sm p-sm bg-surface-container rounded-lg inline-block">hub</span>
+<h3 class="font-h3 text-h3 text-on-surface mb-xs">Spread Simulator</h3>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-sm">Visualize how information—and misinformation—travels across social networks in real-time.</p>
+</div>
+<button class="self-start font-button text-button text-primary-container hover:underline decoration-2 flex items-center gap-xs">
+                            Try Simulator <span class="material-symbols-outlined" style="font-size: 16px;">east</span>
+</button>
+</div>
+</div>
+<!-- Small Card 1 -->
+<div class="md:col-span-4 bg-surface-container-lowest border border-outline-variant rounded-xl p-lg flex flex-col justify-between hover:-translate-y-1 transition-transform duration-300">
+<div>
+<span class="material-symbols-outlined text-tertiary-container mb-sm p-sm bg-tertiary-fixed rounded-lg inline-block">magnification_small</span>
+<h3 class="font-h3 text-h3 text-on-surface mb-xs">Source Investigation</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Learn to analyze metadata and cross-reference claims like a professional researcher.</p>
+</div>
+</div>
+<!-- Small Card 2 -->
+<div class="md:col-span-4 bg-surface-container-lowest border border-outline-variant rounded-xl p-lg flex flex-col justify-between hover:-translate-y-1 transition-transform duration-300">
+<div>
+<span class="material-symbols-outlined text-secondary-fixed-dim mb-sm p-sm bg-surface-container rounded-lg inline-block fill-icon">military_tech</span>
+<h3 class="font-h3 text-h3 text-on-surface mb-xs">Earn Scholar Status</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Complete missions to gather points and unlock advanced laboratory tools.</p>
+</div>
+</div>
+<!-- Wide Card -->
+<div class="md:col-span-8 bg-primary-container text-on-primary-container rounded-xl p-lg flex flex-col md:flex-row items-center justify-between overflow-hidden relative">
+<div class="relative z-10 max-w-md">
+<h3 class="font-h3 text-h3 mb-sm">Ready to begin your investigation?</h3>
+<p class="font-body-md opacity-90 mb-md">Join thousands of young scholars verifying the digital world.</p>
+<button class="px-md py-sm bg-surface-container-lowest text-primary-container font-button text-button rounded-lg hover:bg-surface transition-colors">
+                            Create Lab Account
+                        </button>
+</div>
+<span class="material-symbols-outlined absolute right-[-20px] bottom-[-40px] opacity-10" style="font-size: 240px; font-variation-settings: 'FILL' 1;">science</span>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full bg-surface-container-lowest border-t border-outline-variant py-margin px-margin mt-auto">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-md">
+<span class="font-label-caps text-label-caps text-on-surface-variant">
+                © 2024 TruthLab Kids. All scholarly credits reserved.
+            </span>
+<div class="flex flex-wrap justify-center gap-gutter">
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary-container transition-colors" href="#">Educational Resources</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary-container transition-colors" href="#">Lab Ethics</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary-container transition-colors" href="#">Privacy Policy</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary-container transition-colors" href="#">Contact Researcher</a>
+</div>
+</div>
+</footer>
+</body></html>

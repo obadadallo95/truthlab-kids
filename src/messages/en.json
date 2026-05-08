@@ -1,0 +1,1737 @@
+{
+  "Common": {
+    "title": "TruthLab Kids",
+    "startLearning": "Start Learning",
+    "facilitatorInfo": "For Facilitators & Teachers",
+    "platformImpactTitle": "Platform Impact",
+    "platformImpactSubtitle": "Measurable results in media literacy education",
+    "featuresTitle": "Advanced Learning Features",
+    "featuresSubtitle": "Cutting-edge tools for modern media literacy education",
+    "stats": {
+      "studentsEngaged": "10K+",
+      "studentsEngagedLabel": "Students Engaged",
+      "accuracyImprovement": "95%",
+      "accuracyImprovementLabel": "Accuracy Improvement",
+      "interactiveModules": "50+",
+      "interactiveModulesLabel": "Interactive Modules",
+      "partnerSchools": "12",
+      "partnerSchoolsLabel": "Partner Schools"
+    },
+    "features": {
+      "aiDetection": "AI Detection System",
+      "aiDetectionDesc": "Advanced artificial intelligence algorithms identify and analyze misinformation patterns, providing real-time feedback on content authenticity.",
+      "aiDetectionStats": "98% Accuracy",
+      "cognitiveTraining": "Cognitive Training",
+      "cognitiveTrainingDesc": "Evidence-based learning modules develop critical thinking skills through interactive scenarios and real-world case studies.",
+      "cognitiveTrainingStats": "3x Faster Learning",
+      "socialImpact": "Social Impact Analysis",
+      "socialImpactDesc": "Comprehensive tools to understand how information spreads through social networks and its real-world consequences.",
+      "socialImpactStats": "Real-time Monitoring"
+    },
+    "technology": {
+      "title": "Enterprise-Grade Technology",
+      "description": "Built on cutting-edge technology stack including machine learning, natural language processing, and advanced analytics to provide the most effective media literacy education platform available.",
+      "machineLearning": {
+        "title": "Machine Learning",
+        "description": "Advanced AI algorithms for content analysis"
+      },
+      "analytics": {
+        "title": "Analytics Dashboard", 
+        "description": "Real-time insights and progress tracking"
+      },
+      "security": {
+        "title": "Privacy & Security",
+        "description": "Enterprise-grade data protection"
+      }
+    },
+    "trust": {
+      "title": "Trusted by Leading Institutions",
+      "subtitle": "Making an impact across educational sectors",
+      "award": {
+        "title": "Education Excellence Award",
+        "description": "Recognized for innovation in digital literacy education"
+      },
+      "growth": {
+        "title": "300% Growth Rate",
+        "description": "Rapid adoption across schools and educational institutions"
+      },
+      "students": {
+        "title": "10,000+ Students",
+        "description": "Active learners benefiting from our platform"
+      }
+    },
+    "cta": {
+      "title": "Ready to Transform Media Education?",
+      "description": "Join leading institutions in preparing the next generation for the digital age with our comprehensive media literacy platform.",
+      "startTrial": "Start Free Trial",
+      "scheduleDemo": "Schedule Demo"
+    },
+    "AgeSelection": {
+      "title": "Choose Your Age Path",
+      "subtitle": "Select a path that fits your age and begin your media literacy journey",
+      "age6to9": "Young Explorers (6-9)",
+      "age6to9Desc": "Introduction to media literacy through interactive activities and age-appropriate visual content",
+      "age10to13": "Young Investigators (10-13)",
+      "age10to13Desc": "Develop critical thinking skills through source analysis and claim verification in the digital world",
+      "age14to17": "Advanced Scholars (14-17)",
+      "age14to17Desc": "Explore advanced AI concepts, algorithm analysis, and evidentiary standards",
+      "eyebrow": "Age Selection",
+      "foundation": "Start Foundation",
+      "explorer": "Start Explorer",
+      "analyst": "Start Analyst",
+      "selectTrack": "Select Your Track",
+      "continue": "Continue",
+      "fundamentalConcepts": "Fundamental concepts",
+      "interactiveScenarios": "Interactive scenarios",
+      "visualLearning": "Visual learning",
+      "sourceInvestigation": "Source investigation",
+      "contextAnalysis": "Context analysis",
+      "claimVerification": "Claim verification",
+      "advancedAIConcepts": "Advanced AI concepts",
+      "algorithmAnalysis": "Algorithm analysis",
+      "evidenceStandards": "Evidence standards",
+      "progressiveLearningPath": "Progressive Learning Path",
+      "progressiveLearningPathDesc": "Each age group follows a carefully designed curriculum that builds upon previous knowledge while introducing age-appropriate challenges and concepts.",
+      "foundationStage": "Foundation Stage",
+      "foundationStageDesc": "Basic concepts and visual literacy",
+      "explorationStage": "Exploration Stage",
+      "explorationStageDesc": "Critical thinking and analysis",
+      "advancedStage": "Advanced Stage",
+      "advancedStageDesc": "Complex systems and AI literacy"
+    },
+    "LearningPath": {
+      "title": "Learning Path",
+      "summary": "Choose a path that fits your age and begin your media literacy journey",
+      "back": "Back to Selection",
+      "start": "Start Learning",
+      "modulesCompleted": "Modules Completed",
+      "learningTime": "Learning Time",
+      "averageScore": "Average Score",
+      "currentLevel": "Level 3",
+      "currentLevelLabel": "Current Level",
+      "learningModules": "Learning Modules",
+      "learningModulesSubtitle": "Progress through structured learning experiences",
+      "achievementsTitle": "Achievements",
+      "achievementsSubtitle": "Track your learning milestones",
+      "firstStepsTitle": "First Steps",
+      "firstStepsDesc": "Complete your first module",
+      "criticalThinkerTitle": "Critical Thinker",
+      "criticalThinkerDesc": "Complete 3 modules",
+      "mediaExpertTitle": "Media Expert",
+      "mediaExpertDesc": "Complete all modules",
+      "truthDefenderTitle": "Truth Defender",
+      "truthDefenderDesc": "Achieve 90% accuracy"
+    },
+    "SpreadSimulator": {
+      "title": "Spread Simulator",
+      "subtitle": "Watch how information spreads across social networks and understand the dynamics of viral content in real-time",
+      "start": "Start Simulation",
+      "pause": "Pause",
+      "reset": "Reset",
+      "download": "Download Data",
+      "back": "Back to Path",
+      "eyebrow": "Interactive Simulation",
+      "simulationTitle": "Network Dynamics",
+      "simulationSubtitle": "Watch how information spreads in real-time",
+      "selectScenario": "Select Scenario",
+      "networkVisualization": "Network Visualization",
+      "monitorDescription": "Monitor how information spreads across different platforms and understand the dynamics of viral content in real-time.",
+      "realTime": "Real-time Analysis",
+      "networkEffect": "Network Effect",
+      "viralContent": "Viral Content",
+      "platformStats": "Platform Analytics",
+      "engagement": "Engagement Rate",
+      "reach": "Total Reach",
+      "speed": "Spread Speed",
+      "influence": "Influence Score",
+      "participants": "Active Participants",
+      "shares": "Total Shares",
+      "scenarios": {
+        "viralNews": {
+          "title": "Viral News Article",
+          "description": "Breaking news story spreads rapidly through social networks"
+        },
+        "celebrityGossip": {
+          "title": "Celebrity Gossip",
+          "description": "Entertainment content with high engagement potential"
+        },
+        "politicalMeme": {
+          "title": "Political Meme",
+          "description": "Political content with polarizing characteristics"
+        },
+        "healthInformation": {
+          "title": "Health Information",
+          "description": "Medical advice and health-related content"
+        }
+      }
+    },
+    "enterpriseFeatures": {
+      "title": "Enterprise Features",
+      "description": "Advanced tools designed for educational institutions requiring comprehensive media literacy solutions with robust analytics and customization capabilities.",
+      "multiClassManagement": {
+        "title": "Multi-Class Management",
+        "description": "Handle multiple classrooms and student groups"
+      },
+      "advancedAnalytics": {
+        "title": "Advanced Analytics",
+        "description": "Detailed insights into learning outcomes"
+      },
+      "certificationSupport": {
+        "title": "Certification Support",
+        "description": "Track and validate student achievements"
+      }
+    },
+    "teachingResources": {
+      "title": "Teaching Resources",
+      "subtitle": "Comprehensive tools for effective media literacy education",
+      "lessonPlans": {
+        "title": "Lesson Plans",
+        "description": "Structured curriculum with age-appropriate content and learning objectives.",
+        "stats": "Ready to use"
+      },
+      "assessmentTools": {
+        "title": "Assessment Tools",
+        "description": "Track student progress and evaluate understanding through interactive assessments.",
+        "stats": "Real-time analytics"
+      },
+      "customizationOptions": {
+        "title": "Customization Options",
+        "description": "Adapt content to your specific classroom needs and learning goals.",
+        "stats": "Flexible framework"
+      }
+    },
+    "heroEyebrow": "Advanced AI-Powered Media Literacy Platform",
+    "heroHeadline": "Train young people to investigate before they believe.",
+    "heroBody": "TruthLab Kids transforms democracy, misinformation, and AI-generated media into practical investigation training: evidence comparison, better questions, and responsible sharing decisions.",
+    "caseEyebrow": "Live Case Analysis",
+    "caseTitle": "Real-time Investigation Platform",
+    "viralClaim": "A video claims the city council cancelled all youth programs. Features dramatic music, no source link, and cropped timestamp.",
+    "evidenceMode": "Evidence Analysis Mode",
+    "casePrompt": "Students determine what can be trusted, what needs context, and what should not be shared.",
+    "checkLabel": "Verification Protocol",
+    "checks": [
+      "Find the original source",
+      "Check date and location",
+      "Separate claim from emotion",
+      "Look for independent confirmation"
+    ],
+    "proofPoints": [
+      "Age-appropriate learning tracks",
+      "AI media scenario training",
+      "Complete facilitator workshop toolkit"
+    ],
+    "mediaEyebrow": "Interactive Learning Platform",
+    "mediaTitle": "Evidence-based learning system, not traditional lectures",
+    "mediaBody": "Every page is part of one journey: age selection, civic understanding, claim testing in the lab, spread simulation, and verification report writing.",
+    "mediaCards": [
+      "Democracy begins with shared reality",
+      "AI can create convincing false contexts",
+      "Responsible sharing is a civic skill"
+    ],
+    "nav": [
+      {
+        "label": "Facilitator Dashboard",
+        "href": "/facilitator"
+      },
+      {
+        "label": "Spread Simulator",
+        "href": "/spread-simulator"
+      },
+      {
+        "label": "Learning Path",
+        "href": "/path"
+      },
+      {
+        "label": "Truth Laboratory",
+        "href": "/truth-lab"
+      }
+    ],
+    "points": "Points",
+    "heroTitle": "Empowering Young Minds in the Digital Age",
+    "heroSubtitle": "Master verification and media literacy through interactive laboratory experiences.",
+    "homeCards": [
+      {
+        "title": "Age-Specific Learning Tracks",
+        "body": "Three versions of the same mission: ages 6-9, 10-13, and 14-17, with age-appropriate language and scenarios."
+      },
+      {
+        "title": "Truth Laboratory",
+        "body": "A comprehensive case library where learners practice claim classification, evidence comparison, and responsible information sharing."
+      },
+      {
+        "title": "Professional Verification Toolkit",
+        "body": "Structured reporting format for images, videos, sources, data, and contextual analysis."
+      }
+    ],
+    "ctaTitle": "Build a generation that verifies before amplifying.",
+    "ctaBody": "Deploy the learning path as a school workshop, after-school program, media literacy club, or civic education unit.",
+    "ctaAction": "Begin Learning Journey"
+  },
+  "AgeSelection": {
+    "title": "How old are you?",
+    "subtitle": "Choose your age group to access age-appropriate learning content!",
+    "age6to9": "6 to 9 years",
+    "age6to9Desc": "Foundational scenarios about fairness, rumors, and AI assistance with simple language and concepts.",
+    "age10to13": "10 to 13 years",
+    "age10to13Desc": "Intermediate scenarios featuring source investigation, context analysis, and viral claim examination.",
+    "age14to17": "14 to 17 years",
+    "age14to17Desc": "Advanced scenarios covering public trust, algorithmic systems, synthetic media, and evidence standards.",
+    "eyebrow": "Personalized track",
+    "foundation": "Foundation",
+    "explorer": "Explorer",
+    "analyst": "Analyst",
+    "selectTrack": "Select track",
+    "languageTitle": "Choose how the investigation begins",
+    "languageSubtitle": "The experience is multilingual and designed for serious civic learning, not a one-size-fits-all lesson.",
+    "levelTitle": "Select the learner age track",
+    "levelSubtitle": "Each track teaches the same core skills with a different depth of vocabulary, evidence, and decision-making.",
+    "explorers": "Early Investigators",
+    "investigators": "Source Analysts",
+    "scholars": "Civic Researchers",
+    "back": "Back",
+    "continue": "Continue"
+  },
+  "ProfessionalAgeSelection": {
+    "title": "How old are you?",
+    "subtitle": "Choose your age group to access age-appropriate learning content!",
+    "age6to9": "6 to 9 years",
+    "age6to9Desc": "Foundational scenarios about fairness, rumors, and AI assistance with simple language and concepts.",
+    "age10to13": "10 to 13 years",
+    "age10to13Desc": "Intermediate scenarios featuring source investigation, context analysis, and viral claim examination.",
+    "age14to17": "14 to 17 years",
+    "age14to17Desc": "Advanced scenarios covering public trust, algorithmic systems, synthetic media, and evidence standards.",
+    "eyebrow": "Personalized Learning Track",
+    "foundation": "Foundation",
+    "explorer": "Explorer",
+    "analyst": "Analyst",
+    "selectTrack": "Select track",
+    "languageTitle": "Choose how the investigation begins",
+    "languageSubtitle": "The experience is multilingual and designed for serious civic learning, not a one-size-fits-all lesson.",
+    "levelTitle": "Select the learner age track",
+    "levelSubtitle": "Each track teaches the same core skills with a different depth of vocabulary, evidence, and decision-making.",
+    "explorers": "Early Investigators",
+    "investigators": "Source Investigators",
+    "scholars": "Civic Scholars",
+    "back": "Back",
+    "continue": "Continue"
+  },
+  "Facilitator": {
+    "title": "Facilitator Workshop Guide",
+    "description": "TruthLab Kids is built for guided workshops. Each age track includes three short modules, discussion prompts, and verification cases that help learners practice careful public reasoning without fear-based messaging.",
+    "backHome": "Back to Home",
+    "teachingResources": {
+      "title": "Teaching Resources",
+      "subtitle": "Comprehensive tools for effective media literacy education",
+      "lessonPlans": {
+        "title": "Lesson Plans",
+        "description": "Structured curriculum with age-appropriate content and learning objectives.",
+        "stats": "Ready to use"
+      },
+      "assessmentTools": {
+        "title": "Assessment Tools",
+        "description": "Track student progress and evaluate understanding through interactive assessments.",
+        "stats": "Real-time analytics"
+      },
+      "customizationOptions": {
+        "title": "Customization Options",
+        "description": "Adapt content to your specific classroom needs and learning goals.",
+        "stats": "Flexible framework"
+      }
+    },
+    "enterpriseFeatures": {
+      "title": "Enterprise Features",
+      "description": "Advanced tools designed for educational institutions requiring comprehensive media literacy solutions with robust analytics and customization capabilities.",
+      "multiClassManagement": {
+        "title": "Multi-Class Management",
+        "description": "Handle multiple classrooms and student groups"
+      },
+      "advancedAnalytics": {
+        "title": "Advanced Analytics",
+        "description": "Detailed insights into learning outcomes"
+      },
+      "certificationSupport": {
+        "title": "Certification Support",
+        "description": "Track and validate student achievements"
+      }
+    },
+    "eyebrow": "Facilitator guide",
+    "exportReport": "Download Session Plan",
+    "activeStudents": "Workshop Tracks",
+    "averageProgress": "Session Length",
+    "needsReview": "Core Skill",
+    "onTrack": "6-9 / 10-13 / 14-17",
+    "aiBias": "Responsible Verification",
+    "flagged": "Source, context, AI evidence",
+    "moduleStatus": "Suggested 60-Minute Flow",
+    "searchStudents": "Search activities...",
+    "allModules": "All activities",
+    "imageAnalysis": "Image checks",
+    "sourceInvestigation": "Source checks",
+    "studentName": "Activity",
+    "currentModule": "Module",
+    "progress": "Minutes",
+    "status": "Purpose",
+    "actions": "Facilitator move",
+    "review": "Open",
+    "rows": [
+      {
+        "name": "Opening question: What makes something believable?",
+        "module": "Democracy Needs Shared Reality",
+        "progress": 10,
+        "status": "Discussion"
+      },
+      {
+        "name": "Source-date-evidence routine",
+        "module": "How Information Spreads",
+        "progress": 20,
+        "status": "Practice"
+      },
+      {
+        "name": "AI claim verification ladder",
+        "module": "Verification in the Age of AI",
+        "progress": 25,
+        "status": "Group case"
+      }
+    ]
+  },
+  "LearningPath": {
+    "title": "Your Learning Journey",
+    "module1": "Module 1: Democracy & Digital Citizenship",
+    "module2": "Module 2: How Information Spreads",
+    "module3": "Module 3: Verification & AI",
+    "start": "Start Module",
+    "time": "15 mins",
+    "truthLab": "Enter Truth Lab",
+    "truthLabDesc": "Practice what you learned by checking examples!",
+    "eyebrow": "Professional Learning Platform",
+    "ageGroupLabel": "Age Group",
+    "summary": "Select your age track, progress through three workshop-ready modules, then practice with guided verification cases.",
+    "practiceEyebrow": "Practice Arena",
+    "module1Desc": "Understand why shared facts, fair rules, and accountable sources matter for democratic life.",
+    "module2Desc": "Explore how claims travel through people, platforms, emotion, and recommendation systems.",
+    "module3Desc": "Practice careful judgment around AI-generated media, chatbots, deepfakes, and incomplete evidence.",
+    "ready": "Ready",
+    "inProgress": "In Progress",
+    "locked": "Locked",
+    "pathProgress": "Path Progress",
+    "modulesCompleted": "3 core modules available",
+    "completion": "Completion",
+    "continueLearning": "Continue Learning",
+    "completePrevious": "Complete Previous Module",
+    "moduleFallbackDesc": "A practical investigation module with evidence checks, discussion prompts, and a short decision task.",
+    "modulesAvailable": "modules available",
+    "moduleLabel": "Module"
+  },
+  "ProfessionalPath": {
+    "title": "Your Learning Journey",
+    "subtitle": "Select your age track and progress through structured learning experiences",
+    "back": "Back to Selection",
+    "continue": "Continue",
+    "modules": [
+      {
+        "id": 1,
+        "title": "Foundational Skills",
+        "description": "Master the basics of digital citizenship and media literacy",
+        "duration": "45 min",
+        "completed": true,
+        "locked": false,
+        "progress": 100,
+        "lessons": 5,
+        "icon": "brain"
+      },
+      {
+        "id": 2,
+        "title": "Source Investigation",
+        "description": "Learn advanced techniques for verifying information sources",
+        "duration": "45 min",
+        "completed": false,
+        "locked": false,
+        "progress": 75,
+        "lessons": 5,
+        "icon": "shield"
+      },
+      {
+        "id": 3,
+        "title": "AI & Synthetic Media",
+        "description": "Understand and identify AI-generated content and deepfakes",
+        "duration": "45 min",
+        "completed": false,
+        "locked": false,
+        "progress": 30,
+        "lessons": 5,
+        "icon": "network"
+      },
+      {
+        "id": 4,
+        "title": "Advanced Analysis",
+        "description": "Apply critical thinking to complex information ecosystems",
+        "duration": "45 min",
+        "completed": false,
+        "locked": true,
+        "progress": 0,
+        "lessons": 5,
+        "icon": "users"
+      }
+    ],
+    "achievements": [
+      {
+        "id": 1,
+        "title": "First Steps",
+        "description": "Complete your first module",
+        "icon": "star",
+        "unlocked": true
+      },
+      {
+        "id": 2,
+        "title": "Critical Thinker",
+        "description": "Complete 3 modules",
+        "icon": "trophy",
+        "unlocked": true
+      },
+      {
+        "id": 3,
+        "title": "Media Expert",
+        "description": "Complete all modules",
+        "icon": "award",
+        "unlocked": false
+      },
+      {
+        "id": 4,
+        "title": "Truth Defender",
+        "description": "Achieve 90% accuracy",
+        "icon": "target",
+        "unlocked": false
+      }
+    ],
+    "stats": {
+      "totalModules": 4,
+      "completedModules": 1,
+      "totalTime": "2h 15min",
+      "averageScore": "87%"
+    }
+  },
+  "Lesson": {
+    "next": "Next",
+    "prev": "Previous",
+    "finish": "Finish Module",
+    "slide1Title": "What is Digital Citizenship?",
+    "slide1Content": "Digital citizenship means using technology responsibly...",
+    "slide2Title": "The Impact of Fake News",
+    "slide2Content": "False information can spread quickly online...",
+    "moduleLabel": "Module",
+    "notFound": "Lesson not found.",
+    "checkUnderstanding": "Check your understanding",
+    "defaultQuestion": "What evidence would help you explain this idea to someone else?"
+  },
+  "ProfessionalTruthLab": {
+    "title": "Advanced Truth Laboratory",
+    "subtitle": "Professional verification and analysis platform",
+    "eyebrow": "Professional Analysis Platform",
+    "toolTitle": "Investigation Workspace",
+    "toolSubtitle": "Transform viral claims into responsible judgments",
+    "imageAnalysis": "Image Analysis",
+    "sourceInvestigation": "Source Investigation", 
+    "metadata": "Data Metadata",
+    "claimsTitle": "Case Library",
+    "claimsSubtitle": "Professional verification cases from real-world scenarios",
+    "filterTitle": "Case Filters",
+    "allClaims": "All Cases",
+    "images": "Images",
+    "videos": "Videos",
+    "publicLife": "Public Claims",
+    "updatedNow": "Workshop Ready",
+    "analyze": "Analyze",
+    "back": "Back to Path",
+    "claims": [
+      {
+        "title": "Historical weather image misused for current event",
+        "body": "A dramatic street image is shared during a new storm. The image is real, but reverse search shows it came from another country in 2021.",
+        "status": "Needs context",
+        "type": "Image verification",
+        "risk": "medium",
+        "action": "Build report",
+        "featured": true
+      },
+      {
+        "title": "AI-generated political announcement analysis",
+        "body": "The picture looks realistic but hands, shadows, and source history raise doubts. Learners compare visual clues with source credibility.",
+        "status": "High risk",
+        "type": "AI-generated media",
+        "risk": "high",
+        "action": "Analyze"
+      },
+      {
+        "title": "Educational policy rumor verification from forwarded message",
+        "body": "A forwarded message claims major policy changes at a local school. No official sources, just emotional language.",
+        "status": "Unverified",
+        "type": "Public claim",
+        "risk": "medium",
+        "action": "Investigate"
+      },
+      {
+        "title": "Historical photo used for current event",
+        "body": "An old photograph is presented as recent evidence in a political discussion. The image is authentic but contextually misused.",
+        "status": "Needs context",
+        "type": "Image verification",
+        "risk": "low",
+        "action": "Context check"
+      }
+    ]
+  },
+  "TruthLab": {
+    "title": "Welcome to the Truth Lab",
+    "subtitle": "Check the facts before you share!",
+    "case1": "Did a dolphin swim in Venice?",
+    "case1Desc": "A popular image shows a dolphin in the canals of Venice.",
+    "analyze": "Analyze",
+    "fake": "Fake!",
+    "real": "Real!",
+    "resultFake": "This is AI generated or manipulated.",
+    "resultReal": "This is a real occurrence.",
+    "back": "Back to Path",
+    "eyebrow": "Verification lab",
+    "caseProgress": "Case {current} of {total}. Decide using evidence, not instinct.",
+    "evidencePreview": "Evidence preview",
+    "correct": "Good call.",
+    "notQuite": "Look again.",
+    "nextScenario": "Next scenario",
+    "noScenarios": "No scenarios found.",
+    "toolTitle": "Investigation workspace",
+    "toolSubtitle": "Move from a viral claim to a responsible judgment.",
+    "imageAnalysis": "Image Analysis",
+    "imageAnalysisDesc": "Advanced AI-powered image verification with metadata analysis and reverse search capabilities.",
+    "imageAnalysisStats": "98% Accuracy",
+    "sourceInvestigation": "Source Investigation",
+    "sourceInvestigationDesc": "Comprehensive source tracking and verification across multiple platforms and databases.",
+    "sourceInvestigationStats": "Real-time",
+    "metadata": "File Data",
+    "metadataDesc": "Detailed metadata extraction and analysis to uncover manipulation and fabrication.",
+    "metadataStats": "Deep Analysis",
+    "claimsTitle": "Claim library",
+    "claimsSubtitle": "Practice cases drawn from the situations young people actually meet online: cropped images, old videos, AI visuals, statistics without sources, and emotional public claims.",
+    "filterTitle": "Case filters",
+    "allClaims": "All Claims",
+    "images": "Images",
+    "videos": "Videos",
+    "publicLife": "Public Life",
+    "updatedNow": "Workshop ready",
+    "claims": [
+      {
+        "title": "The flood photo that is five years old",
+        "body": "A dramatic street image is shared during a new storm. The image is real, but reverse search shows it came from another country in 2021.",
+        "status": "Needs context",
+        "type": "Image verification",
+        "risk": "medium",
+        "action": "Build report",
+        "featured": true
+      },
+      {
+        "title": "AI image of a candidate in a fake scene",
+        "body": "The picture looks realistic but hands, shadows, and source history raise doubts. Learners compare visual clues with source credibility.",
+        "status": "High risk",
+        "type": "AI-generated media",
+        "risk": "high",
+        "action": "Analyze"
+      },
+      {
+        "title": "A statistic with no method",
+        "body": "A post claims “80% of students support the rule” but gives no sample size, date, question wording, or publisher.",
+        "status": "Unverified",
+        "type": "Public life",
+        "risk": "medium",
+        "action": "Check source"
+      },
+      {
+        "title": "A protest video with a new caption",
+        "body": "The video is authentic, but the caption assigns it to the wrong city. Metadata and landmarks help rebuild the context.",
+        "status": "Needs context",
+        "type": "Video",
+        "risk": "medium",
+        "action": "Verify"
+      },
+      {
+        "title": "Corrected school announcement",
+        "body": "A rumor about cancelled activities is resolved after students find the original announcement and two independent confirmations.",
+        "status": "Resolved",
+        "type": "Civic information",
+        "risk": "resolved",
+        "action": "Review evidence"
+      }
+    ]
+  },
+  "Content": {
+    "6-9": {
+      "lessons": {
+        "1": {
+          "title": "Fair Choices and Shared Rules",
+          "overview": "A gentle introduction to democracy through classroom decisions, listening, and fairness.",
+          "slides": [
+            {
+              "title": "A group needs a fair way to choose",
+              "content": "When a class chooses a game, a story, or a rule, not everyone will want the same thing. A fair group listens, explains choices, and tries not to leave people out.",
+              "keyIdea": "Democracy begins with listening before deciding.",
+              "question": "What is the fairest first step before a group decision?",
+              "options": [
+                "Let the loudest person choose",
+                "Listen to different ideas",
+                "Hide the choices",
+                "Choose without telling anyone"
+              ],
+              "answer": 1,
+              "feedback": "Yes. Listening helps the group understand more than one point of view.",
+              "facilitatorNote": "Use a simple classroom example: choosing a game for recess."
+            },
+            {
+              "title": "Rules should protect people",
+              "content": "A good rule is not just a command. It helps people feel safe, respected, and included. If a rule hurts someone unfairly, the group should talk about it.",
+              "keyIdea": "Fair rules help everyone belong.",
+              "question": "Which rule sounds fair?",
+              "options": [
+                "Only my friends can speak",
+                "Everyone gets a turn to speak",
+                "No one can ask questions",
+                "The fastest child always wins"
+              ],
+              "answer": 1,
+              "feedback": "Correct. Taking turns protects quieter voices too.",
+              "facilitatorNote": "Ask children to invent one fair rule for a group activity."
+            },
+            {
+              "title": "We check before we repeat",
+              "content": "Sometimes someone tells us something surprising. Before repeating it, we can ask: Who said it? Did they see it? Could there be another explanation?",
+              "keyIdea": "A careful question can stop a confusing story from spreading.",
+              "question": "A friend says school is cancelled tomorrow. What should you do?",
+              "options": [
+                "Tell everyone immediately",
+                "Check with a teacher or parent",
+                "Make the story bigger",
+                "Pretend you know"
+              ],
+              "answer": 1,
+              "feedback": "Yes. A trusted adult or official message can help confirm it.",
+              "facilitatorNote": "Keep this playful: “What would a careful detective ask?”"
+            }
+          ]
+        },
+        "2": {
+          "title": "Truth, Opinion, and Rumor",
+          "overview": "Children learn to separate what happened, what someone thinks, and what still needs checking.",
+          "slides": [
+            {
+              "title": "A fact can be checked",
+              "content": "A fact is something we can look for evidence about. “The library opens at nine” can be checked. “The library is fun” is an opinion.",
+              "keyIdea": "Facts can be checked. Opinions explain how someone feels or thinks.",
+              "question": "Which sentence is a fact?",
+              "options": [
+                "Chocolate is the best flavor",
+                "The meeting starts at 10",
+                "Blue is the happiest color",
+                "This game is boring"
+              ],
+              "answer": 1,
+              "feedback": "Correct. A start time can be checked.",
+              "facilitatorNote": "Ask children to create one fact and one opinion about the classroom."
+            },
+            {
+              "title": "A rumor is a story without enough checking",
+              "content": "A rumor can be true, false, or mixed up. We do not need to be mean to the person who shared it. We just need to check before passing it on.",
+              "keyIdea": "Not sure yet is a smart answer.",
+              "question": "What is the best answer when you are not sure?",
+              "options": [
+                "I know everything",
+                "I am not sure yet",
+                "It must be true",
+                "Let’s shout it"
+              ],
+              "answer": 1,
+              "feedback": "Yes. Saying “I am not sure yet” is careful and honest.",
+              "facilitatorNote": "Normalize uncertainty as a strength."
+            },
+            {
+              "title": "Pictures can trick us too",
+              "content": "A picture may be old, cropped, edited, or from another place. A picture is evidence only when we know where it came from and what it really shows.",
+              "keyIdea": "Seeing is not always the same as knowing.",
+              "question": "What should we ask about a surprising picture?",
+              "options": [
+                "Where did it come from?",
+                "Can I draw on it?",
+                "Is it colorful?",
+                "Will it get likes?"
+              ],
+              "answer": 0,
+              "feedback": "Correct. Source helps us understand the picture.",
+              "facilitatorNote": "Use a harmless animal/photo example and ask what could be missing outside the crop."
+            }
+          ]
+        },
+        "3": {
+          "title": "AI Helpers and AI Mistakes",
+          "overview": "A child-friendly module about AI as a tool that can help, guess, and sometimes get things wrong.",
+          "slides": [
+            {
+              "title": "AI is a tool, not a person",
+              "content": "AI can help write, draw, translate, or answer questions. But it does not understand the world like a person does. It can guess wrong.",
+              "keyIdea": "AI can be useful and still need checking.",
+              "question": "What should we remember about AI answers?",
+              "options": [
+                "They are always perfect",
+                "They can be helpful but need checking",
+                "They are magic",
+                "They should replace teachers"
+              ],
+              "answer": 1,
+              "feedback": "Yes. Helpful tools can still make mistakes.",
+              "facilitatorNote": "Compare AI to a calculator that helps but still needs the right question."
+            },
+            {
+              "title": "AI pictures can look real",
+              "content": "Some pictures are made by computers. They can look like real places or real people. We should ask whether the picture is pretending to show a real event.",
+              "keyIdea": "The important question is: what does this picture want me to believe?",
+              "question": "A picture shows a giant snowstorm in summer. What should you ask?",
+              "options": [
+                "Is there a source?",
+                "Can I make it my wallpaper?",
+                "Is snow pretty?",
+                "Who has more followers?"
+              ],
+              "answer": 0,
+              "feedback": "Correct. Source comes before sharing.",
+              "facilitatorNote": "Keep examples non-scary and avoid showing realistic harm."
+            },
+            {
+              "title": "A careful sharer helps the group",
+              "content": "When we pause before sharing, we help friends, families, and classmates avoid confusion. That is part of being kind online.",
+              "keyIdea": "Checking can be an act of care.",
+              "question": "What is a kind thing to do before sharing a surprising story?",
+              "options": [
+                "Pause and check",
+                "Add more drama",
+                "Send it to everyone",
+                "Ignore all questions"
+              ],
+              "answer": 0,
+              "feedback": "Yes. Pausing protects people from confusion.",
+              "facilitatorNote": "End with a class phrase: “Pause, ask, check.”"
+            }
+          ]
+        },
+        "4": {
+          "title": "Kind Words in Public Decisions",
+          "overview": "Learners practice disagreeing without hurting people or spreading unfair labels.",
+          "slides": [
+            {
+              "title": "Disagreement is not danger",
+              "content": "Friends can want different rules and still belong to the same group. A good citizen explains a reason instead of attacking a person.",
+              "keyIdea": "We can be firm about ideas and kind toward people.",
+              "question": "Which sentence is the most democratic?",
+              "options": [
+                "You are bad because you disagree",
+                "I think this rule is better because it keeps turns fair",
+                "Only my friends should vote",
+                "Do not ask questions"
+              ],
+              "answer": 1,
+              "feedback": "Correct. It gives a reason and keeps respect.",
+              "facilitatorNote": "Ask learners to rewrite one harsh sentence into a respectful public sentence."
+            },
+            {
+              "title": "Labels can make rumors stronger",
+              "content": "When we call someone lazy, mean, or suspicious without evidence, other people may repeat the label like it is a fact.",
+              "keyIdea": "A label is not evidence.",
+              "question": "What should we ask before repeating a label?",
+              "options": [
+                "Who said it and what proof exists?",
+                "How funny does it sound?",
+                "Can we make it louder?",
+                "Will it get likes?"
+              ],
+              "answer": 0,
+              "feedback": "Yes. Evidence comes before judgment.",
+              "facilitatorNote": "Use a classroom-safe example such as “the art club never cleans up” and identify what evidence would be fair."
+            },
+            {
+              "title": "A fair group repairs mistakes",
+              "content": "Sometimes a group shares something unfair. The brave move is to correct it, not hide it.",
+              "keyIdea": "Correction is part of trust.",
+              "question": "What should a group do after sharing a wrong rumor?",
+              "options": [
+                "Pretend nothing happened",
+                "Blame one person forever",
+                "Say what was wrong and share the correction",
+                "Make a new rumor"
+              ],
+              "answer": 2,
+              "feedback": "Yes. Repairing the record helps everyone trust the group again.",
+              "facilitatorNote": "Invite learners to practice a two-sentence correction."
+            }
+          ]
+        },
+        "5": {
+          "title": "Photo Clues and Missing Context",
+          "overview": "A child-friendly introduction to images that are real but used in the wrong way.",
+          "slides": [
+            {
+              "title": "A photo can be real and still mislead",
+              "content": "A picture may truly show a place or event, but the caption can say the wrong date, place, or reason.",
+              "keyIdea": "Real picture does not always mean true story.",
+              "question": "What can make a real photo misleading?",
+              "options": [
+                "Wrong caption",
+                "Clear colors",
+                "People smiling",
+                "A square shape"
+              ],
+              "answer": 0,
+              "feedback": "Correct. The caption can change the meaning.",
+              "facilitatorNote": "Show two captions for the same neutral image and compare how meaning changes."
+            },
+            {
+              "title": "Look around the picture",
+              "content": "Signs, weather, clothes, shadows, and background details can help us ask better questions.",
+              "keyIdea": "Details are clues, not final proof.",
+              "question": "Which clue could help check where a photo was taken?",
+              "options": [
+                "A street sign",
+                "The number of likes",
+                "A funny emoji",
+                "The phone battery"
+              ],
+              "answer": 0,
+              "feedback": "Yes. A sign may help identify place or language.",
+              "facilitatorNote": "Have learners list visible clues without guessing motives."
+            },
+            {
+              "title": "Ask before sharing",
+              "content": "If a photo makes people angry or scared, slow down. Ask who posted it first and whether a trusted adult or source confirms it.",
+              "keyIdea": "Strong feelings are a reason to pause.",
+              "question": "What is a careful response to a scary photo?",
+              "options": [
+                "Share immediately",
+                "Pause and check with a trusted source",
+                "Add a scarier caption",
+                "Guess what happened"
+              ],
+              "answer": 1,
+              "feedback": "Correct. Pausing protects other people from confusion.",
+              "facilitatorNote": "End with a class rule: “Big feeling, slow sharing.”"
+            }
+          ]
+        },
+        "6": {
+          "title": "Community Helpers and Trusted Sources",
+          "overview": "Learners identify reliable people and places for public information.",
+          "slides": [
+            {
+              "title": "Some sources have jobs to inform",
+              "content": "A teacher, school office, library, emergency service, or local council may have a responsibility to share accurate information.",
+              "keyIdea": "Trust is connected to responsibility.",
+              "question": "Which source is best for a school closing notice?",
+              "options": [
+                "A random comment",
+                "The school office",
+                "A joke account",
+                "A forwarded rumor"
+              ],
+              "answer": 1,
+              "feedback": "Yes. The school office is responsible for that information.",
+              "facilitatorNote": "Build a “trusted source map” for school and community questions."
+            },
+            {
+              "title": "Trust does not mean never checking",
+              "content": "Even trusted sources can make mistakes. Good checking is respectful, not rude.",
+              "keyIdea": "Checking protects trust.",
+              "question": "What can you do if two trusted sources disagree?",
+              "options": [
+                "Choose the one you like",
+                "Compare the details and ask for clarification",
+                "Ignore both forever",
+                "Start a rumor"
+              ],
+              "answer": 1,
+              "feedback": "Correct. Comparing details is careful and fair.",
+              "facilitatorNote": "Use a simple conflict: library says event at 3, poster says 4."
+            },
+            {
+              "title": "A helper shares the correction too",
+              "content": "Responsible people do not only share exciting news. They also share updates, corrections, and what they do not know yet.",
+              "keyIdea": "Uncertainty can be honest.",
+              "question": "Which update sounds trustworthy?",
+              "options": [
+                "We know everything",
+                "We are checking the time and will update at 2 PM",
+                "Do not ask us anything",
+                "Someone said maybe"
+              ],
+              "answer": 1,
+              "feedback": "Yes. It explains what is known and when more will come.",
+              "facilitatorNote": "Practice writing a short public update with uncertainty."
+            }
+          ]
+        }
+      },
+      "scenarios": [
+        {
+          "id": "class-pet-rumor",
+          "title": "The missing class pet",
+          "description": "A message says the class pet escaped, but no teacher has confirmed it.",
+          "isFake": true,
+          "explanation": "This needs checking with a trusted adult before repeating."
+        },
+        {
+          "id": "old-playground-photo",
+          "title": "The broken playground photo",
+          "description": "A photo shows a broken playground, but it might be from another school or another year.",
+          "isFake": true,
+          "explanation": "The photo needs source, date, and place before we know what it proves."
+        },
+        {
+          "id": "ai-animal-image",
+          "title": "The flying rabbit image",
+          "description": "A very realistic image shows a rabbit with wings.",
+          "isFake": true,
+          "explanation": "This is a playful synthetic image. It should not be shared as a real animal discovery."
+        }
+      ]
+    },
+    "10-13": {
+      "lessons": {
+        "1": {
+          "title": "Democracy Needs Shared Reality",
+          "overview": "A civic media literacy module about why facts matter before debate begins.",
+          "slides": [
+            {
+              "title": "Before opinions, we need a common ground",
+              "content": "In a democracy, people are allowed to disagree. But disagreement only works when people can still point to some shared facts: what happened, who said it, when it happened, and what evidence exists.",
+              "keyIdea": "Democracy is not about everyone thinking the same thing. It is about disagreeing honestly from a shared reality.",
+              "question": "Which sentence is a fact-checking question, not just an opinion?",
+              "options": [
+                "Do I like this person?",
+                "Who is the original source?",
+                "Is this boring?",
+                "Will my friends agree with me?"
+              ],
+              "answer": 1,
+              "feedback": "Correct: source is a verification question. It helps us move from reaction to evidence.",
+              "facilitatorNote": "Invite learners to name a recent online argument and separate the claim from the opinion around it."
+            },
+            {
+              "title": "A claim is not the same as proof",
+              "content": "A claim is something someone says is true. Proof is the evidence that helps us judge the claim. A post can sound confident, urgent, or emotional and still have weak evidence.",
+              "keyIdea": "Strong language is not strong evidence.",
+              "question": "A post says: “Everyone knows this new rule is already approved.” What is missing?",
+              "options": [
+                "A louder headline",
+                "A clear source or official document",
+                "More angry comments",
+                "A shorter caption"
+              ],
+              "answer": 1,
+              "feedback": "Yes. A civic claim needs a traceable source, especially when it talks about laws, rights, or public decisions.",
+              "facilitatorNote": "Ask the group what words make a post feel urgent: now, secret, everyone, banned, exposed."
+            },
+            {
+              "title": "Truth protects participation",
+              "content": "False information does not only trick individuals. It can make groups distrust each other, stay silent, or make decisions based on fear. Verification is a civic habit, not a school exercise.",
+              "keyIdea": "Checking information is one way to protect other people’s right to understand and participate.",
+              "question": "Why does misinformation matter in public life?",
+              "options": [
+                "Because it can shape decisions and trust",
+                "Because all mistakes are crimes",
+                "Because the internet should have no jokes",
+                "Because only adults can verify information"
+              ],
+              "answer": 0,
+              "feedback": "Right. Misinformation can change what people believe, share, fear, and vote for.",
+              "facilitatorNote": "Close by connecting verification to respect: we check before sharing because other people may rely on us."
+            }
+          ]
+        },
+        "2": {
+          "title": "How Information Spreads",
+          "overview": "A practical module about attention, algorithms, and why weak claims can travel fast.",
+          "slides": [
+            {
+              "title": "Information travels through people and systems",
+              "content": "A rumor spreads when people share it. Online, platforms also help decide what gets seen. Posts that create surprise, anger, fear, or belonging often move faster than careful explanations.",
+              "keyIdea": "Viral does not mean verified. It only means many people saw or shared it.",
+              "question": "What does “viral” actually tell us?",
+              "options": [
+                "That the post is true",
+                "That the post is popular or widely shared",
+                "That experts approved it",
+                "That the post is harmless"
+              ],
+              "answer": 1,
+              "feedback": "Exactly. Viral describes reach, not reliability.",
+              "facilitatorNote": "Have learners compare “popular,” “true,” and “important.” They overlap sometimes, but they are not the same."
+            },
+            {
+              "title": "Algorithms reward attention",
+              "content": "Recommendation systems often learn what keeps people watching, clicking, and reacting. This can be useful, but it can also push dramatic or simplified content because it holds attention.",
+              "keyIdea": "The feed is not a neutral window. It is a selection system.",
+              "question": "What should you remember when a platform keeps showing the same kind of claim?",
+              "options": [
+                "The platform may be optimizing for engagement",
+                "The claim must be officially proven",
+                "No one else sees different content",
+                "The newest post is always the best source"
+              ],
+              "answer": 0,
+              "feedback": "Correct. Repetition in a feed can come from engagement patterns, not from proof.",
+              "facilitatorNote": "Ask learners to describe two different feeds: sports, beauty, politics, gaming. What does each feed reward?"
+            },
+            {
+              "title": "Friction slows misinformation",
+              "content": "Small pauses can change the path of a claim: opening the source, reading beyond the headline, checking the date, or asking who benefits if people believe it.",
+              "keyIdea": "You do not need to solve the whole internet. You can slow one bad share.",
+              "question": "Which action adds useful friction before sharing?",
+              "options": [
+                "Share first and check later",
+                "Check the date and original source",
+                "Only read the comments",
+                "Trust it if it has a dramatic image"
+              ],
+              "answer": 1,
+              "feedback": "Yes. Date and source checks catch many misleading posts quickly.",
+              "facilitatorNote": "Turn this into a 30-second ritual: source, date, evidence, emotion."
+            }
+          ]
+        },
+        "3": {
+          "title": "Verification in the Age of AI",
+          "overview": "A module about synthetic media, AI mistakes, and evidence-based judgment.",
+          "slides": [
+            {
+              "title": "AI can create convincing media",
+              "content": "AI tools can create images, voices, and text that look polished. Some AI content is creative and harmless. Some is misleading because it pretends to show real events, real people, or real evidence.",
+              "keyIdea": "The question is not “Was AI used?” The question is “What is this asking me to believe?”",
+              "question": "What is the best first question when seeing a shocking AI-looking image?",
+              "options": [
+                "Is it funny?",
+                "What claim is the image being used to support?",
+                "How many likes does it have?",
+                "Can I remake it?"
+              ],
+              "answer": 1,
+              "feedback": "Correct. Verification starts with the claim. The same image can be art, satire, or deception depending on context.",
+              "facilitatorNote": "Show that detection is not only about pixels. Meaning and context matter."
+            },
+            {
+              "title": "AI can also be confidently wrong",
+              "content": "Chatbots can summarize, translate, and help brainstorm. But they can invent sources, miss context, or sound certain when they are wrong. AI output should be checked like any other source.",
+              "keyIdea": "Fluent does not always mean factual.",
+              "question": "A chatbot gives a quote from a famous person but no link. What should you do?",
+              "options": [
+                "Use it because it sounds formal",
+                "Ask for or search for the original source",
+                "Change a few words and post it",
+                "Assume quotes are always accurate"
+              ],
+              "answer": 1,
+              "feedback": "Yes. Quotes, statistics, laws, and medical or civic claims need traceable sources.",
+              "facilitatorNote": "This is a good point to discuss responsible AI use without demonizing the tool."
+            },
+            {
+              "title": "Use a verification ladder",
+              "content": "A strong check moves step by step: identify the claim, find the original source, compare with independent evidence, inspect the media, and decide what can honestly be said.",
+              "keyIdea": "Good verification often ends with careful language: confirmed, unconfirmed, misleading, missing context, or manipulated.",
+              "question": "Which conclusion is most responsible when evidence is incomplete?",
+              "options": [
+                "Definitely true",
+                "Definitely fake",
+                "Unconfirmed: needs more evidence",
+                "Share it because it might be important"
+              ],
+              "answer": 2,
+              "feedback": "Correct. Saying “we do not know yet” is a strength, not a failure.",
+              "facilitatorNote": "End with the habit of uncertainty: careful people are allowed to pause."
+            }
+          ]
+        },
+        "4": {
+          "title": "Emotional Headlines and Slow Thinking",
+          "overview": "Students learn how strong language can pressure quick sharing.",
+          "slides": [
+            {
+              "title": "Emotion changes speed",
+              "content": "Posts that make people angry, afraid, or proud often move faster than calm explanations. That does not make them false, but it means we need stronger checking.",
+              "keyIdea": "The stronger the emotion, the slower the share.",
+              "question": "Why do emotional posts need extra care?",
+              "options": [
+                "They are always false",
+                "They can push us to react before checking",
+                "They are shorter",
+                "They use better colors"
+              ],
+              "answer": 1,
+              "feedback": "Correct. Emotion can shorten our thinking time.",
+              "facilitatorNote": "Compare a neutral headline and an emotional headline about the same event."
+            },
+            {
+              "title": "Spot pressure words",
+              "content": "Words like “shocking,” “they do not want you to know,” and “share before deleted” are often designed to bypass verification.",
+              "keyIdea": "Pressure is a signal to pause.",
+              "question": "Which phrase is a pressure signal?",
+              "options": [
+                "Published Tuesday",
+                "Share before it disappears",
+                "According to the report",
+                "Updated with correction"
+              ],
+              "answer": 1,
+              "feedback": "Yes. It asks for speed before evidence.",
+              "facilitatorNote": "Create a class list of pressure phrases in multiple languages."
+            },
+            {
+              "title": "Rewrite for accuracy",
+              "content": "A careful headline says what is known, names the source, and avoids claiming more than the evidence shows.",
+              "keyIdea": "Better wording can reduce misinformation harm.",
+              "question": "Which headline is strongest?",
+              "options": [
+                "Everyone is lying!",
+                "Report says the rule may change next month",
+                "This will destroy everything",
+                "Share now"
+              ],
+              "answer": 1,
+              "feedback": "Correct. It names uncertainty and avoids exaggeration.",
+              "facilitatorNote": "Have pairs rewrite one exaggerated headline."
+            }
+          ]
+        },
+        "5": {
+          "title": "Civic Debate and Evidence",
+          "overview": "Students practice disagreeing about public choices while staying anchored to facts.",
+          "slides": [
+            {
+              "title": "Debate needs shared facts",
+              "content": "People can disagree about what should happen next, but useful debate depends on shared facts about what already happened.",
+              "keyIdea": "Values can differ; evidence must be checked.",
+              "question": "Which question checks facts before opinion?",
+              "options": [
+                "Who is on my side?",
+                "What happened and how do we know?",
+                "Who can we mock?",
+                "Which answer is popular?"
+              ],
+              "answer": 1,
+              "feedback": "Yes. It separates evidence from preference.",
+              "facilitatorNote": "Use a school rule example: phones, uniforms, lunch lines, or clubs."
+            },
+            {
+              "title": "Evidence has quality levels",
+              "content": "A screenshot, a personal story, a survey, and an official record can all matter, but they do not prove the same things.",
+              "keyIdea": "Not all evidence has the same strength.",
+              "question": "Which evidence best supports a claim about all students?",
+              "options": [
+                "One friend’s opinion",
+                "A clear survey with sample size and question wording",
+                "A meme",
+                "A comment thread"
+              ],
+              "answer": 1,
+              "feedback": "Correct. Method matters when making broad claims.",
+              "facilitatorNote": "Ask students what a fair survey would need."
+            },
+            {
+              "title": "Respectful challenge improves ideas",
+              "content": "Asking “what is your source?” is not an attack. It helps the group make a better decision.",
+              "keyIdea": "Challenge the claim, not the person.",
+              "question": "Which response keeps debate healthy?",
+              "options": [
+                "You are stupid",
+                "Can you show where that number came from?",
+                "Nobody cares",
+                "I will post your mistake"
+              ],
+              "answer": 1,
+              "feedback": "Yes. It asks for evidence respectfully.",
+              "facilitatorNote": "Practice sentence stems for evidence-based disagreement."
+            }
+          ]
+        },
+        "6": {
+          "title": "Correction Campaigns",
+          "overview": "Students learn how accurate corrections should be written and shared.",
+          "slides": [
+            {
+              "title": "Corrections need clarity",
+              "content": "A correction should name the false or incomplete claim, give the accurate context, and avoid repeating the rumor in a catchy way.",
+              "keyIdea": "Corrections should reduce confusion, not give the rumor new energy.",
+              "question": "What should a correction include?",
+              "options": [
+                "Only sarcasm",
+                "The accurate context and source",
+                "More insults",
+                "A hidden link"
+              ],
+              "answer": 1,
+              "feedback": "Correct. A useful correction gives people something reliable to use.",
+              "facilitatorNote": "Show an example of a bad correction and improve it."
+            },
+            {
+              "title": "Timing matters",
+              "content": "Early corrections can slow harm, but rushed corrections can introduce new errors. Good teams verify quickly and communicate uncertainty.",
+              "keyIdea": "Fast and careful must work together.",
+              "question": "Which update is responsible?",
+              "options": [
+                "We are verifying and will update with sources",
+                "This is definitely fake, trust me",
+                "Nobody knows anything",
+                "Share our side only"
+              ],
+              "answer": 0,
+              "feedback": "Yes. It explains the verification process.",
+              "facilitatorNote": "Discuss what to do in the first 10 minutes after a rumor appears."
+            },
+            {
+              "title": "Reach the same audience",
+              "content": "A correction should travel where the rumor traveled: class group, story, announcement channel, or community page.",
+              "keyIdea": "A quiet correction may not repair a loud rumor.",
+              "question": "Where should a correction be posted?",
+              "options": [
+                "Only in a private notebook",
+                "Where the original rumor reached people",
+                "Nowhere",
+                "On an unrelated page"
+              ],
+              "answer": 1,
+              "feedback": "Correct. Repair should reach the affected audience.",
+              "facilitatorNote": "Map rumor channels and correction channels."
+            }
+          ]
+        }
+      },
+      "scenarios": [
+        {
+          "id": "school-rule-message",
+          "title": "The “new school rule” chain message",
+          "description": "A forwarded message claims students will lose phone access next week, but it includes no school source, date, or official document.",
+          "isFake": true,
+          "explanation": "The claim is unsupported. Learners should ask for the original source, date, and official channel before sharing."
+        },
+        {
+          "id": "storm-photo-context",
+          "title": "Storm photo with the wrong city",
+          "description": "A dramatic flood photo is real, but it is from a different country and an older event.",
+          "isFake": true,
+          "explanation": "The image is authentic but miscontextualized. Verification must check where and when media was captured."
+        }
+      ]
+    },
+    "14-17": {
+      "lessons": {
+        "1": {
+          "title": "Information Power and Public Trust",
+          "overview": "A deeper civic module about information ecosystems, trust, and democratic participation.",
+          "slides": [
+            {
+              "title": "Public life depends on trusted information",
+              "content": "Democratic participation depends on people having enough reliable information to understand public problems. When facts become impossible to discuss, power shifts toward whoever controls attention, fear, or confusion.",
+              "keyIdea": "Information is civic infrastructure.",
+              "question": "Which question best tests whether a public claim deserves trust?",
+              "options": [
+                "Does it confirm my side?",
+                "Can the evidence be traced and challenged?",
+                "Is it emotionally satisfying?",
+                "Was it posted by someone popular?"
+              ],
+              "answer": 1,
+              "feedback": "Correct. Trustworthy civic claims can be traced, tested, and challenged.",
+              "facilitatorNote": "Discuss the difference between distrust and healthy skepticism."
+            },
+            {
+              "title": "Manipulation often targets identity",
+              "content": "Misleading content often works by telling people who to fear, who to blame, or which group they must defend. It may use real grievances but attach them to weak or false evidence.",
+              "keyIdea": "A claim can feel emotionally true while still being factually unsupported.",
+              "question": "What is a warning sign of identity-based manipulation?",
+              "options": [
+                "It asks for evidence",
+                "It says one group is always the enemy",
+                "It links to original documents",
+                "It corrects itself publicly"
+              ],
+              "answer": 1,
+              "feedback": "Yes. Totalizing language about groups is a strong warning sign.",
+              "facilitatorNote": "Keep the discussion nonpartisan by using fictional groups or school-based examples."
+            },
+            {
+              "title": "Verification is a form of civic agency",
+              "content": "Verification is not passive doubt. It is action: tracing claims, comparing sources, naming uncertainty, and refusing to amplify what you cannot responsibly support.",
+              "keyIdea": "A verified pause can be more powerful than a fast reaction.",
+              "question": "What is the most responsible public response to an unverified viral accusation?",
+              "options": [
+                "Amplify it before it disappears",
+                "Say it is confirmed because many people posted it",
+                "Name it as unverified and look for primary evidence",
+                "Attack anyone who asks questions"
+              ],
+              "answer": 2,
+              "feedback": "Correct. Responsible language protects both truth and people.",
+              "facilitatorNote": "Introduce careful labels: confirmed, false, misleading, unverified, missing context."
+            }
+          ]
+        },
+        "2": {
+          "title": "Algorithms, Attention, and Influence",
+          "overview": "A module about recommendation systems, virality, and how attention can be engineered.",
+          "slides": [
+            {
+              "title": "The feed is an influence environment",
+              "content": "A feed is not a neutral list of what happened. It is a ranking system shaped by engagement, relationships, commercial goals, and sometimes political or coordinated behavior.",
+              "keyIdea": "The order of information changes the meaning of information.",
+              "question": "What does a recommendation system usually optimize for?",
+              "options": [
+                "Only truth",
+                "User engagement and predicted interest",
+                "Historical accuracy",
+                "Public interest above all else"
+              ],
+              "answer": 1,
+              "feedback": "Correct. Many systems optimize predicted engagement, not truth.",
+              "facilitatorNote": "Ask learners how a feed might rank calm explanation versus outrage."
+            },
+            {
+              "title": "Coordinated behavior can imitate popularity",
+              "content": "Sometimes a claim appears popular because many accounts repeat it quickly, use similar wording, or push the same hashtag. Popularity can be organic, paid, coordinated, or automated.",
+              "keyIdea": "Apparent consensus is not always real consensus.",
+              "question": "What pattern might suggest coordination?",
+              "options": [
+                "Many accounts using identical wording at the same time",
+                "One person asking for evidence",
+                "A source correcting a typo",
+                "A long article with citations"
+              ],
+              "answer": 0,
+              "feedback": "Yes. Repeated wording and timing can be a clue, though it still needs careful analysis.",
+              "facilitatorNote": "Avoid teaching paranoia: signals are clues, not final proof."
+            },
+            {
+              "title": "Friction is a design choice",
+              "content": "Platforms can make sharing instant, or they can add friction: read-before-share prompts, source labels, context panels, or limits on forwarding. Users can add their own friction too.",
+              "keyIdea": "Good information design slows down harm without stopping conversation.",
+              "question": "Which feature adds healthy friction?",
+              "options": [
+                "Auto-forward to all contacts",
+                "Prompting users to open an article before reposting",
+                "Hiding all source information",
+                "Rewarding the fastest reaction"
+              ],
+              "answer": 1,
+              "feedback": "Correct. Read-before-share prompts encourage evidence before amplification.",
+              "facilitatorNote": "Connect platform design to personal habits: users also design their own sharing rituals."
+            }
+          ]
+        },
+        "3": {
+          "title": "Synthetic Media and Evidence Standards",
+          "overview": "A module about deepfakes, AI-generated claims, and responsible uncertainty.",
+          "slides": [
+            {
+              "title": "Synthetic media changes the burden of proof",
+              "content": "As AI media becomes more convincing, people may deny real evidence or believe fake evidence. The answer is not cynicism; it is stronger evidence standards.",
+              "keyIdea": "Do not believe everything. Do not dismiss everything. Raise the standard.",
+              "question": "What is the best response to a shocking video of a public figure?",
+              "options": [
+                "Assume it is fake",
+                "Assume it is real",
+                "Trace the source and compare independent reporting",
+                "Share it with a warning emoji"
+              ],
+              "answer": 2,
+              "feedback": "Correct. Independent corroboration matters more than visual confidence.",
+              "facilitatorNote": "Introduce the “liar’s dividend”: real evidence can be dismissed as fake when synthetic media becomes common."
+            },
+            {
+              "title": "AI detection is not enough",
+              "content": "Detection tools can help, but they produce probabilities, not courtroom certainty. Context, provenance, original files, witness reporting, and independent evidence still matter.",
+              "keyIdea": "Detection is one clue in a larger evidence chain.",
+              "question": "Why should we avoid relying only on an AI detector?",
+              "options": [
+                "Because all detectors are useless",
+                "Because detectors can be wrong or incomplete",
+                "Because context never matters",
+                "Because visual evidence is always enough"
+              ],
+              "answer": 1,
+              "feedback": "Correct. Detection tools can produce false positives and false negatives.",
+              "facilitatorNote": "Frame detectors as assistants, not judges."
+            },
+            {
+              "title": "Responsible uncertainty is a skill",
+              "content": "A mature verifier can say: this is confirmed, this is likely, this is missing context, this is manipulated, or this is currently unverified. Precision builds trust.",
+              "keyIdea": "The most honest answer is sometimes a category, not a verdict.",
+              "question": "Which wording is most responsible when evidence is partial?",
+              "options": [
+                "Confirmed fake",
+                "Proven true",
+                "Unverified; available evidence is incomplete",
+                "Everyone should decide by feeling"
+              ],
+              "answer": 2,
+              "feedback": "Correct. Careful uncertainty prevents overclaiming.",
+              "facilitatorNote": "Have learners rewrite dramatic headlines into responsible verification language."
+            }
+          ]
+        },
+        "4": {
+          "title": "OSINT Basics for Civic Verification",
+          "overview": "A serious introduction to open-source methods without overclaiming.",
+          "slides": [
+            {
+              "title": "Open sources can answer narrow questions",
+              "content": "OSINT is strongest when the question is specific: where was this filmed, when was this posted, who published it first, or what source supports this number?",
+              "keyIdea": "Precise questions produce better evidence.",
+              "question": "Which question is best for verification?",
+              "options": [
+                "Is everything online fake?",
+                "Where was this video first posted?",
+                "Who seems annoying?",
+                "Can I win the argument?"
+              ],
+              "answer": 1,
+              "feedback": "Correct. It is specific and evidence-seeking.",
+              "facilitatorNote": "Define OSINT as careful use of publicly available information, not spying."
+            },
+            {
+              "title": "Geolocation is evidence, not theater",
+              "content": "Landmarks, shadows, signs, terrain, and weather can support location claims, but each clue has limits and should be documented.",
+              "keyIdea": "Show your reasoning trail.",
+              "question": "What makes geolocation stronger?",
+              "options": [
+                "One vague guess",
+                "Multiple matching clues and screenshots",
+                "A confident tone",
+                "A viral caption"
+              ],
+              "answer": 1,
+              "feedback": "Yes. Multiple independent clues make the finding stronger.",
+              "facilitatorNote": "Use a safe, non-sensitive public image for practice."
+            },
+            {
+              "title": "Ethics matter",
+              "content": "Verification should avoid doxxing, harassment, or exposing private people. The purpose is public understanding and harm reduction.",
+              "keyIdea": "Powerful methods need boundaries.",
+              "question": "Which action is ethical?",
+              "options": [
+                "Publish a private address",
+                "Blur private people and focus on public evidence",
+                "Harass the poster",
+                "Invent missing details"
+              ],
+              "answer": 1,
+              "feedback": "Correct. Minimize harm while documenting evidence.",
+              "facilitatorNote": "Discuss what information should not be included in a public report."
+            }
+          ]
+        },
+        "5": {
+          "title": "Data Claims and Statistical Literacy",
+          "overview": "Students inspect numbers used to persuade public opinion.",
+          "slides": [
+            {
+              "title": "Numbers can persuade without informing",
+              "content": "A statistic may look objective while hiding sample size, question wording, funding, timeframe, or comparison group.",
+              "keyIdea": "A number without method is an invitation to ask questions.",
+              "question": "What is missing from “70% agree”?",
+              "options": [
+                "Sample, question, date, and source",
+                "A bigger font",
+                "A stronger color",
+                "More emojis"
+              ],
+              "answer": 0,
+              "feedback": "Correct. Method gives the number meaning.",
+              "facilitatorNote": "Collect common “percentage posts” and identify missing method fields."
+            },
+            {
+              "title": "Compare absolute and relative change",
+              "content": "A “100% increase” may mean 1 case became 2, or 1,000 became 2,000. Both are different public stories.",
+              "keyIdea": "Ask: increase from what to what?",
+              "question": "Which detail helps interpret a percent increase?",
+              "options": [
+                "Starting number",
+                "Poster’s mood",
+                "Background music",
+                "Comment count"
+              ],
+              "answer": 0,
+              "feedback": "Yes. The baseline changes the meaning.",
+              "facilitatorNote": "Use simple numeric examples on the board."
+            },
+            {
+              "title": "Good charts tell the truth slowly",
+              "content": "Axes, cropped scales, missing labels, and color choices can make small changes look huge or hide important patterns.",
+              "keyIdea": "Design can clarify or manipulate.",
+              "question": "What should you inspect in a chart?",
+              "options": [
+                "Axis scale and labels",
+                "Only the title",
+                "Only the prettiest color",
+                "The number of shares"
+              ],
+              "answer": 0,
+              "feedback": "Correct. Axes and labels reveal what the chart is doing.",
+              "facilitatorNote": "Compare two charts using the same data with different axis choices."
+            }
+          ]
+        },
+        "6": {
+          "title": "Designing a Public Verification Brief",
+          "overview": "Students synthesize evidence into a professional, responsible brief.",
+          "slides": [
+            {
+              "title": "A brief is not a rant",
+              "content": "A verification brief should be structured: claim, context, evidence, uncertainty, verdict, and recommended action.",
+              "keyIdea": "Structure makes trust easier to evaluate.",
+              "question": "Which section belongs in a verification brief?",
+              "options": [
+                "Insults",
+                "Evidence and uncertainty",
+                "A hidden source",
+                "A dramatic threat"
+              ],
+              "answer": 1,
+              "feedback": "Correct. Evidence and uncertainty are central.",
+              "facilitatorNote": "Give students a one-page report template."
+            },
+            {
+              "title": "Verdicts need careful language",
+              "content": "Sometimes the best verdict is not “true” or “false.” It may be “authentic but miscaptioned,” “unverified,” or “synthetic with unknown source.”",
+              "keyIdea": "Precision is more useful than certainty theater.",
+              "question": "Which verdict is most precise?",
+              "options": [
+                "Fake!!!",
+                "Authentic video, wrong location claim",
+                "Bad vibes",
+                "Everyone knows"
+              ],
+              "answer": 1,
+              "feedback": "Yes. It separates the media from the caption.",
+              "facilitatorNote": "Ask students to improve vague verdict labels."
+            },
+            {
+              "title": "Recommend the next action",
+              "content": "A civic verification brief should help people act responsibly: do not share yet, share with correction, ask the institution, or monitor for updates.",
+              "keyIdea": "Verification ends with responsibility.",
+              "question": "What is a useful final recommendation?",
+              "options": [
+                "Share because it is dramatic",
+                "Do not share until source and date are confirmed",
+                "Attack the poster",
+                "Ignore corrections"
+              ],
+              "answer": 1,
+              "feedback": "Correct. It turns evidence into a public action.",
+              "facilitatorNote": "End with a gallery walk of student briefs."
+            }
+          ]
+        }
+      },
+      "scenarios": [
+        {
+          "id": "deepfake-accusation",
+          "title": "A candidate’s leaked video",
+          "description": "A short clip appears to show a candidate saying something inflammatory. It appears first on anonymous accounts with no original file.",
+          "isFake": true,
+          "explanation": "The clip requires provenance, independent reporting, and media analysis before any claim can be made."
+        },
+        {
+          "id": "statistic-without-source",
+          "title": "The perfect statistic",
+          "description": "A post cites a precise public safety statistic but gives no dataset, institution, date, or method.",
+          "isFake": true,
+          "explanation": "Precise numbers can still be unsupported. Verification needs dataset and method."
+        },
+        {
+          "id": "old-protest-new-caption",
+          "title": "Old protest, new caption",
+          "description": "A real protest image is recirculated with a new caption claiming it happened today in another city.",
+          "isFake": true,
+          "explanation": "The image is authentic but miscaptioned. Date and location checks are essential."
+        }
+      ]
+    }
+  },
+  "SpreadSimulator": {
+    "title": "Spread Simulator",
+    "subtitle": "Explore how emotion, trust, and platform ranking change the path of a claim. The goal is not to shame sharing; it is to understand how attention becomes influence.",
+    "totalReach": "Estimated reach",
+    "velocity": "Spread velocity",
+    "mitigated": "Harm reduced",
+    "high": "High",
+    "nodesPerSecond": "Nodes/sec",
+    "active": "Active",
+    "parameters": "Scenario controls",
+    "parametersBody": "Adjust the pressure points behind a viral claim and discuss what would slow it down: better context, credible corrections, and slower sharing.",
+    "sensationalism": "Emotional intensity",
+    "algorithmBoost": "Platform amplification",
+    "sourceTrust": "Source credibility"
+  },
+  "VerificationToolkit": {
+    "sideTitle": "Verification toolkit",
+    "sideSubtitle": "A repeatable method students can use on any claim.",
+    "imageAnalysis": "Image and video checks",
+    "sourceInvestigation": "Source investigation",
+    "metadata": "Context and metadata",
+    "newReport": "Start report",
+    "title": "Evidence report builder",
+    "subtitle": "Turn a suspicious post into a clear judgment: authentic, manipulated, or real but missing context.",
+    "imageCaption": "Evidence sample",
+    "imageBody": "Students document what they can see, what they cannot know yet, and which checks would strengthen the conclusion.",
+    "checklistTitle": "Minimum evidence standard",
+    "checklist": [
+      "Identify the original post or publisher",
+      "Check date, place, and surrounding context",
+      "Compare with at least two independent sources",
+      "Look for AI or editing indicators",
+      "Write the uncertainty clearly"
+    ],
+    "reportTitle": "Final judgment",
+    "reportBody": "A strong report does not pretend to know everything. It explains what is verified, what is uncertain, and what action a responsible person should take before sharing.",
+    "authentic": "Authentic",
+    "needsContext": "Real, needs context",
+    "manipulated": "Manipulated or synthetic"
+  },
+  "Profile": {
+    "track": "Professional Evidence Analyst",
+    "name": "Digital Media Verification Specialist",
+    "summary": "Progress measured through analytical reasoning: evidence evaluation, context correction, and responsible information sharing practices.",
+    "points": "Achievement Points",
+    "badgesEarned": "Badges Earned",
+    "reports": "Verification Reports",
+    "earnedBadges": "Professional Certifications",
+    "recentReports": "Recent Analysis Reports",
+    "reviewed": "Reviewed with expert facilitator feedback",
+    "report1": "Historical weather image misused for current event",
+    "report2": "AI-generated political announcement analysis",
+    "report3": "Educational policy rumor verification from forwarded message",
+    "badges": [
+      {
+        "title": "Source Tracer",
+        "body": "Finds the earliest available source before judging a claim.",
+        "earned": true
+      },
+      {
+        "title": "Context Builder",
+        "body": "Separates what happened from when, where, and why it happened.",
+        "earned": true
+      },
+      {
+        "title": "AI Signal Reader",
+        "body": "Recognizes visual and sourcing clues that may indicate synthetic media.",
+        "earned": true
+      },
+      {
+        "title": "Civic Listener",
+        "body": "Compares perspectives without turning disagreement into a personal attack.",
+        "earned": false
+      },
+      {
+        "title": "Careful Sharer",
+        "body": "Writes a responsible recommendation before forwarding public information.",
+        "earned": false
+      }
+    ]
+  }
+}

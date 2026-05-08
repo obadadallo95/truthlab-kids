@@ -1,0 +1,28 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#071311"/>
+  <rect x="70" y="70" width="1060" height="660" rx="34" fill="#0B1715" stroke="#2DD4BF" stroke-opacity=".28"/>
+  <path d="M120 180H1080M120 300H1080M120 420H1080M120 540H1080M240 120V680M420 120V680M600 120V680M780 120V680M960 120V680" stroke="white" stroke-opacity=".07"/>
+  <circle cx="300" cy="250" r="72" fill="#2DD4BF" fill-opacity=".16" stroke="#5EEAD4" stroke-width="4"/>
+  <circle cx="735" cy="360" r="102" fill="#FACC15" fill-opacity=".13" stroke="#FACC15" stroke-width="4"/>
+  <circle cx="900" cy="545" r="66" fill="#6366F1" fill-opacity=".16" stroke="#A5B4FC" stroke-width="4"/>
+  <path d="M300 250C430 184 559 240 735 360C808 410 845 476 900 545" stroke="#FACC15" stroke-width="9" stroke-linecap="round"/>
+  <path d="M300 250C482 430 612 495 900 545" stroke="#5EEAD4" stroke-width="4" stroke-opacity=".75" stroke-linecap="round"/>
+  <rect x="180" y="585" width="330" height="58" rx="12" fill="white" fill-opacity=".08"/>
+  <rect x="180" y="585" width="172" height="58" rx="12" fill="#2DD4BF" fill-opacity=".24"/>
+  <rect x="650" y="160" width="300" height="70" rx="14" fill="white" fill-opacity=".09"/>
+  <rect x="650" y="160" width="210" height="70" rx="14" fill="#FACC15" fill-opacity=".18"/>
+  <g filter="url(#glow)">
+    <circle cx="300" cy="250" r="11" fill="white"/>
+    <circle cx="735" cy="360" r="13" fill="white"/>
+    <circle cx="900" cy="545" r="10" fill="white"/>
+  </g>
+  <defs>
+    <filter id="glow" x="250" y="200" width="700" height="395" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+</svg>
