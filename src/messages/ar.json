@@ -1873,6 +1873,8 @@
     "learningPath": "مسار التعلم",
     "truthLab": "مختبر الحقائق",
     "spreadSimulator": "محاكي الانتشار",
-    "goBack": "العودة للخلف"
+    "goBack": "العودة للخلف",
+    "searchPlaceholder": "ابحث عن ما تبحث عنه...",
+    "tryAgain": "حاول مرة أخرى"
   }
 }

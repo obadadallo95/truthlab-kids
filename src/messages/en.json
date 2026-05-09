@@ -1827,6 +1827,9 @@
     "learningPath": "Learning Path",
     "truthLab": "Truth Lab",
     "spreadSimulator": "Spread Simulator",
-    "goBack": "Go Back"
+    "goBack": "Go Back",
+    "searchPlaceholder": "Search for what you're looking for...",
+    "tryAgain": "Try Again",
+    "exploreContent": "Explore Content"
   }
 }

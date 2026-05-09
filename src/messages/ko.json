@@ -1829,6 +1829,9 @@
     "learningPath": "학습 경로",
     "truthLab": "트루스 랩",
     "spreadSimulator": "확산 시뮬레이터",
-    "goBack": "뒤로 가기"
+    "goBack": "뒤로 가기",
+    "searchPlaceholder": "찾고 계신 것을 도와드릴까요?",
+    "tryAgain": "다시 시도",
+    "exploreContent": "콘텐츠 탐색"
   }
 }

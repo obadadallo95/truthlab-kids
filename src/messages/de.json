@@ -1829,6 +1829,9 @@
     "learningPath": "Lernpfad",
     "truthLab": "Wahrheitslabor",
     "spreadSimulator": "Verbreitungs-Simulator",
-    "goBack": "Zurück"
+    "goBack": "Zurück",
+    "searchPlaceholder": "Suchen Sie nach dem, was Sie suchen...",
+    "tryAgain": "Erneut versuchen",
+    "exploreContent": "Inhalte erkunden"
   }
 }
