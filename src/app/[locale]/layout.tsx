@@ -7,6 +7,9 @@ import { notFound } from 'next/navigation';
 import TopBar from '@/components/layout/TopBar';
 import "../globals.css";
 
+// Import custom 404 page for all routes
+import Custom404 from './404-custom';
+
 const lexend = Lexend({
   variable: "--font-lexend",
   subsets: ["latin"],
@@ -49,7 +52,7 @@ export default async function RootLayout({
   const { locale } = await params;
   
   if (!(routing.locales as readonly string[]).includes(locale)) {
-    notFound();
+    return <Custom404 />;
   }
 
   setRequestLocale(locale);
