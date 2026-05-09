@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, use } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import TruthLabLogo from '@/components/brand/TruthLabLogo';
@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 import { Home, ArrowLeft, Search, RefreshCw, Sparkles, Zap, Compass } from 'lucide-react';
 
 export default function Custom404({ params }: { params: Promise<{ locale: string }> }) {
-  const { locale } = params;
+  const { locale } = use(params);
   const [isClient, setIsClient] = useState(false);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [particles, setParticles] = useState<Array<{ id: number; x: number; y: number; size: number; delay: number }>>([]);
