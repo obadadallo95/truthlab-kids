@@ -52,7 +52,7 @@ export default async function RootLayout({
   const { locale } = await params;
   
   if (!(routing.locales as readonly string[]).includes(locale)) {
-    return <Custom404 />;
+    return <Custom404 params={params} />;
   }
 
   setRequestLocale(locale);
