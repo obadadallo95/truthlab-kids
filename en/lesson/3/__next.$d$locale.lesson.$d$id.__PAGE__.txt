@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[41214,["/truthlab-kids/_next/static/chunks/0.hos3dy5750~.js","/truthlab-kids/_next/static/chunks/0xt0vdtmw0cqp.js","/truthlab-kids/_next/static/chunks/09n~9.h4~wc0s.js","/truthlab-kids/_next/static/chunks/11p1qmstwqvmb.js"],"default"]
+3:I[97367,["/truthlab-kids/_next/static/chunks/01xlw8hd842-c.js","/truthlab-kids/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"id":"3"}],[["$","script","script-0",{"src":"/truthlab-kids/_next/static/chunks/11p1qmstwqvmb.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"8giD-cWnmnzQuejLjB16y"}
+5:null

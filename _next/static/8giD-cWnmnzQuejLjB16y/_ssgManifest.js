@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002F[locale]","\u002F[locale]\u002Fage-selection","\u002F[locale]\u002Ffacilitator","\u002F[locale]\u002Flesson\u002F[id]","\u002F[locale]\u002Fpath","\u002F[locale]\u002Fprofile","\u002F[locale]\u002Fspread-simulator","\u002F[locale]\u002Ftruth-lab","\u002F[locale]\u002Fverification-toolkit"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

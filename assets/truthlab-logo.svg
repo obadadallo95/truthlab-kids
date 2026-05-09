@@ -1,0 +1,30 @@
+<svg width="360" height="108" viewBox="0 0 360 108" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="a" x1="15" x2="93" y1="12" y2="96" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5AFFD5"/>
+      <stop offset="0.46" stop-color="#3B7DD8"/>
+      <stop offset="1" stop-color="#C94040"/>
+    </linearGradient>
+    <radialGradient id="b" cx="0" cy="0" r="1" gradientTransform="matrix(0 36 -43.5 0 52.5 52.5)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E8E4DC" stop-opacity="0.92"/>
+      <stop offset="0.5" stop-color="#5AFFD5" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#0A0B0E" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="c" x1="30" x2="78" y1="30" y2="78" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E8E4DC"/>
+      <stop offset="1" stop-color="#5AFFD5"/>
+    </linearGradient>
+  </defs>
+  <rect width="360" height="108" rx="20" fill="#0A0B0E"/>
+  <path d="M54 8.25c20.4 0 37.05 8.1 44.55 13.8v47.25C91.8 85.5 74.7 99.75 54 99.75S16.2 85.5 9.45 69.3V22.05C16.95 16.35 33.6 8.25 54 8.25Z" fill="#080B10" stroke="url(#a)" stroke-width="3.9" stroke-linejoin="round"/>
+  <path d="M21 30.3c9.15-6 20.25-9.3 33-9.3s23.85 3.3 33 9.3M21 71.7c9.15 6 20.25 9.3 33 9.3s23.85-3.3 33-9.3" stroke="#E8E4DC" stroke-opacity="0.16" stroke-width="2.7" stroke-linecap="round"/>
+  <path d="M20.7 54S33.45 34.05 54 34.05 87.3 54 87.3 54 74.55 73.95 54 73.95 20.7 54 20.7 54Z" fill="url(#b)" stroke="#5AFFD5" stroke-opacity="0.72" stroke-width="3.3"/>
+  <circle cx="54" cy="54" r="12.6" fill="#0A0B0E" stroke="url(#c)" stroke-width="3.9"/>
+  <path d="M44.7 44.25h18.6M54 44.25v24.15" stroke="#E8E4DC" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M29.1 37.95 19.2 28.05M78.9 70.05l9.9 9.9" stroke="#D4853A" stroke-width="3.6" stroke-linecap="round"/>
+  <path d="M78.6 38.1 88.5 28.2M29.4 69.9l-9.9 9.9" stroke="#3B7DD8" stroke-width="3.6" stroke-linecap="round"/>
+  <circle cx="54" cy="54" r="3.45" fill="#5AFFD5"/>
+  <text x="126" y="51" fill="#E8E4DC" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="900" letter-spacing="-0.055em">TruthLab</text>
+  <path d="M128 70h24" stroke="#D4853A" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="162" y="74" fill="#5AFFD5" fill-opacity="0.86" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="900" letter-spacing="0.32em">KIDS</text>
+</svg>

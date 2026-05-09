@@ -1,0 +1,27 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="675" fill="#071311"/>
+  <rect x="80" y="70" width="1040" height="535" rx="34" fill="#101820" stroke="white" stroke-opacity=".12"/>
+  <g opacity=".38">
+    <path d="M120 170H1080M120 270H1080M120 370H1080M120 470H1080M240 110V560M400 110V560M560 110V560M720 110V560M880 110V560" stroke="white" stroke-opacity=".16"/>
+  </g>
+  <rect id="scan" x="130" y="135" width="940" height="26" rx="13" fill="#5EEAD4" fill-opacity=".55">
+    <animate attributeName="y" values="135;500;135" dur="4.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".18;.72;.18" dur="4.6s" repeatCount="indefinite"/>
+  </rect>
+  <circle cx="310" cy="280" r="74" fill="#2DD4BF" fill-opacity=".2" stroke="#5EEAD4" stroke-width="5">
+    <animate attributeName="r" values="60;84;60" dur="3.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="600" cy="337" r="94" fill="#FACC15" fill-opacity=".16" stroke="#FACC15" stroke-width="5">
+    <animate attributeName="r" values="84;112;84" dur="4.3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="870" cy="395" r="68" fill="#6366F1" fill-opacity=".18" stroke="#A5B4FC" stroke-width="5">
+    <animate attributeName="r" values="52;78;52" dur="3.4s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M310 280C424 220 515 260 600 337C702 430 772 428 870 395" stroke="#FACC15" stroke-width="9" stroke-linecap="round" stroke-dasharray="22 18">
+    <animate attributeName="stroke-dashoffset" values="0;-80" dur="2.2s" repeatCount="indefinite"/>
+  </path>
+  <rect x="215" y="510" width="770" height="48" rx="16" fill="white" fill-opacity=".1"/>
+  <rect x="215" y="510" width="280" height="48" rx="16" fill="#5EEAD4" fill-opacity=".35">
+    <animate attributeName="width" values="180;620;280" dur="5s" repeatCount="indefinite"/>
+  </rect>
+</svg>

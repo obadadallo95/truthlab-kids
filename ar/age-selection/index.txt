@@ -1,0 +1,639 @@
+1:"$Sreact.fragment"
+2:I[39756,["/truthlab-kids/_next/static/chunks/01xlw8hd842-c.js","/truthlab-kids/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+3:I[37457,["/truthlab-kids/_next/static/chunks/01xlw8hd842-c.js","/truthlab-kids/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+b:I[68027,[],"default",1]
+:HL["/truthlab-kids/_next/static/chunks/0a~~klksd2o1s.css","style"]
+:HL["/truthlab-kids/_next/static/chunks/01q-pyaso4g26.css","style"]
+:HL["/truthlab-kids/_next/static/chunks/12z1.l4ylr153.css","style"]
+:HL["/truthlab-kids/_next/static/chunks/0o.h7_xo2leg7.css","style"]
+:HL["/truthlab-kids/_next/static/media/3fd1b3eda9c5392f-s.p.0p-f7yd42daun.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/truthlab-kids/_next/static/media/797e433ab948586e-s.p.0.q-h669a_dqa.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/truthlab-kids/_next/static/media/ca31d6821328a4e9-s.p.0w8w9q576xw20.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/truthlab-kids/_next/static/media/fca78c2ee6cec166-s.p.0kizb7t94.kuf.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+4:T288a,
+            .tl404 {
+              --void: #05070b;
+              --panel: rgba(8, 16, 24, 0.82);
+              --line: rgba(232, 228, 220, 0.14);
+              --text: #e8e4dc;
+              --muted: #a7b0c0;
+              --cyan: #5affd5;
+              --blue: #3b7dd8;
+              --amber: #d4853a;
+              --red: #c94040;
+              min-height: 100vh;
+              margin: 0;
+              color: var(--text);
+              background:
+                radial-gradient(circle at 20% 18%, rgba(90, 255, 213, 0.14), transparent 32%),
+                radial-gradient(circle at 82% 12%, rgba(59, 125, 216, 0.18), transparent 30%),
+                linear-gradient(135deg, #05070b 0%, #101722 52%, #05070b 100%);
+              font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+              overflow-x: hidden;
+            }
+            .tl404 * { box-sizing: border-box; }
+            .tl404::before {
+              content: "";
+              position: fixed;
+              inset: 0;
+              pointer-events: none;
+              opacity: 0.18;
+              background-image:
+                linear-gradient(rgba(232,228,220,0.14) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(232,228,220,0.14) 1px, transparent 1px);
+              background-size: 44px 44px;
+            }
+            .tl404-wrap {
+              position: relative;
+              z-index: 1;
+              width: min(1180px, calc(100% - 32px));
+              min-height: 100vh;
+              margin: 0 auto;
+              display: grid;
+              grid-template-columns: 1fr 0.9fr;
+              gap: 56px;
+              align-items: center;
+              padding: 56px 0;
+            }
+            .tl404-logo {
+              display: inline-flex;
+              align-items: center;
+              gap: 12px;
+              margin-bottom: 38px;
+            }
+            .tl404-mark {
+              width: 52px;
+              height: 52px;
+              border-radius: 16px;
+              display: grid;
+              place-items: center;
+              background: #080b10;
+              border: 1px solid rgba(90,255,213,0.35);
+              box-shadow: 0 18px 40px rgba(90,255,213,0.16);
+            }
+            .tl404-brand strong {
+              display: block;
+              font-size: 22px;
+              letter-spacing: -0.04em;
+              line-height: 1;
+            }
+            .tl404-brand span {
+              display: block;
+              margin-top: 5px;
+              color: rgba(90,255,213,0.86);
+              font-size: 10px;
+              font-weight: 900;
+              letter-spacing: 0.28em;
+            }
+            .tl404-kicker {
+              display: inline-flex;
+              align-items: center;
+              gap: 10px;
+              border: 1px solid rgba(90,255,213,0.24);
+              background: rgba(90,255,213,0.08);
+              color: #bffef0;
+              border-radius: 999px;
+              padding: 10px 14px;
+              font-size: 12px;
+              font-weight: 900;
+              letter-spacing: 0.18em;
+              text-transform: uppercase;
+            }
+            .tl404 h1 {
+              margin: 30px 0 0;
+              max-width: 760px;
+              color: #fff;
+              font-size: clamp(48px, 7vw, 86px);
+              line-height: 0.95;
+              letter-spacing: -0.06em;
+            }
+            .tl404-copy {
+              max-width: 660px;
+              margin: 26px 0 0;
+              color: var(--muted);
+              font-size: 20px;
+              line-height: 1.7;
+            }
+            .tl404-actions {
+              display: flex;
+              flex-wrap: wrap;
+              gap: 14px;
+              margin-top: 36px;
+            }
+            .tl404 a {
+              color: inherit;
+              text-decoration: none;
+            }
+            .tl404-primary,
+            .tl404-secondary {
+              display: inline-flex;
+              min-height: 54px;
+              align-items: center;
+              justify-content: center;
+              border-radius: 10px;
+              padding: 0 24px;
+              font-weight: 900;
+            }
+            .tl404-primary {
+              color: #031014;
+              background: var(--cyan);
+              box-shadow: 0 18px 44px rgba(90,255,213,0.22);
+            }
+            .tl404-secondary {
+              color: #fff;
+              border: 1px solid rgba(255,255,255,0.14);
+              background: rgba(255,255,255,0.08);
+            }
+            .tl404-shortcuts {
+              display: flex;
+              flex-wrap: wrap;
+              gap: 10px;
+              margin-top: 26px;
+            }
+            .tl404-shortcuts a {
+              border: 1px solid rgba(255,255,255,0.1);
+              border-radius: 999px;
+              background: rgba(255,255,255,0.055);
+              color: #cbd5e1;
+              padding: 9px 14px;
+              font-size: 14px;
+            }
+            .tl404-card {
+              position: relative;
+              border: 1px solid rgba(255,255,255,0.12);
+              border-radius: 22px;
+              background: var(--panel);
+              box-shadow: 0 30px 80px rgba(0,0,0,0.45);
+              backdrop-filter: blur(18px);
+              overflow: hidden;
+            }
+            .tl404-card::before {
+              content: "";
+              position: absolute;
+              inset: -80px;
+              background: radial-gradient(circle, rgba(90,255,213,0.14), transparent 62%);
+              pointer-events: none;
+            }
+            .tl404-card-head {
+              position: relative;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              border-bottom: 1px solid rgba(255,255,255,0.1);
+              padding: 18px 20px;
+              color: #cbd5e1;
+              font-size: 13px;
+              font-weight: 900;
+              letter-spacing: 0.14em;
+            }
+            .tl404-pill {
+              border: 1px solid rgba(201,64,64,0.26);
+              border-radius: 999px;
+              background: rgba(201,64,64,0.12);
+              color: #fecaca;
+              padding: 6px 10px;
+              font-size: 10px;
+              text-transform: uppercase;
+            }
+            .tl404-radar {
+              position: relative;
+              margin: 26px;
+              aspect-ratio: 1;
+              border: 1px solid rgba(90,255,213,0.16);
+              border-radius: 16px;
+              background: #081018;
+              overflow: hidden;
+            }
+            .tl404-radar::before {
+              content: "";
+              position: absolute;
+              inset: 0;
+              opacity: 0.32;
+              background-image:
+                linear-gradient(rgba(90,255,213,0.24) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(90,255,213,0.24) 1px, transparent 1px);
+              background-size: 28px 28px;
+            }
+            .tl404-ring,
+            .tl404-ring2 {
+              position: absolute;
+              inset: 20%;
+              border: 1px solid rgba(90,255,213,0.28);
+              border-radius: 999px;
+            }
+            .tl404-ring2 {
+              inset: 32%;
+              border-color: rgba(212,133,58,0.34);
+            }
+            .tl404-num {
+              position: absolute;
+              left: 50%;
+              top: 50%;
+              transform: translate(-50%, -50%);
+              width: 108px;
+              height: 108px;
+              display: grid;
+              place-items: center;
+              border: 1px solid rgba(212,133,58,0.45);
+              border-radius: 999px;
+              background: rgba(212,133,58,0.12);
+              color: #fde68a;
+              font-size: 40px;
+              font-weight: 1000;
+            }
+            .tl404-dot {
+              position: absolute;
+              width: 10px;
+              height: 10px;
+              border-radius: 999px;
+              box-shadow: 0 0 22px currentColor;
+            }
+            .tl404-dot.a { left: 18%; top: 24%; color: var(--cyan); background: var(--cyan); }
+            .tl404-dot.b { right: 20%; top: 34%; color: var(--blue); background: var(--blue); }
+            .tl404-dot.c { left: 33%; bottom: 22%; color: var(--red); background: var(--red); }
+            .tl404-status {
+              position: absolute;
+              left: 18px;
+              right: 18px;
+              bottom: 18px;
+              border: 1px solid rgba(255,255,255,0.1);
+              border-radius: 12px;
+              background: rgba(0,0,0,0.38);
+              padding: 14px;
+              backdrop-filter: blur(10px);
+            }
+            .tl404-status strong {
+              display: block;
+              color: #fde68a;
+              font-size: 12px;
+              letter-spacing: 0.14em;
+              text-transform: uppercase;
+            }
+            .tl404-bar {
+              height: 8px;
+              margin-top: 10px;
+              border-radius: 999px;
+              overflow: hidden;
+              background: rgba(255,255,255,0.1);
+            }
+            .tl404-bar span {
+              display: block;
+              width: 18%;
+              height: 100%;
+              border-radius: inherit;
+              background: var(--red);
+            }
+            .tl404-meta {
+              display: grid;
+              gap: 10px;
+              padding: 0 26px 26px;
+              color: #cbd5e1;
+              font-size: 14px;
+            }
+            .tl404-row {
+              display: flex;
+              justify-content: space-between;
+              gap: 18px;
+              border: 1px solid rgba(255,255,255,0.1);
+              border-radius: 10px;
+              background: rgba(255,255,255,0.04);
+              padding: 13px 14px;
+            }
+            .tl404-row code { color: #fecaca; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+            .tl404-row b { color: #bffef0; }
+            @media (max-width: 860px) {
+              .tl404-wrap {
+                grid-template-columns: 1fr;
+                gap: 32px;
+                padding: 34px 0;
+              }
+              .tl404-copy { font-size: 17px; }
+              .tl404-card { max-width: 520px; width: 100%; margin: 0 auto; }
+            }
+          0:{"P":null,"c":["","ar","age-selection",""],"q":"","i":false,"f":[[["",{"children":[["locale","ar","d",null],{"children":["age-selection",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",16]}],[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"tl404","children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$4"}}],"$L5"]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$L6",{"children":["$L7",{"children":["$L8",{},null,false,null]},null,false,"$@9"]},null,false,null]},null,false,"$@9"],"$La",false]],"m":"$undefined","G":["$b",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"8giD-cWnmnzQuejLjB16y"}
+d:I[47257,["/truthlab-kids/_next/static/chunks/01xlw8hd842-c.js","/truthlab-kids/_next/static/chunks/0d3shmwh5_nmn.js"],"ClientPageRoot"]
+e:I[23417,["/truthlab-kids/_next/static/chunks/0.hos3dy5750~.js","/truthlab-kids/_next/static/chunks/0xt0vdtmw0cqp.js","/truthlab-kids/_next/static/chunks/09n~9.h4~wc0s.js","/truthlab-kids/_next/static/chunks/0_rvlyfwjq2ic.js"],"default"]
+11:I[97367,["/truthlab-kids/_next/static/chunks/01xlw8hd842-c.js","/truthlab-kids/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+12:"$Sreact.suspense"
+15:I[97367,["/truthlab-kids/_next/static/chunks/01xlw8hd842-c.js","/truthlab-kids/_next/static/chunks/0d3shmwh5_nmn.js"],"ViewportBoundary"]
+17:I[97367,["/truthlab-kids/_next/static/chunks/01xlw8hd842-c.js","/truthlab-kids/_next/static/chunks/0d3shmwh5_nmn.js"],"MetadataBoundary"]
+5:["$","div",null,{"className":"tl404-wrap","children":[["$","section",null,{"children":[["$","div",null,{"className":"tl404-logo","children":[["$","span",null,{"className":"tl404-mark","children":["$","svg",null,{"viewBox":"0 0 72 72","width":"38","height":"38","aria-hidden":"true","children":[["$","path",null,{"d":"M36 5.5c13.6 0 24.7 5.4 29.7 9.2v31.5C61.2 57 49.8 66.5 36 66.5S10.8 57 6.3 46.2V14.7c5-3.8 16.1-9.2 29.7-9.2Z","fill":"#080B10","stroke":"#5AFFD5","strokeWidth":"2.6"}],["$","path",null,{"d":"M13.8 36s8.5-13.3 22.2-13.3S58.2 36 58.2 36 49.7 49.3 36 49.3 13.8 36 13.8 36Z","fill":"rgba(90,255,213,0.12)","stroke":"#5AFFD5","strokeWidth":"2.2"}],["$","path",null,{"d":"M29.8 29.5h12.4M36 29.5v16.1","stroke":"#E8E4DC","strokeWidth":"3","strokeLinecap":"round"}]]}]}],["$","span",null,{"className":"tl404-brand","children":[["$","strong",null,{"children":"TruthLab"}],["$","span",null,{"children":"KIDS"}]]}]]}],["$","div",null,{"className":"tl404-kicker","children":"Missing Evidence Case"}],["$","h1",null,{"children":"This page could not be found"}],["$","p",null,{"className":"tl404-copy","children":"The evidence trail does not lead to this page. Return to TruthLab Kids and keep investigating."}],["$","div",null,{"className":"tl404-actions","children":[["$","a",null,{"className":"tl404-primary","href":"/truthlab-kids/ar/","children":"العربية"}],["$","a",null,{"className":"tl404-secondary","href":"/truthlab-kids/en/","children":"English"}]]}],["$","div",null,{"className":"tl404-shortcuts","children":[["$","a",null,{"href":"/truthlab-kids/ar/path/","children":"Learning Path"}],["$","a",null,{"href":"/truthlab-kids/ar/truth-lab/","children":"Truth Lab"}],["$","a",null,{"href":"/truthlab-kids/ar/spread-simulator/","children":"Spread Simulator"}]]}]]}],["$","aside",null,{"className":"tl404-card","children":[["$","div",null,{"className":"tl404-card-head","children":[["$","span",null,{"children":"CASE FILE"}],["$","span",null,{"className":"tl404-pill","children":"unresolved"}]]}],["$","div",null,{"className":"tl404-radar","children":[["$","span",null,{"className":"tl404-ring"}],["$","span",null,{"className":"tl404-ring2"}],["$","span",null,{"className":"tl404-num","children":"404"}],["$","span",null,{"className":"tl404-dot a"}],["$","span",null,{"className":"tl404-dot b"}],["$","span",null,{"className":"tl404-dot c"}],["$","div",null,{"className":"tl404-status","children":[["$","strong",null,{"children":"route confidence: 0%"}],["$","div",null,{"className":"tl404-bar","children":["$","span",null,{}]}]]}]]}],["$","div",null,{"className":"tl404-meta","children":[["$","div",null,{"className":"tl404-row","children":[["$","span",null,{"children":"Source path"}],["$","code",null,{"children":"not found"}]]}],["$","div",null,{"className":"tl404-row","children":[["$","span",null,{"children":"Recommended action"}],["$","b",null,{"children":"return →"}]]}]]}]]}]]}]
+6:["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/truthlab-kids/_next/static/chunks/0a~~klksd2o1s.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/truthlab-kids/_next/static/chunks/01q-pyaso4g26.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/truthlab-kids/_next/static/chunks/12z1.l4ylr153.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/truthlab-kids/_next/static/chunks/0o.h7_xo2leg7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/truthlab-kids/_next/static/chunks/0.hos3dy5750~.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/truthlab-kids/_next/static/chunks/0xt0vdtmw0cqp.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/truthlab-kids/_next/static/chunks/09n~9.h4~wc0s.js","async":true,"nonce":"$undefined"}]],"$Lc"]}]
+7:["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+8:["$","$1","c",{"children":[["$","$Ld",null,{"Component":"$e","serverProvidedParams":{"searchParams":{},"params":{"locale":"ar"},"promises":["$@f","$@10"]}}],[["$","script","script-0",{"src":"/truthlab-kids/_next/static/chunks/0_rvlyfwjq2ic.js","async":true,"nonce":"$undefined"}]],["$","$L11",null,{"children":["$","$12",null,{"name":"Next.MetadataOutlet","children":"$@13"}]}]]}]
+14:[]
+9:"$W14"
+a:["$","$1","h",{"children":[null,["$","$L15",null,{"children":"$L16"}],["$","div",null,{"hidden":true,"children":["$","$L17",null,{"children":["$","$12",null,{"name":"Next.Metadata","children":"$L18"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+f:{}
+10:"$8:props:children:0:props:serverProvidedParams:params"
+c:["$","html",null,{"lang":"ar","dir":"rtl","className":"lexend_acb3b3e3-module__Xwpkda__variable noto_sans_arabic_2b6a365d-module__IR1LQW__variable noto_sans_kr_b02583bf-module__dG8sLa__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-[var(--surface)] text-[var(--on-surface)]","children":"$L19"}]}]
+16:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1a:I[75696,["/truthlab-kids/_next/static/chunks/0.hos3dy5750~.js","/truthlab-kids/_next/static/chunks/0xt0vdtmw0cqp.js","/truthlab-kids/_next/static/chunks/09n~9.h4~wc0s.js"],"default"]
+19:["$","$L1a",null,{"formats":"$undefined","locale":"ar","messages":{"Common":{"title":"مختبر الحقائق","startLearning":"ابدأ التعلم","facilitatorInfo":"للميسرين والمعلمين","platformImpactTitle":"تأثير المنصة","platformImpactSubtitle":"نتائج قابلة للقياس في تعليم تربية الإعلام","featuresTitle":"ميزات التعلم المتقدمة","featuresSubtitle":"أدوات متطورة لتعليم تربية الإعلام الحديث","stats":{"studentsEngaged":"10 آلاف+","studentsEngagedLabel":"الطلاب المشاركون","accuracyImprovement":"95%","accuracyImprovementLabel":"تحسن الدقة","interactiveModules":"50+","interactiveModulesLabel":"الوحدات التفاعلية","partnerSchools":"12","partnerSchoolsLabel":"المدارس الشريكة"},"features":{"aiDetection":"نظام كشف الذكاء الاصطناعي","aiDetectionDesc":"خوارزميات الذكاء الاصطناعي المتقدمة تحدد وتحلل أنماط المعلومات المضللة، وتقدم ملاحظات فورية حول أصالة المحتوى.","aiDetectionStats":"دقة 98%","cognitiveTraining":"التدريب المعرفي","cognitiveTrainingDesc":"تطور وحدات التعلم القائمة على الأدلة مهارات التفكير النقدي من خلال السيناريوهات التفاعلية ودراسات الحالات الواقعية.","cognitiveTrainingStats":"تعلم أسرع 3 مرات","socialImpact":"تحليل التأثير الاجتماعي","socialImpactDesc":"أدوات شاملة لفهم كيفية انتشار المعلومات عبر الشبكات الاجتماعية وعواقبها في العالم الحقيقي.","socialImpactStats":"مراقبة في الوقت الفعلي"},"technology":{"title":"تقنية على مستوى المؤسسات","description":"مبني على تقنية متطورة تشمل التعلم الآلي ومعالجة اللغة الطبيعية والتحليلات المتقدمة لتوفير منصة تربية الإعلام الأكثر فعالية المتاحة.","machineLearning":{"title":"التعلم الآلي","description":"خوارزميات الذكاء الاصطناعي المتقدمة لتحليل المحتوى"},"analytics":{"title":"لوحة التحليلات","description":"رؤى فورية وتتبع التقدم"},"security":{"title":"الخصوصية والأمان","description":"حماية البيانات على مستوى المؤسسات"}},"trust":{"title":"موثوق من قبل المؤسسات الرائدة","subtitle":"تحقيق تأثير عبر قطاعات التعليم","award":{"title":"جائزة التميز التعليمي","description":"معترف به للابتكار في تعليم تربية الإعلام الرقمي"},"growth":{"title":"معدل نمو 300%","description":"تبني سريع عبر المدارس والمؤسسات التعليمية"},"students":{"title":"10 آلاف+ طالب","description":"المتعلمون النشطون الذين يستفيدون من منصتنا"}},"cta":{"title":"هل أنت مستعد لتحويل تعليم الإعلام؟","description":"انضم إلى المؤسسات الرائدة في إعداد الجيل القادم للعصر الرقمي مع منصة تربية الإعلام الشاملة لدينا.","startTrial":"ابدأ التجربة المجانية","scheduleDemo":"احجز عرضاً توضيحياً"},"AgeSelection":{"title":"اختر مسار عمرك","subtitle":"اختر مساراً يناسب عمرك وابدأ رحلة تربية الإعلام","age6to9":"المستكشفون الصغار (6-9)","age6to9Desc":"مقدمة بسيطة لمحو الأمية الإعلامية من خلال أنشطة تفاعلية ومحتوى بصري مناسب للأطفال","age10to13":"المحققون الشباب (10-13)","age10to13Desc":"تطوير مهارات التفكير النقدي من خلال تحليل المصادر والتحقق من الادعاءات في العالم الرقمي","age14to17":"الباحثون المتقدمون (14-17)","age14to17Desc":"استكشاف المفاهيم المتقدمة للذكاء الاصطناعي وتحليل الخوارزميات والمعايير القضائية","eyebrow":"اختيار العمر","foundation":"ابدأ الأساس","explorer":"ابدأ الاستكشاف","analyst":"ابدأ التحليل","selectTrack":"اختر مسارك","continue":"متابعة","fundamentalConcepts":"المفاهيم الأساسية","interactiveScenarios":"سيناريوهات تفاعلية","visualLearning":"التعلم البصري","sourceInvestigation":"التحقيق في المصادر","contextAnalysis":"تحليل السياق","claimVerification":"التحقق من الادعاءات","advancedAIConcepts":"مفاهيم الذكاء الاصطناعي المتقدمة","algorithmAnalysis":"تحليل الخوارزميات","evidenceStandards":"معايير الأدلة","progressiveLearningPath":"مسار التعلم التقدمي","progressiveLearningPathDesc":"كل فئة عمرية تتبع منهجية مصممة بعناية تبني على المعرفة السابقة مع إدخال تحديات ومفاهيم مناسبة للعمر.","foundationStage":"مرحلة التأسيس","foundationStageDesc":"المفاهيم الأساسية ومحو الأمية البصرية","explorationStage":"مرحلة الاستكشاف","explorationStageDesc":"التفكير النقدي والتحليل","advancedStage":"المرحلة المتقدمة","advancedStageDesc":"الأنظمة المعقدة ومحو الأمية في الذكاء الاصطناعي"},"LearningPath":{"title":"مسار التعلم","summary":"اختر مساراً يناسب عمرك وابدأ رحلة تربية الإعلام","back":"العودة للاختيار","start":"ابدأ التعلم","modulesCompleted":"الوحدات المكتملة","learningTime":"وقت التعلم","averageScore":"متوسط الدرجة","currentLevel":"المستوى 3","currentLevelLabel":"المستوى الحالي","learningModules":"وحدات التعلم","learningModulesSubtitle":"التقدم عبر تجارب التعلم المنظمة","achievementsTitle":"الإنجازات","achievementsSubtitle":"تتبع معالم التعلم الخاصة بك","firstStepsTitle":"الخطوات الأولى","firstStepsDesc":"أكمل وحدتك الأولى","criticalThinkerTitle":"المفكر النقدي","criticalThinkerDesc":"أكمل 3 وحدات","mediaExpertTitle":"خبير الإعلام","mediaExpertDesc":"أكمل جميع الوحدات","truthDefenderTitle":"مدافع الحقيقة","truthDefenderDesc":"حقق دقة 90%"},"SpreadSimulator":{"title":"محاكي الانتشار","subtitle":"شاهد كيف تنتشر المعلومات عبر الشبكات الاجتماعية وتفهم ديناميكيات المحتوى الفيروسي في الوقت الفعلي","start":"بدء المحاكاة","pause":"إيقاف مؤقت","reset":"إعادة تعيين","download":"تحميل البيانات","back":"العودة للمسار","eyebrow":"محاكاة تفاعلية","simulationTitle":"ديناميكيات الشبكة","simulationSubtitle":"شاهد كيف تنتشر المعلومات في الوقت الفعلي","selectScenario":"اختيار السيناريو","networkVisualization":"تصور الشبكة","monitorDescription":"راقب كيف تنتشر المعلومات عبر منصات مختلفة وافهم ديناميكيات المحتوى الفيروسي في الوقت الفعلي.","realTime":"تحليل في الوقت الفعلي","networkEffect":"تأثير الشبكة","viralContent":"المحتوى الفيروسي","platformStats":"تحليلات المنصة","engagement":"معدل المشاركة","reach":"الوصول الإجمالي","speed":"سرعة الانتشار","influence":"درجة التأثير","participants":"المشاركون النشطون","shares":"المشاركات الإجمالية","learningObjectives":"أهداف التعلم","learningSubtitle":"فهم ديناميكيات المعلومات في العصر الرقمي","criticalAnalysis":"التحليل النقدي","criticalAnalysisDesc":"تعلم تحديد الأنماط في انتشار المعلومات والتعرف على تكتيكات التلاعب.","criticalAnalysisStats":"مهارة أساسية","digitalDefense":"الدفاع الرقمي","digitalDefenseDesc":"افهم كيف تحمي نفسك والآخرين من حملات المعلومات المضللة.","digitalDefenseStats":"تطبيق عملي","strategicThinking":"التفكير الاستراتيجي","strategicThinkingDesc":"طور استراتيجيات لمواجهة المعلومات المزودة وتعزيز المحتوى الدقيق.","strategicThinkingStats":"تدريب متقدم","scenarios":{"viralNews":{"title":"مقال إخباري فيروسي","description":"قصة إخبارية عاجلة تنتشر بسرعة عبر الشبكات الاجتماعية"},"celebrityGossip":{"title":"شائرات المشاهير","description":"محتوى ترفيهي بإمكانية مشاركة عالية"},"politicalMeme":{"title":"ميم سياسي","description":"محتوى سياسي بخصائص استقطابية"},"healthInformation":{"title":"معلومات صحية","description":"نصائح طبية ومحتوى متعلق بالصحة"}}},"enterpriseFeatures":{"title":"ميزات المؤسسات","description":"أدوات متقدمة مصممة للمؤسسات التعليمية التي تتطلب حلول تربية إعلام شاملة مع تحليلات قوية وقدرات تخصيص.","multiClassManagement":{"title":"إدارة الفصول المتعددة","description":"التعامل مع الفصول الدراسية ومجموعات الطلاب المتعددة"},"advancedAnalytics":{"title":"التحليلات المتقدمة","description":"رؤى مفصلة في نتائج التعلم"},"certificationSupport":{"title":"دعم الشهادات","description":"تتبع والتحقق من إنجازات الطلاب"}},"teachingResources":{"title":"مصادر التعليم","subtitle":"أدوات شاملة لتربية الإعلام الفعالة","lessonPlans":{"title":"خطط الدروس","description":"منهج منظم بمحتوى مناسب للعمر وأهداف تعليمية.","stats":"جاهز للاستخدام"},"assessmentTools":{"title":"أدوات التقييم","description":"تتبع تقدم الطلاب وتقييم الفهم من خلال التقييمات التفاعلية.","stats":"تحليلات فورية"},"customizationOptions":{"title":"خيارات التخصيص","description":"تكيف المحتوى مع احتياجات الفصل وأهداف التعلم المحددة.","stats":"إطار مرن"}},"heroEyebrow":"تربية إعلامية مدنية لعصر الذكاء الاصطناعي","heroHeadline":"درّب اليافعين على التحقيق قبل التصديق.","heroBody":"يحوّل TruthLab Kids الديمقراطية والمعلومات المضللة والوسائط المصنوعة بالذكاء الاصطناعي إلى تدريب عملي على التحقيق: مقارنة أدلة، أسئلة أفضل، وقرارات مشاركة مسؤولة.","caseEyebrow":"لوحة حالة مباشرة","caseTitle":"حالة صفية مباشرة","viralClaim":"فيديو يقول إن مجلس المدينة ألغى كل برامج الشباب. فيه موسيقى درامية، بلا رابط مصدر، وبتاريخ مقصوص.","evidenceMode":"وضع الأدلة","casePrompt":"يقرر الطلاب ما الذي يمكن الوثوق به، وما الذي يحتاج سياقًا، وما الذي لا يجب مشاركته بعد.","checkLabel":"خطوات التحقق","checks":["العثور على المصدر الأصلي","فحص التاريخ والمكان","فصل الادعاء عن الانفعال","البحث عن تأكيد مستقل"],"proofPoints":["مسارات حسب العمر","سيناريوهات وسائط AI","خطة ورشة جاهزة للميسّر"],"mediaEyebrow":"مرئيات مولدة للمشروع","mediaTitle":"نظام تعلّم مبني على الدليل لا على المحاضرة","mediaBody":"كل صفحة جزء من رحلة واحدة: اختيار العمر، فهم الفكرة المدنية، اختبار الادعاءات في المختبر، محاكاة الانتشار، ثم كتابة تقرير تحقق.","mediaCards":["الديمقراطية تبدأ من واقع مشترك","الذكاء الاصطناعي قد يصنع سياقًا كاذبًا مقنعًا","المشاركة المسؤولة مهارة مدنية"],"nav":[{"label":"لوحة التحكم","href":"/facilitator"},{"label":"محاكاة الانتشار","href":"/spread-simulator"},{"label":"رحلة التعلم","href":"/path"},{"label":"مختبر الحقائق","href":"/truth-lab"}],"points":"النقاط","heroTitle":"تمكين العقول الشابة في العصر الرقمي","heroSubtitle":"تعلّم التحقق والتربية الإعلامية عبر تجارب مختبرية تفاعلية.","homeCards":[{"title":"مسارات عمرية","body":"ثلاث نسخ من المهمة نفسها: 6-9، 10-13، و14-17، بلغة وسيناريوهات تناسب المتعلم."},{"title":"مختبر الحقيقة","body":"مكتبة حالات يتدرّب فيها المتعلمون على تصنيف الادعاءات ومقارنة الأدلة ورفض مشاركة المعلومات الضعيفة."},{"title":"عدة التحقق","body":"صيغة تقرير منظمة للصور والفيديوهات والمصادر والبيانات والسياق."}],"ctaTitle":"ابنِ جيلًا يتحقق قبل أن يضخّم.","ctaBody":"استخدم مسار التعلّم كورشة مدرسية، نشاط منظمة، نادي تربية إعلامية، أو وحدة تعليم مدني.","ctaAction":"ابدأ المسار"},"AgeSelection":{"title":"كم عمرك؟","subtitle":"اختر فئتك العمرية لنعرض لك المحتوى الأنسب!","age6to9":"٦ إلى ٩ سنوات","age6to9Desc":"سيناريوهات بسيطة عن العدل والشائعة ومساعدات الذكاء الاصطناعي.","age10to13":"١٠ إلى ١٣ سنة","age10to13Desc":"سلاسل مصادر، فحص سياق، وتحليل ادعاءات منتشرة.","age14to17":"١٤ إلى ١٧ سنة","age14to17Desc":"ثقة عامة، خوارزميات، وسائط اصطناعية، ومعايير الدليل.","eyebrow":"مسار يناسب العمر","foundation":"تأسيس","explorer":"استكشاف","analyst":"تحليل","selectTrack":"اختيار المسار","continue":"متابعة","fundamentalConcepts":"مفاهيم تأسيسية","interactiveScenarios":"سيناريوهات تفاعلية","visualLearning":"تعلم بصري","sourceInvestigation":"تحقيق المصادر","contextAnalysis":"تحليل السياق","claimVerification":"تحقق الادعاءات","advancedAIConcepts":"مفاهيم AI متقدمة","algorithmAnalysis":"تحليل الخوارزميات","evidenceStandards":"معايير الدليل","progressiveLearningPath":"مسار تعلم متدرج","progressiveLearningPathDesc":"انتقال من العدل والشائعات إلى التحقق العام المتقدم.","foundationStage":"مرحلة التأسيس","foundationStageDesc":"العدل والحقائق والرأي والشائعة والمشاركة المتأنية.","explorationStage":"مرحلة الاستكشاف","explorationStageDesc":"المصادر والسياق والانتشار والوسائط المولدة بالذكاء الاصطناعي.","advancedStage":"مرحلة متقدمة","advancedStageDesc":"الخوارزميات والدليل الاصطناعي وأساسيات OSINT وموجزات التحقق.","languageTitle":"اختر كيف يبدأ التحقيق","languageSubtitle":"التجربة متعددة اللغات ومصممة لتعلّم مدني جاد، وليست درسًا واحدًا يناسب الجميع.","levelTitle":"اختر المسار العمري","levelSubtitle":"كل مسار يعلّم المهارات نفسها بعمق مختلف في اللغة والأدلة واتخاذ القرار.","explorers":"محققون صغار","investigators":"محللو مصادر","scholars":"باحثون مدنيون","back":"رجوع"},"Facilitator":{"title":"دليل الميسّر للورشة","description":"تم تصميم مختبر الحقيقة للاستخدام في ورش موجهة. يحتوي كل مسار عمري على ثلاث وحدات قصيرة، وأسئلة نقاش، وحالات تحقق تساعد المتعلمين على ممارسة التفكير العام الحذر دون خطاب تخويفي.","backHome":"العودة للرئيسية","teachingResources":{"title":"مصادر التعليم","subtitle":"أدوات شاملة لتربية الإعلام الفعالة","lessonPlans":{"title":"خطط الدروس","description":"منهج منظم بمحتوى مناسب للعمر وأهداف تعليمية.","stats":"جاهز للاستخدام"},"assessmentTools":{"title":"أدوات التقييم","description":"تتبع تقدم الطلاب وتقييم الفهم من خلال التقييمات التفاعلية.","stats":"تحليلات فورية"},"customizationOptions":{"title":"خيارات التخصيص","description":"تكيف المحتوى مع احتياجات الفصل وأهداف التعلم المحددة.","stats":"إطار مرن"}},"enterpriseFeatures":{"title":"ميزات المؤسسات","description":"أدوات متقدمة مصممة للمؤسسات التعليمية التي تتطلب حلول تربية إعلام شاملة مع تحليلات قوية وقدرات تخصيص.","multiClassManagement":{"title":"إدارة الفصول المتعددة","description":"التعامل مع الفصول الدراسية ومجموعات الطلاب المتعددة"},"advancedAnalytics":{"title":"التحليلات المتقدمة","description":"رؤى مفصلة في نتائج التعلم"},"certificationSupport":{"title":"دعم الشهادات","description":"تتبع والتحقق من إنجازات الطلاب"}},"eyebrow":"دليل الميسر","exportReport":"تحميل خطة الجلسة","activeStudents":"المسارات العمرية","averageProgress":"مدة الجلسة","needsReview":"المهارة الأساسية","onTrack":"٦-٩ / ١٠-١٣ / ١٤-١٧","aiBias":"تحقق مسؤول","flagged":"مصدر، سياق، دليل AI","moduleStatus":"تدفق مقترح لورشة ٦٠ دقيقة","searchStudents":"ابحث في الأنشطة...","allModules":"كل الأنشطة","imageAnalysis":"فحص الصور","sourceInvestigation":"فحص المصدر","studentName":"النشاط","currentModule":"الوحدة","progress":"الدقائق","status":"الهدف","actions":"حركة الميسّر","review":"فتح","rows":[{"name":"سؤال افتتاحي: ما الذي يجعل شيئًا ما قابلًا للتصديق؟","module":"الديمقراطية تحتاج واقعًا مشتركًا","progress":10,"status":"نقاش"},{"name":"روتين المصدر والتاريخ والدليل","module":"كيف تنتشر المعلومات","progress":20,"status":"تدريب"},{"name":"سلّم تحقق ادعاءات الذكاء الاصطناعي","module":"التحقق في عصر الذكاء الاصطناعي","progress":25,"status":"حالة جماعية"}]},"LearningPath":{"title":"مسارك التعليمي","summary":"اختر مساراً يناسب عمرك وابدأ رحلة تربية الإعلام","back":"العودة للاختيار","start":"ابدأ التعلم","modulesCompleted":"الوحدات المكتملة","learningTime":"وقت التعلم","averageScore":"المتوسط","currentLevel":"المستوى الحالي","currentLevelLabel":"محلل مصادر","learningModules":"وحدات التعلم","learningModulesSubtitle":"اختر أي وحدة ضمن المسار العمري المحدد.","achievementsTitle":"الإنجازات","achievementsSubtitle":"مهارات تُكتسب عبر ممارسة تحقق متأنية.","firstStepsTitle":"الخطوات الأولى","firstStepsDesc":"إكمال أول وحدة مبنية على الدليل.","criticalThinkerTitle":"مفكر نقدي","criticalThinkerDesc":"مقارنة الادعاءات بالمصادر والسياق.","mediaExpertTitle":"خبير إعلامي","mediaExpertDesc":"تدرب على طرق تحقق الوسائط والذكاء الاصطناعي.","truthDefenderTitle":"مدافع عن الحقيقة","truthDefenderDesc":"بنى موجز تحقق عام ومسؤول.","module1":"الوحدة الأولى: الديمقراطية والمواطنة الرقمية","module2":"الوحدة الثانية: كيف تنتشر المعلومات","module3":"الوحدة الثالثة: التحقق والذكاء الاصطناعي","time":"15 دقيقة","truthLab":"ادخل مختبر الحقيقة","truthLabDesc":"تدرب على ما تعلمته من خلال فحص بعض الأمثلة!","eyebrow":"استوديو التعلم","ageGroupLabel":"الفئة العمرية","practiceEyebrow":"ساحة التدريب","module1Desc":"افهم لماذا تحتاج الحياة الديمقراطية إلى حقائق مشتركة وقواعد عادلة ومصادر قابلة للمساءلة.","module2Desc":"استكشف كيف تسافر الادعاءات عبر الناس والمنصات والعاطفة وأنظمة التوصية.","module3Desc":"تدرّب على الحكم الحذر في عصر الصور المولدة وروبوتات المحادثة والتزييف العميق والأدلة الناقصة.","ready":"جاهزة","inProgress":"مسار ورشة","locked":"توسّع","pathProgress":"تقدم المسار","completion":"إكمال","continueLearning":"متابعة التعلم","completePrevious":"إكمال الوحدة السابقة","moduleFallbackDesc":"وحدة تحقيق عملية تتضمن فحص أدلة وأسئلة نقاش ومهمة قرار قصيرة.","modulesAvailable":"وحدات متاحة","moduleLabel":"الوحدة"},"ProfessionalPath":{"title":"رحلتك التعليمية","subtitle":"اختر مسارك العمري وتقدم عبر تجارب تعلمية منظمة","back":"العودة للاختيار","continue":"متابعة","modules":[{"id":1,"title":"المهارات الأساسية","description":"إتقان أساسيات المواطنة الرقمية وتربية الإعلام","duration":"45 دقيقة","completed":true,"locked":false,"progress":100,"lessons":5,"icon":"brain"},{"id":2,"title":"تحقيق المصادر","description":"تعلم تقنيات متقدمة للتحقق من مصادر المعلومات","duration":"45 دقيقة","completed":false,"locked":false,"progress":75,"lessons":5,"icon":"shield"},{"id":3,"title":"الذكاء الاصطناعي والوسائط الاصطناعية","description":"فهم وتحديد المحتوى الذي تم إنشاؤه بواسطة الذكاء الاصطناعي والتزييف العميق","duration":"45 دقيقة","completed":false,"locked":false,"progress":30,"lessons":5,"icon":"network"},{"id":4,"title":"التحليل المتقدم","description":"تطبيق التفكير النقدي على أنظمة المعلومات المعقدة","duration":"45 دقيقة","completed":false,"locked":true,"progress":0,"lessons":5,"icon":"users"}],"achievements":[{"id":1,"title":"الخطوات الأولى","description":"أكمل وحدتك الأولى","icon":"star","unlocked":true},{"id":2,"title":"المفكر النقدي","description":"أكمل 3 وحدات","icon":"trophy","unlocked":true},{"id":3,"title":"خبير الإعلام","description":"أكمل جميع الوحدات","icon":"award","unlocked":false},{"id":4,"title":"مدافع الحقيقة","description":"حقق دقة 90%","icon":"target","unlocked":false}],"stats":{"totalModules":4,"completedModules":1,"totalTime":"ساعتان و15 دقيقة","averageScore":"87%"}},"Lesson":{"next":"التالي","prev":"السابق","finish":"إنهاء الوحدة","slide1Title":"ما هي المواطنة الرقمية؟","slide1Content":"المواطنة الرقمية تعني استخدام التكنولوجيا بمسؤولية...","slide2Title":"تأثير الأخبار الزائفة","slide2Content":"يمكن للمعلومات الخاطئة أن تنتشر بسرعة عبر الإنترنت...","moduleLabel":"الوحدة","notFound":"لم يتم العثور على الدرس.","checkUnderstanding":"تحقق من فهمك","defaultQuestion":"ما هو الدليل الذي سيساعدك في شرح هذه الفكرة لشخص آخر؟"},"ProfessionalTruthLab":{"title":"مختبر الحقيقة المتقدم","subtitle":"منصة تحقق وتحليل احترافية","eyebrow":"منصة التحليل الاحترافية","toolTitle":"مساحة العمل التحقيقية","toolSubtitle":"حول الادعاءات الفيروسية إلى أحكام مسؤولة","imageAnalysis":"تحليل الصور","sourceInvestigation":"تحقيق المصادر","metadata":"بيانات التعريف","claimsTitle":"مكتبة الحالات","claimsSubtitle":"حالات تحقق احترافية من سيناريوهات العالم الحقيقي","filterTitle":"فلاتر الحالات","allClaims":"جميع الحالات","images":"الصور","videos":"الفيديوهات","publicLife":"الادعاءات العامة","updatedNow":"جاهز للورشة","analyze":"حلل","back":"العودة للمسار","claims":[{"title":"صورة طقس تاريخية مستخدمة لحدث حالي","body":"صورة درامية للشارع يتم مشاركتها خلال عاصفة جديدة. الصورة حقيقية، لكن البحث العكسي يظهر أنها جاءت من دولة أخرى في 2021.","status":"تحتاج سياق","type":"تحقق الصورة","risk":"متوسط","action":"بناء التقرير","featured":true},{"title":"تحليل إعلان سياسي تم إنشاؤه بالذكاء الاصطناعي","body":"الصورة تبدو واقعية لكن الأيدي والظلال وتاريخ المصدر تثير الشكوك. يقارن المتعلمون الأدلة البصرية مع مصداقية المصدر.","status":"خطر عالي","type":"وسائط مولدة بالذكاء الاصطناعي","risk":"عالي","action":"حلل"},{"title":"التحقق من شائعة السياسة التعليمية من رسالة forwarded","body":"رسالة forwarded تدعي تغييرات سياسية كبيرة في مدرسة محلية. لا توجد مصادر رسمية، فقط لغة عاطفية.","status":"غير موثق","type":"ادعاء عام","risk":"متوسط","action":"تحقق"},{"title":"صورة تاريخية مستخدمة لحدث حالي","body":"صورة قديمة يتم تقديمها كدليل حديث في نقاش سياسي. الصورة أصلية ولكنها مستخدمة بشكل خاطئ من حيث السياق.","status":"تحتاج سياق","type":"تحقق الصورة","risk":"منخفض","action":"فحص السياق"}]},"TruthLab":{"title":"مرحباً بك في مختبر الحقيقة","subtitle":"تحقق من الحقائق قبل المشاركة!","case1":"هل سبح دولفين في البندقية؟","case1Desc":"صورة شهيرة تظهر دولفيناً في قنوات البندقية.","analyze":"تحليل","fake":"زائف!","real":"حقيقي!","resultFake":"هذا تم توليده بالذكاء الاصطناعي أو التلاعب به.","resultReal":"هذا حدث حقيقي.","back":"العودة للمسار","eyebrow":"مختبر التحقق","caseProgress":"الحالة {current} من {total}. قرر بناء على الدليل، لا على الانطباع الأول.","evidencePreview":"معاينة الدليل","correct":"اختيار موفق.","notQuite":"لنعد النظر.","nextScenario":"الحالة التالية","noScenarios":"لا توجد حالات متاحة.","toolTitle":"مساحة التحقيق","toolSubtitle":"انتقل من ادعاء منتشر إلى حكم مسؤول.","imageAnalysis":"تحليل الصور","imageAnalysisDesc":"تحقق متقدم من الصور مدعوم بالذكاء الاصطناعي مع تحليل البيانات الوصفية وقدرات البحث العكسي.","imageAnalysisStats":"دقة 98%","sourceInvestigation":"تحقيق المصدر","sourceInvestigationDesc":"تتبع شامل للمصادر والتحقق منها عبر منصات وقواعد بيانات متعددة.","sourceInvestigationStats":"في الوقت الفعلي","metadata":"بيانات الملف","metadataDesc":"استخراج وتحليل مفصل للبيانات الوصفية للكشف عن التلاعب والتزوير.","metadataStats":"تحليل عميق","claimsTitle":"مكتبة الادعاءات","claimsSubtitle":"حالات تدريبية من مواقف يواجهها اليافعون فعلًا على الإنترنت: صور مقصوصة، فيديوهات قديمة، صور AI، أرقام بلا مصدر، وادعاءات عامة مشحونة.","filterTitle":"تصفية الحالات","allClaims":"كل الادعاءات","images":"صور","videos":"فيديوهات","publicLife":"الحياة العامة","updatedNow":"جاهز للورشة","claims":[{"title":"صورة الفيضان عمرها خمس سنوات","body":"تنتشر صورة شارع غارق أثناء عاصفة جديدة. الصورة حقيقية، لكن البحث العكسي يظهر أنها من بلد آخر عام 2021.","status":"تحتاج سياقًا","type":"تحقق من صورة","risk":"medium","action":"ابنِ تقريرًا","featured":true},{"title":"صورة AI لمرشح في مشهد مزيف","body":"الصورة تبدو واقعية، لكن اليدين والظلال وتاريخ المصدر تثير الشك. يقارن المتعلمون القرائن البصرية بمصداقية المصدر.","status":"خطر مرتفع","type":"وسائط مولدة بالذكاء الاصطناعي","risk":"high","action":"حلّل"},{"title":"إحصائية بلا منهجية","body":"منشور يقول إن “80% من الطلاب يؤيدون القرار” من دون حجم عينة أو تاريخ أو صياغة سؤال أو جهة ناشرة.","status":"غير متحقق","type":"حياة عامة","risk":"medium","action":"افحص المصدر"},{"title":"فيديو احتجاج بتعليق جديد","body":"الفيديو أصلي، لكن التعليق يضعه في مدينة خاطئة. تساعد البيانات والمعالم على إعادة بناء السياق.","status":"يحتاج سياقًا","type":"فيديو","risk":"medium","action":"تحقق"},{"title":"تصحيح إعلان مدرسي","body":"تنتهي شائعة إلغاء الأنشطة بعد العثور على الإعلان الأصلي وتأكيدين مستقلين.","status":"محسوم","type":"معلومة مدنية","risk":"resolved","action":"راجع الدليل"}]},"Content":{"6-9":{"lessons":{"1":{"title":"اختيارات عادلة وقواعد مشتركة","overview":"مدخل لطيف إلى الديمقراطية من خلال قرارات الصف والاستماع والإنصاف.","slides":[{"title":"المجموعة تحتاج طريقة عادلة للاختيار","content":"عندما يختار الصف لعبة أو قصة أو قاعدة، لن يريد الجميع الشيء نفسه. المجموعة العادلة تستمع، وتشرح الاختيارات، وتحاول ألا تترك أحدًا خارجًا.","keyIdea":"تبدأ الديمقراطية بالاستماع قبل القرار.","question":"ما أول خطوة عادلة قبل قرار جماعي؟","options":["أن يختار الأعلى صوتًا","أن نستمع لأفكار مختلفة","أن نخفي الخيارات","أن نقرر دون إخبار أحد"],"answer":1,"feedback":"نعم. الاستماع يساعد المجموعة على فهم أكثر من رأي.","facilitatorNote":"استخدم مثالًا بسيطًا: اختيار لعبة في الاستراحة."},{"title":"القواعد يجب أن تحمي الناس","content":"القاعدة الجيدة ليست أمرًا فقط. إنها تساعد الناس على الشعور بالأمان والاحترام والانتماء. إذا آذت قاعدة شخصًا بشكل غير عادل، يجب أن نتحدث عنها.","keyIdea":"القواعد العادلة تساعد الجميع على الانتماء.","question":"أي قاعدة تبدو عادلة؟","options":["أصدقائي فقط يتكلمون","كل شخص يأخذ دوره في الكلام","لا أحد يسأل","الأسرع يفوز دائمًا"],"answer":1,"feedback":"صحيح. الأدوار تحمي الأصوات الهادئة أيضًا.","facilitatorNote":"اطلب من الأطفال اقتراح قاعدة عادلة لنشاط جماعي."},{"title":"نتحقق قبل أن نكرر","content":"أحيانًا يخبرنا شخص بشيء مفاجئ. قبل أن نكرره، يمكننا أن نسأل: من قال ذلك؟ هل رآه بنفسه؟ هل هناك تفسير آخر؟","keyIdea":"سؤال حذر قد يوقف قصة مربكة قبل أن تنتشر.","question":"صديق قال إن المدرسة مغلقة غدًا. ماذا تفعل؟","options":["أخبر الجميع فورًا","أتحقق من معلم أو أحد الوالدين","أجعل القصة أكبر","أتظاهر أنني أعرف"],"answer":1,"feedback":"نعم. شخص موثوق أو رسالة رسمية تساعد على التأكد.","facilitatorNote":"اجعلها لعبة: ماذا يسأل المحقق الحذر؟"}]},"2":{"title":"الحقيقة والرأي والشائعة","overview":"يتعلم الأطفال الفرق بين ما حدث، وما يظنه شخص، وما يحتاج تحققًا.","slides":[{"title":"الحقيقة يمكن فحصها","content":"الحقيقة شيء يمكن البحث عن دليل له. “تفتح المكتبة الساعة التاسعة” يمكن فحصها. أما “المكتبة ممتعة” فهو رأي.","keyIdea":"الحقائق يمكن فحصها. الآراء تشرح ما يشعر به الشخص أو يفكر فيه.","question":"أي جملة هي حقيقة؟","options":["الشوكولا أفضل نكهة","يبدأ الاجتماع الساعة 10","الأزرق أسعد لون","هذه اللعبة مملة"],"answer":1,"feedback":"صحيح. وقت البداية يمكن التحقق منه.","facilitatorNote":"اطلب من الأطفال صنع حقيقة ورأي عن الصف."},{"title":"الشائعة قصة لم تُفحص بما يكفي","content":"الشائعة قد تكون صحيحة أو خاطئة أو مختلطة. لا نحتاج أن نكون قاسين مع من شاركها، لكن نحتاج أن نتحقق قبل تمريرها.","keyIdea":"“لا أعرف بعد” إجابة ذكية.","question":"ما أفضل جواب عندما لا تكون متأكدًا؟","options":["أنا أعرف كل شيء","لست متأكدًا بعد","لا بد أنها صحيحة","لنصرخ بها"],"answer":1,"feedback":"نعم. قول “لست متأكدًا بعد” دقيق وصادق.","facilitatorNote":"اجعل عدم اليقين قوة لا ضعفًا."},{"title":"الصور قد تخدعنا أيضًا","content":"قد تكون الصورة قديمة أو مقصوصة أو معدلة أو من مكان آخر. الصورة تصبح دليلًا عندما نعرف مصدرها وما الذي تظهره فعلاً.","keyIdea":"أن نرى شيئًا لا يعني دائمًا أننا نعرفه.","question":"ماذا نسأل عن صورة مفاجئة؟","options":["من أين جاءت؟","هل أستطيع الرسم عليها؟","هل هي ملونة؟","هل ستجلب إعجابات؟"],"answer":0,"feedback":"صحيح. المصدر يساعدنا على فهم الصورة.","facilitatorNote":"استخدم مثال صورة حيوان أو ملعب واسأل: ماذا قد يكون خارج إطار الصورة؟"}]},"3":{"title":"مساعدات الذكاء الاصطناعي وأخطاؤه","overview":"وحدة صديقة للأطفال عن الذكاء الاصطناعي كأداة تساعد وتخمن وتخطئ أحيانًا.","slides":[{"title":"الذكاء الاصطناعي أداة وليس شخصًا","content":"يمكن للذكاء الاصطناعي أن يساعد في الكتابة والرسم والترجمة والإجابة. لكنه لا يفهم العالم مثل الإنسان. قد يخمن خطأ.","keyIdea":"قد يكون الذكاء الاصطناعي مفيدًا ومع ذلك يحتاج تحققًا.","question":"ماذا نتذكر عن إجابات الذكاء الاصطناعي؟","options":["دائمًا مثالية","قد تساعد لكنها تحتاج فحصًا","سحر","يجب أن تستبدل المعلمين"],"answer":1,"feedback":"نعم. الأدوات المفيدة قد تخطئ.","facilitatorNote":"قارنه بآلة حاسبة تساعد لكنها تحتاج سؤالًا صحيحًا."},{"title":"صور الذكاء الاصطناعي قد تبدو حقيقية","content":"بعض الصور تصنعها الحواسيب وقد تبدو كأماكن أو أشخاص حقيقيين. يجب أن نسأل هل تتظاهر الصورة بأنها حدث حقيقي؟","keyIdea":"السؤال المهم: ماذا تريد هذه الصورة أن أصدق؟","question":"صورة تظهر عاصفة ثلجية ضخمة في الصيف. ماذا تسأل؟","options":["هل يوجد مصدر؟","هل أجعلها خلفية؟","هل الثلج جميل؟","من لديه متابعون أكثر؟"],"answer":0,"feedback":"صحيح. المصدر قبل المشاركة.","facilitatorNote":"استخدم أمثلة غير مخيفة وتجنب صور أذى واقعية."},{"title":"المشارك الحذر يساعد المجموعة","content":"عندما نتوقف قبل المشاركة، نساعد الأصدقاء والعائلة والصف على تجنب الارتباك. هذا جزء من اللطف على الإنترنت.","keyIdea":"التحقق قد يكون نوعًا من العناية.","question":"ما الشيء اللطيف قبل مشاركة قصة مفاجئة؟","options":["أتوقف وأتحقق","أضيف دراما","أرسلها للجميع","أتجاهل الأسئلة"],"answer":0,"feedback":"نعم. التوقف يحمي الناس من الارتباك.","facilitatorNote":"اختم بعبارة صفية: توقف، اسأل، تحقق."}]},"4":{"title":"كلمات محترمة في القرارات العامة","overview":"يتدرّب المتعلمون على الاختلاف من دون إيذاء الناس أو نشر أوصاف غير عادلة.","slides":[{"title":"الاختلاف ليس خطرًا","content":"يمكن للأصدقاء أن يريدوا قواعد مختلفة ويبقوا جزءًا من المجموعة نفسها. المواطن الجيد يشرح السبب بدل مهاجمة الشخص.","keyIdea":"نستطيع أن نكون واضحين في الأفكار ولطيفين مع الناس.","question":"أي جملة هي الأكثر ديمقراطية؟","options":["أنت سيئ لأنك تختلف معي","أظن أن هذه القاعدة أفضل لأنها تجعل الأدوار عادلة","يجب أن يصوّت أصدقائي فقط","لا تسألوا أسئلة"],"answer":1,"feedback":"صحيح. الجملة تعطي سببًا وتحافظ على الاحترام.","facilitatorNote":"اطلب من المتعلمين تحويل جملة قاسية إلى جملة عامة محترمة."},{"title":"الأوصاف قد تقوّي الشائعة","content":"عندما نصف شخصًا بأنه كسول أو سيئ أو مشبوه بلا دليل، قد يكرر الآخرون الوصف كأنه حقيقة.","keyIdea":"الوصف ليس دليلًا.","question":"ماذا نسأل قبل تكرار وصف عن شخص؟","options":["من قال ذلك وما الدليل؟","هل يبدو مضحكًا؟","هل نرفعه بصوت أعلى؟","هل سيحصل على إعجابات؟"],"answer":0,"feedback":"نعم. الدليل يأتي قبل الحكم.","facilitatorNote":"استخدم مثالًا آمنًا مثل “نادي الرسم لا ينظف المكان” وحدد ما الدليل العادل."},{"title":"المجموعة العادلة تصلح الخطأ","content":"أحيانًا تشارك المجموعة شيئًا غير عادل. الخطوة الشجاعة هي التصحيح لا الإخفاء.","keyIdea":"التصحيح جزء من الثقة.","question":"ماذا تفعل المجموعة بعد نشر شائعة خاطئة؟","options":["تتظاهر أن شيئًا لم يحدث","تلوم شخصًا واحدًا للأبد","تشرح الخطأ وتنشر التصحيح","تصنع شائعة جديدة"],"answer":2,"feedback":"نعم. إصلاح السجل يساعد الجميع على الثقة من جديد.","facilitatorNote":"درّب المتعلمين على تصحيح من جملتين."}]},"5":{"title":"قرائن الصور والسياق الناقص","overview":"مدخل مناسب للأطفال إلى الصور التي تكون حقيقية لكنها تُستخدم بطريقة خاطئة.","slides":[{"title":"الصورة قد تكون حقيقية وتضلل","content":"قد تُظهر الصورة مكانًا أو حدثًا حقيقيًا، لكن التعليق قد يذكر تاريخًا أو مكانًا أو سببًا خاطئًا.","keyIdea":"الصورة الحقيقية لا تعني دائمًا قصة صحيحة.","question":"ما الذي قد يجعل صورة حقيقية مضللة؟","options":["تعليق خاطئ","ألوان واضحة","أشخاص يبتسمون","شكل مربع"],"answer":0,"feedback":"صحيح. التعليق قد يغيّر المعنى.","facilitatorNote":"اعرض تعليقين لصورة حيادية واحدة وقارن كيف يتغير المعنى."},{"title":"انظر حول الصورة","content":"اللافتات والطقس والملابس والظلال والخلفية تساعدنا على طرح أسئلة أفضل.","keyIdea":"التفاصيل قرائن وليست دليلًا نهائيًا.","question":"أي قرينة قد تساعد في معرفة مكان الصورة؟","options":["لافتة شارع","عدد الإعجابات","رمز مضحك","بطارية الهاتف"],"answer":0,"feedback":"نعم. اللافتة قد تساعد في معرفة المكان أو اللغة.","facilitatorNote":"اطلب من المتعلمين تعداد ما يرونه من دون تخمين النوايا."},{"title":"اسأل قبل المشاركة","content":"إذا جعلتك صورة غاضبًا أو خائفًا، تمهّل. اسأل من نشرها أولًا وهل يؤكدها مصدر موثوق.","keyIdea":"الشعور القوي سبب للتوقف.","question":"ما الرد المتأني على صورة مخيفة؟","options":["مشاركتها فورًا","التوقف وفحصها مع مصدر موثوق","إضافة تعليق أكثر رعبًا","تخمين ما حدث"],"answer":1,"feedback":"صحيح. التوقف يحمي الآخرين من الالتباس.","facilitatorNote":"اختم بقاعدة صفية: “شعور كبير، مشاركة بطيئة”."}]},"6":{"title":"مساعدو المجتمع والمصادر الموثوقة","overview":"يتعرف المتعلمون على الأشخاص والجهات المناسبة للمعلومات العامة.","slides":[{"title":"بعض المصادر وظيفتها الإعلام","content":"قد تكون المدرسة أو المكتبة أو خدمات الطوارئ أو المجلس المحلي مسؤولة عن نشر معلومات دقيقة.","keyIdea":"الثقة مرتبطة بالمسؤولية.","question":"ما أفضل مصدر لمعرفة إغلاق المدرسة؟","options":["تعليق عشوائي","إدارة المدرسة","حساب نكات","شائعة محولة"],"answer":1,"feedback":"نعم. إدارة المدرسة مسؤولة عن هذه المعلومة.","facilitatorNote":"ابنِ مع المتعلمين خريطة مصادر موثوقة لأسئلة المدرسة والمجتمع."},{"title":"الثقة لا تعني ألا نتحقق","content":"حتى المصادر الموثوقة قد تخطئ. التحقق الجيد احترام وليس وقاحة.","keyIdea":"التحقق يحمي الثقة.","question":"ماذا تفعل إذا اختلف مصدران موثوقان؟","options":["أختار ما أحب","أقارن التفاصيل وأطلب توضيحًا","أتجاهلهما للأبد","أبدأ شائعة"],"answer":1,"feedback":"صحيح. مقارنة التفاصيل تصرف متأنٍ وعادل.","facilitatorNote":"استخدم تعارضًا بسيطًا: المكتبة تقول النشاط 3، والملصق يقول 4."},{"title":"المصدر المسؤول ينشر التصحيح أيضًا","content":"الأشخاص المسؤولون لا ينشرون الأخبار المثيرة فقط. ينشرون التحديثات والتصحيحات وما لا يعرفونه بعد.","keyIdea":"عدم اليقين قد يكون صادقًا.","question":"أي تحديث يبدو موثوقًا؟","options":["نعرف كل شيء","نراجع الوقت وسنحدّثكم الساعة 2","لا تسألونا شيئًا","قال أحدهم ربما"],"answer":1,"feedback":"نعم. يشرح ما هو معروف ومتى سيأتي المزيد.","facilitatorNote":"درّب المتعلمين على كتابة تحديث عام قصير يتضمن عدم اليقين."}]}},"scenarios":[{"id":"class-pet-rumor","title":"حيوان الصف المفقود","description":"رسالة تقول إن حيوان الصف هرب، لكن لم يؤكد أي معلم ذلك.","isFake":true,"explanation":"يجب التحقق من شخص بالغ موثوق قبل تكرار القصة."},{"id":"old-playground-photo","title":"صورة الملعب المكسور","description":"صورة تظهر ملعبًا مكسورًا، لكنها قد تكون من مدرسة أخرى أو سنة قديمة.","isFake":true,"explanation":"نحتاج المصدر والتاريخ والمكان قبل أن نعرف ماذا تثبت الصورة."},{"id":"ai-animal-image","title":"صورة الأرنب الطائر","description":"صورة واقعية جدًا تظهر أرنبًا له أجنحة.","isFake":true,"explanation":"هذه صورة اصطناعية مرحة ولا ينبغي مشاركتها كاكتشاف حقيقي."}]},"10-13":{"lessons":{"1":{"title":"الديمقراطية تحتاج واقعًا مشتركًا","overview":"وحدة في التربية الإعلامية المدنية تشرح لماذا تحتاج المشاركة العامة إلى حقائق قبل الآراء.","slides":[{"title":"قبل الاختلاف نحتاج أرضية مشتركة","content":"في الديمقراطية يحق للناس أن يختلفوا. لكن الاختلاف يصبح مفيدًا فقط عندما يستطيع الناس الاتفاق على بعض الأسئلة الأساسية: ماذا حدث؟ من قال ذلك؟ متى حدث؟ وما الدليل؟","keyIdea":"الديمقراطية لا تعني أن يفكر الجميع بالطريقة نفسها. تعني أن نختلف بصدق فوق واقع مشترك.","question":"أي جملة هنا هي سؤال تحقق وليست مجرد رأي؟","options":["هل أحب هذا الشخص؟","من هو المصدر الأصلي؟","هل هذا الموضوع ممل؟","هل سيوافقني أصدقائي؟"],"answer":1,"feedback":"صحيح. سؤال المصدر ينقلنا من الانطباع إلى الدليل.","facilitatorNote":"اطلب من المتعلمين ذكر نقاش رأوه على الإنترنت، ثم افصلوا بين الادعاء والرأي حوله."},{"title":"الادعاء ليس دليلًا","content":"الادعاء هو شيء يقول شخص ما إنه صحيح. أما الدليل فهو ما يساعدنا على الحكم على الادعاء. قد يبدو المنشور واثقًا أو مستعجلًا أو عاطفيًا، ومع ذلك يكون دليله ضعيفًا.","keyIdea":"اللغة القوية ليست دليلًا قويًا.","question":"منشور يقول: “الجميع يعرف أن هذا القانون تمت الموافقة عليه”. ما الشيء الناقص؟","options":["عنوان أعلى صوتًا","مصدر واضح أو وثيقة رسمية","تعليقات غاضبة أكثر","وصف أقصر"],"answer":1,"feedback":"نعم. الادعاءات المدنية تحتاج مصدرًا يمكن تتبعه، خصوصًا عندما تتعلق بقوانين أو حقوق أو قرارات عامة.","facilitatorNote":"ناقش كلمات الاستعجال مثل: الآن، سري، الجميع، ممنوع، فضيحة."},{"title":"الحقيقة تحمي المشاركة","content":"المعلومات الخاطئة لا تخدع الأفراد فقط. قد تجعل مجموعات كاملة تفقد الثقة، أو تصمت، أو تتخذ قرارات مبنية على الخوف. التحقق عادة مدنية وليس تمرينًا مدرسيًا فقط.","keyIdea":"عندما نتحقق قبل المشاركة، نحن نحترم حق الآخرين في الفهم والمشاركة.","question":"لماذا تهم المعلومات المضللة في الحياة العامة؟","options":["لأنها قد تؤثر على القرارات والثقة","لأن كل خطأ جريمة","لأن الإنترنت يجب أن يخلو من المزاح","لأن البالغين فقط يستطيعون التحقق"],"answer":0,"feedback":"صحيح. المعلومات المضللة قد تغيّر ما يصدقه الناس وما يشاركونه وما يخافون منه.","facilitatorNote":"اختم بربط التحقق بالاحترام: نتحقق قبل المشاركة لأن آخرين قد يعتمدون علينا."}]},"2":{"title":"كيف تنتشر المعلومات","overview":"وحدة عملية عن الانتباه والخوارزميات ولماذا قد تنتشر الادعاءات الضعيفة بسرعة.","slides":[{"title":"المعلومة تسافر عبر الناس والأنظمة","content":"تنتشر الشائعة عندما يشاركها الناس. وعلى الإنترنت تساعد المنصات أيضًا في تحديد ما يظهر للآخرين. المنشورات التي تثير الدهشة أو الغضب أو الخوف أو الانتماء قد تنتشر أسرع من الشرح المتأني.","keyIdea":"الانتشار لا يعني التحقق. يعني فقط أن كثيرين شاهدوا الشيء أو شاركوه.","question":"ماذا تخبرنا كلمة “منتشر” فعليًا؟","options":["أن المنشور صحيح","أن المنشور واسع التداول أو المشاركة","أن الخبراء وافقوا عليه","أن المنشور غير مؤذٍ"],"answer":1,"feedback":"بالضبط. الانتشار يصف الوصول، لا الموثوقية.","facilitatorNote":"قارن بين: مشهور، صحيح، مهم. أحيانًا تتقاطع، لكنها ليست الشيء نفسه."},{"title":"الخوارزميات تكافئ الانتباه","content":"أنظمة التوصية تتعلم غالبًا ما الذي يجعل الناس يشاهدون أو يضغطون أو يتفاعلون. هذا قد يكون مفيدًا، لكنه قد يدفع أيضًا المحتوى الدرامي أو المبسط لأنه يجذب الانتباه.","keyIdea":"الخلاصة ليست نافذة محايدة. إنها نظام اختيار.","question":"ماذا يجب أن تتذكر عندما تستمر منصة بعرض النوع نفسه من الادعاءات؟","options":["قد تكون المنصة تحسّن المحتوى لزيادة التفاعل","الادعاء مثبت رسميًا","لا أحد يرى محتوى مختلفًا","أحدث منشور هو دائمًا أفضل مصدر"],"answer":0,"feedback":"صحيح. تكرار الشيء في الخلاصة قد ينتج عن أنماط التفاعل، لا عن قوة الدليل.","facilitatorNote":"اطلب أمثلة لخلاصات مختلفة: رياضة، ألعاب، سياسة، جمال. ما الذي تكافئه كل خلاصة؟"},{"title":"التوقف القصير يبطئ التضليل","content":"خطوات صغيرة قد تغيّر مسار الادعاء: فتح المصدر، قراءة ما بعد العنوان، فحص التاريخ، أو سؤال: من يستفيد إذا صدق الناس هذا؟","keyIdea":"لست مضطرًا لإصلاح الإنترنت كله. يمكنك إبطاء مشاركة سيئة واحدة.","question":"أي فعل يضيف توقفًا مفيدًا قبل المشاركة؟","options":["أشارك أولًا وأتحقق لاحقًا","أفحص التاريخ والمصدر الأصلي","أقرأ التعليقات فقط","أثق بالمنشور إذا كان فيه صورة درامية"],"answer":1,"feedback":"نعم. فحص التاريخ والمصدر يكشف كثيرًا من المنشورات المضللة بسرعة.","facilitatorNote":"حوّلها إلى عادة من 30 ثانية: المصدر، التاريخ، الدليل، العاطفة."}]},"3":{"title":"التحقق في عصر الذكاء الاصطناعي","overview":"وحدة عن الوسائط المصطنعة وأخطاء الذكاء الاصطناعي والحكم المبني على الأدلة.","slides":[{"title":"الذكاء الاصطناعي يصنع محتوى مقنعًا","content":"يمكن لأدوات الذكاء الاصطناعي إنشاء صور وأصوات ونصوص تبدو متقنة. بعض هذا المحتوى إبداعي وغير مؤذٍ. وبعضه مضلل لأنه يتظاهر بأنه يعرض أحداثًا أو أشخاصًا أو أدلة حقيقية.","keyIdea":"السؤال ليس فقط: هل استُخدم الذكاء الاصطناعي؟ السؤال الأهم: ماذا يريد هذا المحتوى أن أصدق؟","question":"ما أفضل سؤال أول عند رؤية صورة صادمة قد تكون مولدة بالذكاء الاصطناعي؟","options":["هل هي مضحكة؟","ما الادعاء الذي تُستخدم الصورة لدعمه؟","كم عدد الإعجابات؟","هل أستطيع إعادة صنعها؟"],"answer":1,"feedback":"صحيح. يبدأ التحقق من الادعاء. الصورة نفسها قد تكون فنًا أو سخرية أو خداعًا حسب السياق.","facilitatorNote":"وضح أن التحقق ليس فحص البيكسلات فقط. المعنى والسياق مهمان أيضًا."},{"title":"الذكاء الاصطناعي قد يخطئ بثقة","content":"تستطيع روبوتات المحادثة التلخيص والترجمة والمساعدة في التفكير. لكنها قد تخترع مصادر، أو تفقد السياق، أو تبدو واثقة وهي مخطئة. مخرجات الذكاء الاصطناعي تحتاج تحققًا مثل أي مصدر آخر.","keyIdea":"اللغة السلسة لا تعني دائمًا الحقيقة.","question":"روبوت محادثة أعطاك اقتباسًا لشخص مشهور دون رابط. ماذا تفعل؟","options":["أستخدمه لأنه يبدو رسميًا","أبحث عن المصدر الأصلي أو أطلبه","أغير بعض الكلمات وأنشره","أفترض أن كل الاقتباسات دقيقة"],"answer":1,"feedback":"نعم. الاقتباسات والإحصاءات والقوانين والادعاءات الطبية أو المدنية تحتاج مصادر قابلة للتتبع.","facilitatorNote":"هنا يمكن مناقشة الاستخدام المسؤول للذكاء الاصطناعي دون تخويف من الأداة نفسها."},{"title":"استخدم سلّم التحقق","content":"التحقق القوي يتحرك خطوة خطوة: حدد الادعاء، ابحث عن المصدر الأصلي، قارنه بأدلة مستقلة، افحص الوسيط، ثم قرر ما الذي يمكن قوله بصدق.","keyIdea":"التحقق الجيد قد ينتهي بعبارات دقيقة: مؤكد، غير مؤكد، مضلل، ناقص السياق، أو متلاعب به.","question":"ما النتيجة الأكثر مسؤولية عندما تكون الأدلة غير مكتملة؟","options":["صحيح بالتأكيد","مزيف بالتأكيد","غير مؤكد: يحتاج أدلة أكثر","أشاركه لأنه قد يكون مهمًا"],"answer":2,"feedback":"صحيح. قول “لا نعرف بعد” قوة وليس فشلًا.","facilitatorNote":"اختم بعادة مهمة: الشخص الدقيق مسموح له أن يتوقف."}]},"4":{"title":"العناوين العاطفية والتفكير البطيء","overview":"يتعلم الطلاب كيف تضغط اللغة القوية باتجاه المشاركة السريعة.","slides":[{"title":"العاطفة تغيّر السرعة","content":"المنشورات التي تثير الغضب أو الخوف أو الفخر تنتشر غالبًا أسرع من الشرح الهادئ. هذا لا يجعلها كاذبة دائمًا، لكنه يعني أننا نحتاج تحققًا أقوى.","keyIdea":"كلما زادت العاطفة، أبطأنا المشاركة.","question":"لماذا تحتاج المنشورات العاطفية عناية إضافية؟","options":["لأنها كاذبة دائمًا","لأنها تدفعنا للرد قبل التحقق","لأنها أقصر","لأن ألوانها أجمل"],"answer":1,"feedback":"صحيح. العاطفة قد تختصر وقت التفكير.","facilitatorNote":"قارن عنوانًا هادئًا وآخر عاطفيًا عن الحدث نفسه."},{"title":"اكتشف كلمات الضغط","content":"عبارات مثل “صادم”، “لا يريدونك أن تعرف”، و“شارك قبل الحذف” غالبًا مصممة لتجاوز التحقق.","keyIdea":"الضغط إشارة للتوقف.","question":"أي عبارة هي إشارة ضغط؟","options":["نُشر الثلاثاء","شارك قبل أن يختفي","وفقًا للتقرير","تم التحديث مع تصحيح"],"answer":1,"feedback":"نعم. تطلب السرعة قبل الدليل.","facilitatorNote":"أنشئ مع الصف قائمة بعبارات الضغط بلغات مختلفة."},{"title":"أعد الكتابة بدقة","content":"العنوان المتأني يقول ما هو معروف، يذكر المصدر، ولا يدّعي أكثر مما يظهره الدليل.","keyIdea":"الصياغة الأفضل تقلل ضرر التضليل.","question":"أي عنوان هو الأقوى؟","options":["الجميع يكذب!","تقرير يقول إن القاعدة قد تتغير الشهر القادم","هذا سيدمر كل شيء","شارك الآن"],"answer":1,"feedback":"صحيح. يذكر عدم اليقين ويتجنب المبالغة.","facilitatorNote":"اطلب من المجموعات إعادة كتابة عنوان مبالغ فيه."}]},"5":{"title":"النقاش المدني والدليل","overview":"يتدرب الطلاب على الاختلاف حول خيارات عامة مع البقاء مرتبطين بالوقائع.","slides":[{"title":"النقاش يحتاج وقائع مشتركة","content":"يمكن للناس أن يختلفوا حول ما يجب فعله، لكن النقاش المفيد يحتاج اتفاقًا على ما حدث فعلًا وكيف نعرفه.","keyIdea":"القيم قد تختلف؛ أما الدليل فيجب فحصه.","question":"أي سؤال يفحص الوقائع قبل الرأي؟","options":["من في صفي؟","ماذا حدث وكيف نعرف؟","من نسخر منه؟","أي جواب هو الأشهر؟"],"answer":1,"feedback":"نعم. يفصل الدليل عن التفضيل.","facilitatorNote":"استخدم مثال قاعدة مدرسية مثل الهواتف أو النوادي."},{"title":"للأدلة مستويات جودة","content":"لقطة الشاشة والقصة الشخصية والاستبيان والسجل الرسمي قد تكون كلها مهمة، لكنها لا تثبت الشيء نفسه.","keyIdea":"ليست كل الأدلة بالقوة نفسها.","question":"أي دليل أقوى لادعاء عن كل الطلاب؟","options":["رأي صديق واحد","استبيان واضح بحجم عينة وصياغة سؤال","ميم","تعليقات"],"answer":1,"feedback":"صحيح. المنهجية مهمة عند الادعاءات الواسعة.","facilitatorNote":"اسأل الطلاب ماذا يحتاج الاستبيان العادل."},{"title":"السؤال المحترم يقوّي الفكرة","content":"قول “ما مصدرك؟” ليس هجومًا. إنه يساعد المجموعة على قرار أفضل.","keyIdea":"تحدَّ الادعاء لا الشخص.","question":"أي رد يحافظ على نقاش صحي؟","options":["أنت غبي","هل يمكنك إظهار مصدر الرقم؟","لا أحد يهتم","سأنشر خطأك"],"answer":1,"feedback":"نعم. يطلب الدليل باحترام.","facilitatorNote":"درّب الطلاب على جمل اختلاف مبنية على الدليل."}]},"6":{"title":"حملات التصحيح","overview":"يتعلم الطلاب كيف تُكتب التصحيحات الدقيقة وتُنشر.","slides":[{"title":"التصحيح يحتاج وضوحًا","content":"يجب أن يذكر التصحيح الادعاء الخاطئ أو الناقص، يقدّم السياق الدقيق، ويتجنب تكرار الشائعة بطريقة جذابة.","keyIdea":"التصحيح يجب أن يقلل الالتباس لا أن يمنح الشائعة طاقة جديدة.","question":"ماذا يجب أن يتضمن التصحيح؟","options":["سخرية فقط","السياق الدقيق والمصدر","إهانات أكثر","رابط مخفي"],"answer":1,"feedback":"صحيح. التصحيح المفيد يعطي الناس شيئًا موثوقًا.","facilitatorNote":"اعرض مثال تصحيح ضعيف وحسّنه مع الصف."},{"title":"التوقيت مهم","content":"التصحيح المبكر قد يبطئ الضرر، لكن التصحيح المتسرع قد يضيف أخطاء. الفرق الجيدة تتحقق بسرعة وتشرح عدم اليقين.","keyIdea":"السرعة والحذر يجب أن يعملا معًا.","question":"أي تحديث مسؤول؟","options":["نحن نتحقق وسنحدّثكم بالمصادر","هذا كاذب بالتأكيد صدقوني","لا أحد يعرف شيئًا","شاركوا طرفنا فقط"],"answer":0,"feedback":"نعم. يشرح عملية التحقق.","facilitatorNote":"ناقش ما يحدث في أول عشر دقائق بعد ظهور شائعة."},{"title":"صِل إلى الجمهور نفسه","content":"يجب أن يصل التصحيح إلى المكان الذي وصلت إليه الشائعة: مجموعة الصف، القصة، قناة الإعلان، أو صفحة المجتمع.","keyIdea":"التصحيح الهادئ قد لا يصلح شائعة صاخبة.","question":"أين يجب نشر التصحيح؟","options":["في دفتر خاص فقط","حيث وصلت الشائعة الأصلية","في لا مكان","على صفحة غير مرتبطة"],"answer":1,"feedback":"صحيح. الإصلاح يجب أن يصل إلى الجمهور المتأثر.","facilitatorNote":"ارسم قنوات الشائعة وقنوات التصحيح."}]}},"scenarios":[{"id":"school-rule-message","title":"رسالة “قاعدة مدرسية جديدة”","description":"رسالة معاد توجيهها تزعم أن الطلاب سيفقدون حق استخدام الهواتف الأسبوع القادم، لكنها لا تتضمن مصدرًا مدرسيًا أو تاريخًا أو وثيقة رسمية.","isFake":true,"explanation":"الادعاء غير مدعوم. يجب طلب المصدر الأصلي والتاريخ والقناة الرسمية قبل المشاركة."},{"id":"storm-photo-context","title":"صورة عاصفة من مدينة خاطئة","description":"صورة فيضان درامية حقيقية، لكنها من بلد آخر وحدث أقدم.","isFake":true,"explanation":"الصورة أصلية لكنها منزوعة من سياقها. يجب فحص مكان وزمان التقاط الوسائط."}]},"14-17":{"lessons":{"1":{"title":"قوة المعلومات والثقة العامة","overview":"وحدة أعمق عن بيئة المعلومات والثقة والمشاركة الديمقراطية.","slides":[{"title":"الحياة العامة تعتمد على معلومات موثوقة","content":"تعتمد المشاركة الديمقراطية على امتلاك الناس معلومات موثوقة تكفي لفهم المشكلات العامة. عندما تصبح الحقائق مستحيلة النقاش، تنتقل القوة إلى من يسيطر على الانتباه أو الخوف أو الارتباك.","keyIdea":"المعلومات بنية تحتية مدنية.","question":"أي سؤال يختبر استحقاق ادعاء عام للثقة؟","options":["هل يؤكد موقفي؟","هل يمكن تتبع الدليل ومساءلته؟","هل يرضيني عاطفيًا؟","هل نشره شخص مشهور؟"],"answer":1,"feedback":"صحيح. الادعاءات المدنية الموثوقة يمكن تتبعها واختبارها ومساءلتها.","facilitatorNote":"ناقش الفرق بين انعدام الثقة والشك الصحي."},{"title":"التلاعب يستهدف الهوية غالبًا","content":"يعمل المحتوى المضلل أحيانًا عبر إخبار الناس بمن يخافون منه أو يلومونه أو يدافعون عنه. قد يستخدم مظالم حقيقية لكنه يربطها بأدلة ضعيفة أو خاطئة.","keyIdea":"قد يبدو الادعاء صادقًا عاطفيًا وهو غير مدعوم واقعيًا.","question":"ما علامة خطر على تلاعب قائم على الهوية؟","options":["يطلب الدليل","يقول إن مجموعة ما هي العدو دائمًا","يربط بوثائق أصلية","يصحح نفسه علنًا"],"answer":1,"feedback":"نعم. اللغة المطلقة عن المجموعات علامة خطر قوية.","facilitatorNote":"استخدم مجموعات خيالية أو أمثلة مدرسية لتجنب الاستقطاب."},{"title":"التحقق شكل من الفعل المدني","content":"التحقق ليس شكًا سلبيًا. إنه فعل: تتبع الادعاءات، مقارنة المصادر، تسمية عدم اليقين، ورفض تضخيم ما لا نستطيع دعمه بمسؤولية.","keyIdea":"التوقف المتحقق قد يكون أقوى من رد الفعل السريع.","question":"ما الرد الأكثر مسؤولية على اتهام منتشر وغير موثق؟","options":["نشره قبل أن يختفي","اعتباره مؤكدًا لأن كثيرين نشروه","تسميته غير مؤكد والبحث عن دليل أولي","مهاجمة من يسأل"],"answer":2,"feedback":"صحيح. اللغة المسؤولة تحمي الحقيقة والناس.","facilitatorNote":"عرّف تسميات دقيقة: مؤكد، خاطئ، مضلل، غير مؤكد، ناقص السياق."}]},"2":{"title":"الخوارزميات والانتباه والتأثير","overview":"وحدة عن أنظمة التوصية والانتشار وكيف يمكن هندسة الانتباه.","slides":[{"title":"الخلاصة بيئة تأثير","content":"الخلاصة ليست قائمة محايدة بما حدث. إنها نظام ترتيب يتأثر بالتفاعل والعلاقات والأهداف التجارية، وأحيانًا بسلوك سياسي أو منسق.","keyIdea":"ترتيب المعلومات يغير معنى المعلومات.","question":"ما الذي تحسّنه أنظمة التوصية غالبًا؟","options":["الحقيقة فقط","التفاعل والاهتمام المتوقع","الدقة التاريخية","المصلحة العامة دائمًا"],"answer":1,"feedback":"صحيح. كثير من الأنظمة تحسن التفاعل المتوقع لا الحقيقة.","facilitatorNote":"اسأل كيف ترتب الخلاصة شرحًا هادئًا مقارنة بمنشور غاضب."},{"title":"السلوك المنسق يقلد الشعبية","content":"أحيانًا يبدو الادعاء شائعًا لأن حسابات كثيرة تكرره بسرعة أو تستخدم صياغة متشابهة أو تدفع الوسم نفسه. الشعبية قد تكون طبيعية أو مدفوعة أو منسقة أو آلية.","keyIdea":"الإجماع الظاهر ليس دائمًا إجماعًا حقيقيًا.","question":"أي نمط قد يشير إلى تنسيق؟","options":["حسابات كثيرة تستخدم الصياغة نفسها في الوقت نفسه","شخص واحد يطلب دليلًا","مصدر يصحح خطأ مطبعيًا","مقال طويل مع مراجع"],"answer":0,"feedback":"نعم. تكرار الصياغة والتوقيت قد يكون دليلًا أوليًا يحتاج تحليلًا.","facilitatorNote":"تجنب تعليم الشك المرضي: الإشارات دلائل وليست حكمًا نهائيًا."},{"title":"التوقف تصميم","content":"يمكن للمنصات أن تجعل المشاركة فورية، أو تضيف توقفًا: اقرأ قبل المشاركة، ملصقات المصدر، لوحات السياق، أو حدود إعادة التوجيه. ويمكن للمستخدم أن يضيف توقفه الخاص.","keyIdea":"تصميم المعلومات الجيد يبطئ الضرر دون إيقاف الحوار.","question":"أي ميزة تضيف توقفًا صحيًا؟","options":["إعادة توجيه تلقائية للجميع","تنبيه المستخدم لفتح المقال قبل إعادة نشره","إخفاء كل معلومات المصدر","مكافأة أسرع رد"],"answer":1,"feedback":"صحيح. القراءة قبل المشاركة تشجع الدليل قبل التضخيم.","facilitatorNote":"اربط تصميم المنصة بعادات المستخدم الشخصية."}]},"3":{"title":"الوسائط الاصطناعية ومعايير الدليل","overview":"وحدة عن التزييف العميق والمحتوى المولّد ومعنى عدم اليقين المسؤول.","slides":[{"title":"الوسائط الاصطناعية تغيّر عبء الإثبات","content":"كلما أصبح المحتوى المولّد أكثر إقناعًا، قد ينكر الناس أدلة حقيقية أو يصدقون أدلة مزيفة. الحل ليس السخرية من كل شيء، بل رفع معيار الدليل.","keyIdea":"لا تصدق كل شيء. ولا ترفض كل شيء. ارفع المعيار.","question":"ما أفضل رد على فيديو صادم لشخصية عامة؟","options":["أفترض أنه مزيف","أفترض أنه حقيقي","أتتبع المصدر وأقارن بتقارير مستقلة","أشاركه مع رمز تحذير"],"answer":2,"feedback":"صحيح. التحقق المستقل أهم من ثقة العين.","facilitatorNote":"عرّف “مكسب الكاذب”: يمكن إنكار أدلة حقيقية بحجة أنها مزيفة."},{"title":"أدوات كشف الذكاء الاصطناعي لا تكفي","content":"قد تساعد أدوات الكشف، لكنها تعطي احتمالات لا يقينًا نهائيًا. السياق، وأصل الملف، والشهادات، والأدلة المستقلة لا تزال مهمة.","keyIdea":"الكشف إشارة واحدة ضمن سلسلة أدلة أكبر.","question":"لماذا لا نعتمد فقط على أداة كشف؟","options":["لأن كل الأدوات بلا قيمة","لأن أدوات الكشف قد تخطئ أو تكون ناقصة","لأن السياق لا يهم","لأن الدليل البصري يكفي دائمًا"],"answer":1,"feedback":"صحيح. أدوات الكشف قد تعطي نتائج خاطئة بالاتجاهين.","facilitatorNote":"قدّم أدوات الكشف كمساعد لا كقاضٍ."},{"title":"عدم اليقين المسؤول مهارة","content":"المتحقق الناضج يستطيع القول: مؤكد، مرجح، ناقص السياق، متلاعب به، أو غير مؤكد حاليًا. الدقة تبني الثقة.","keyIdea":"أصدق جواب أحيانًا يكون تصنيفًا لا حكمًا نهائيًا.","question":"أي صياغة أكثر مسؤولية عندما تكون الأدلة جزئية؟","options":["مزيف مؤكد","صحيح مثبت","غير مؤكد؛ الأدلة المتاحة ناقصة","كل شخص يقرر بشعوره"],"answer":2,"feedback":"صحيح. عدم اليقين الدقيق يمنع المبالغة.","facilitatorNote":"اطلب من المتعلمين إعادة كتابة عناوين درامية بلغة تحقق مسؤولة."}]},"4":{"title":"أساسيات OSINT للتحقق المدني","overview":"مدخل جاد إلى منهجيات المصادر المفتوحة من دون مبالغة في الاستنتاج.","slides":[{"title":"المصادر المفتوحة تجيب عن أسئلة محددة","content":"تكون OSINT أقوى عندما يكون السؤال محددًا: أين صُوّر هذا؟ متى نُشر؟ من نشره أولًا؟ وما المصدر الذي يدعم هذا الرقم؟","keyIdea":"الأسئلة الدقيقة تنتج دليلًا أفضل.","question":"أي سؤال هو الأفضل للتحقق؟","options":["هل كل الإنترنت كاذب؟","أين نُشر هذا الفيديو أولًا؟","من يبدو مزعجًا؟","كيف أفوز بالنقاش؟"],"answer":1,"feedback":"صحيح. السؤال محدد ويبحث عن دليل.","facilitatorNote":"عرّف OSINT كاستخدام متأنٍ لمعلومات متاحة للعامة، لا كتجسس."},{"title":"تحديد الموقع دليل لا استعراض","content":"المعالم والظلال واللافتات والتضاريس والطقس قد تدعم ادعاءات المكان، لكن لكل قرينة حدود ويجب توثيقها.","keyIdea":"أظهر مسار التفكير.","question":"ما الذي يقوّي تحديد الموقع؟","options":["تخمين واحد غامض","قرائن متعددة متطابقة ولقطات توثيق","نبرة واثقة","تعليق منتشر"],"answer":1,"feedback":"نعم. القرائن المستقلة المتعددة أقوى.","facilitatorNote":"استخدم صورة عامة آمنة وغير حساسة للتدريب."},{"title":"الأخلاقيات مهمة","content":"يجب أن يتجنب التحقق كشف بيانات الأشخاص أو التحريض عليهم. الهدف فهم عام وتقليل الضرر.","keyIdea":"الأساليب القوية تحتاج حدودًا.","question":"أي تصرف أخلاقي؟","options":["نشر عنوان خاص","طمس الأشخاص والتركيز على الدليل العام","مهاجمة الناشر","اختراع التفاصيل الناقصة"],"answer":1,"feedback":"صحيح. نقلل الضرر ونوثق الدليل.","facilitatorNote":"ناقش ما لا يجب تضمينه في تقرير عام."}]},"5":{"title":"ادعاءات البيانات والثقافة الإحصائية","overview":"يفحص الطلاب الأرقام المستخدمة للتأثير على الرأي العام.","slides":[{"title":"الأرقام قد تقنع من دون أن تشرح","content":"قد يبدو الرقم موضوعيًا بينما يخفي حجم العينة أو صياغة السؤال أو الجهة الممولة أو الفترة أو مجموعة المقارنة.","keyIdea":"الرقم بلا منهجية دعوة للسؤال.","question":"ما الناقص من عبارة “70% موافقون”؟","options":["العينة والسؤال والتاريخ والمصدر","خط أكبر","لون أقوى","رموز أكثر"],"answer":0,"feedback":"صحيح. المنهجية تعطي الرقم معناه.","facilitatorNote":"اجمع منشورات نسب مئوية وحدد حقول المنهجية الناقصة."},{"title":"قارن التغير المطلق والنسبي","content":"“زيادة 100%” قد تعني أن حالة واحدة صارت حالتين، أو أن 1000 صارت 2000. القصتان مختلفتان.","keyIdea":"اسأل: الزيادة من ماذا إلى ماذا؟","question":"أي تفصيل يساعد في فهم الزيادة المئوية؟","options":["الرقم الأصلي","مزاج الناشر","الموسيقى","عدد المشاركات"],"answer":0,"feedback":"نعم. خط البداية يغير المعنى.","facilitatorNote":"استخدم أمثلة رقمية بسيطة على اللوح."},{"title":"المخططات الجيدة تقول الحقيقة ببطء","content":"المحاور المقصوصة والعناوين الناقصة والألوان قد تجعل تغيرًا صغيرًا يبدو ضخمًا أو تخفي نمطًا مهمًا.","keyIdea":"التصميم قد يوضح أو يضلل.","question":"ماذا تفحص في المخطط؟","options":["المحاور والعناوين","العنوان فقط","أجمل لون فقط","عدد المشاركات"],"answer":0,"feedback":"صحيح. المحاور والعناوين تكشف ما يفعله المخطط.","facilitatorNote":"قارن مخططين بالبيانات نفسها ومحاور مختلفة."}]},"6":{"title":"تصميم موجز تحقق عام","overview":"يركّب الطلاب الأدلة في موجز مهني ومسؤول.","slides":[{"title":"الموجز ليس صراخًا","content":"يجب أن يكون موجز التحقق منظمًا: الادعاء، السياق، الدليل، عدم اليقين، الحكم، والتوصية.","keyIdea":"الهيكل يجعل الثقة أسهل تقييمًا.","question":"أي قسم ينتمي إلى موجز تحقق؟","options":["إهانات","الدليل وعدم اليقين","مصدر مخفي","تهديد درامي"],"answer":1,"feedback":"صحيح. الدليل وعدم اليقين أساسيان.","facilitatorNote":"قدّم قالب تقرير من صفحة واحدة."},{"title":"الأحكام تحتاج لغة دقيقة","content":"أحيانًا ليس أفضل حكم “صحيح” أو “كاذب”. قد يكون “فيديو أصلي بتعليق خاطئ” أو “غير متحقق” أو “اصطناعي بمصدر مجهول”.","keyIdea":"الدقة أنفع من استعراض اليقين.","question":"أي حكم أدق؟","options":["كاذب!!!","فيديو أصلي وادعاء المكان خاطئ","إحساس سيئ","الجميع يعرف"],"answer":1,"feedback":"نعم. يفصل الوسيط عن التعليق.","facilitatorNote":"اطلب من الطلاب تحسين أحكام غامضة."},{"title":"اقترح الفعل التالي","content":"يجب أن يساعد موجز التحقق الناس على التصرف بمسؤولية: لا تشارك بعد، شارك مع تصحيح، اسأل المؤسسة، أو راقب التحديثات.","keyIdea":"ينتهي التحقق بمسؤولية.","question":"ما توصية نهائية مفيدة؟","options":["شارك لأنه درامي","لا تشارك حتى يتأكد المصدر والتاريخ","هاجم الناشر","تجاهل التصحيحات"],"answer":1,"feedback":"صحيح. تحول الدليل إلى فعل عام.","facilitatorNote":"اختم بمعرض قصير لموجزات الطلاب."}]}},"scenarios":[{"id":"deepfake-accusation","title":"فيديو مسرّب لمرشح","description":"مقطع قصير يبدو أنه يظهر مرشحًا يقول كلامًا تحريضيًا، لكنه ظهر أولًا عبر حسابات مجهولة ودون ملف أصلي.","isFake":true,"explanation":"يحتاج المقطع إلى تتبع أصل الملف وتقارير مستقلة وتحليل وسائط قبل إصدار حكم."},{"id":"statistic-without-source","title":"الإحصائية المثالية","description":"منشور يذكر رقمًا دقيقًا عن السلامة العامة دون Dataset أو مؤسسة أو تاريخ أو منهجية.","isFake":true,"explanation":"الأرقام الدقيقة قد تكون غير مدعومة. نحتاج مصدر البيانات والمنهجية."},{"id":"old-protest-new-caption","title":"احتجاج قديم بعنوان جديد","description":"صورة حقيقية لاحتجاج يعاد نشرها بعنوان يدعي أنها حدثت اليوم في مدينة أخرى.","isFake":true,"explanation":"الصورة أصلية لكن التعليق مضلل. فحص التاريخ والمكان ضروري."}]}},"SpreadSimulator":{"title":"محاكي الانتشار","subtitle":"استكشف كيف تغيّر العاطفة والثقة وترتيب المنصات مسار الادعاء. الهدف ليس لوم المشاركة، بل فهم كيف يتحول الانتباه إلى تأثير.","start":"ابدأ","pause":"إيقاف مؤقت","reset":"إعادة","download":"تحميل","back":"رجوع","eyebrow":"مختبر ديناميكيات الانتشار","simulationTitle":"محاكاة انتشار المعلومات","simulationSubtitle":"شاهد كيف تتحرك الادعاءات داخل شبكة في الوقت الفعلي.","selectScenario":"اختر سيناريو","networkVisualization":"تصور الشبكة","monitorDescription":"راقب كيف يغيّر الانتباه والثقة والاحتكاك مدى الوصول.","realTime":"وقت فعلي","networkEffect":"تأثير الشبكة","viralContent":"محتوى منتشر","platformStats":"إحصاءات المنصة","engagement":"التفاعل","reach":"الوصول","speed":"السرعة","influence":"التأثير","participants":"المشاركون","shares":"المشاركات","learningObjectives":"أهداف التعلم","learningSubtitle":"افهم ديناميكيات المعلومات في الحياة العامة الرقمية.","criticalAnalysis":"تحليل نقدي","criticalAnalysisDesc":"حدد العوامل التي تجعل الادعاءات مقنعة أو خطرة.","criticalAnalysisStats":"الدليل أولًا","digitalDefense":"دفاع رقمي","digitalDefenseDesc":"تدرّب على تدخلات تقلل الضرر قبل المشاركة.","digitalDefenseStats":"أدوات إبطاء","strategicThinking":"تفكير استراتيجي","strategicThinkingDesc":"صمم تصحيحات تصل إلى الجمهور نفسه الذي وصل إليه الادعاء.","strategicThinkingStats":"وصول التصحيح","totalReach":"الوصول المتوقع","velocity":"مرتفع","nodesPerSecond":"عقدة/ثانية","mitigated":"42%","active":"نشط","parameters":"المعلمات","parametersBody":"اضبط العوامل التي تؤثر على كيفية انتشار المعلومات عبر الشبكات الاجتماعية والمنصات الرقمية.","sensationalism":"الإثارة","algorithmBoost":"تعزيز الخوارزمية","sourceTrust":"ثقة المصدر","scenarios":{"viralNews":{"title":"ادعاء خبر عاجل منتشر","description":"منشور درامي ينتشر قبل تأكيد المصدر والمكان."},"celebrityGossip":{"title":"شائعة عن شخصية عامة","description":"ادعاء يستخدم العاطفة ولقطات الشاشة ليتحرك أسرع من التحقق."},"politicalMeme":{"title":"ميم مدني ناقص السياق","description":"رسم مبسط يحول قضية عامة معقدة إلى ادعاء مضلل."},"healthInformation":{"title":"منشور نصيحة صحية","description":"نصيحة تبدو مفيدة لكنها تحتاج مصدرًا وتاريخًا وسياقًا خبيرًا."}}},"ProfessionalSpreadSimulator":{"title":"محاكي الانتشار الاحترافي","subtitle":"استكشف ديناميكيات انتشار المعلومات في العصر الرقمي","start":"بدء المحاكاة","pause":"إيقاف مؤقت","reset":"إعادة تعيين","download":"تنزيل البيانات","back":"العودة للمسار","eyebrow":"المحاكاة التفاعلية","simulationTitle":"ديناميكيات الشبكة","simulationSubtitle":"شاهد كيف تنتشر المعلومات في الوقت الفعلي","realTime":"التحليل في الوقت الفعلي","networkEffect":"تأثير الشبكة","viralContent":"المحتوى الفيروسي","platformStats":"إحصائيات المنصة","engagement":"معدل المشاركة","reach":"الوصول الإجمالي","speed":"سرعة الانتشار","influence":"نقاط التأثير","participants":"المشاركون النشطون","shares":"المشاركات الإجمالية","scenarios":[{"id":1,"title":"خبر عاجل فيروسي","description":"خبر عاجل ينتشر بسرعة عبر الشبكات الاجتماعية","type":"news","risk":"high","participants":1000,"duration":"5 دقائق"},{"id":2,"title":"شائعة المشاهير","description":"محتوى ترفيهي مع إمكانية مشاركة عالية","type":"entertainment","risk":"medium","participants":500,"duration":"3 دقائق"},{"id":3,"title":"ميم سياسي","description":"محتوى سياسي بخصائص استقطابية","type":"political","risk":"high","participants":2000,"duration":"7 دقائق"},{"id":4,"title":"معلومات صحية","description":"نصائح طبية ومحتوى صحي","type":"health","risk":"low","participants":300,"duration":"4 دقائق"}]},"Profile":{"track":"ملف مهارات الدليل","name":"محلل مصادر مدني","summary":"يُقاس التقدم بالتفكير المتأني: طلب الدليل، تصحيح السياق، وإبطاء انتشار الادعاءات الضعيفة.","points":"النقاط","badgesEarned":"الشارات المكتسبة","reports":"التقارير","earnedBadges":"شارات المهارات","recentReports":"تقارير تدريب حديثة","reviewed":"تمت مراجعته مع ملاحظات الميسّر","report1":"صورة عاصفة قديمة استُخدمت لحدث جديد","report2":"صورة إعلان عمدة مولدة بالذكاء الاصطناعي","report3":"شائعة قرار مدرسي من رسالة محولة","badges":[{"title":"متتبع المصدر","body":"يعثر على أقدم مصدر متاح قبل الحكم على الادعاء.","earned":true},{"title":"باني السياق","body":"يفصل ما حدث عن متى وأين ولماذا حدث.","earned":true},{"title":"قارئ إشارات AI","body":"يتعرف على قرائن بصرية ومصدرية قد تشير إلى وسائط اصطناعية.","earned":true},{"title":"مستمع مدني","body":"يقارن وجهات النظر من دون تحويل الخلاف إلى هجوم شخصي.","earned":false},{"title":"مشارك متأنٍ","body":"يكتب توصية مسؤولة قبل تمرير معلومات عامة.","earned":false}]},"VerificationToolkit":{"sideTitle":"عدة التحقق","sideSubtitle":"طريقة قابلة للتكرار يمكن للطلاب استخدامها مع أي ادعاء.","imageAnalysis":"فحص الصور والفيديو","sourceInvestigation":"تحقيق المصدر","metadata":"السياق والبيانات","newReport":"ابدأ تقريرًا","title":"منشئ تقرير الدليل","subtitle":"حوّل منشورًا مشبوهًا إلى حكم واضح: أصلي، مُتلاعب به، أو حقيقي لكنه ناقص السياق.","imageCaption":"عينة دليل","imageBody":"يوثق الطلاب ما يمكن رؤيته، وما لا يمكن معرفته بعد، وما الفحوص التي تقوّي الخلاصة.","checklistTitle":"الحد الأدنى من الدليل","checklist":["تحديد المنشور أو الناشر الأصلي","فحص التاريخ والمكان والسياق المحيط","المقارنة مع مصدرين مستقلين على الأقل","البحث عن مؤشرات AI أو تعديل","كتابة درجة عدم اليقين بوضوح"],"reportTitle":"الحكم النهائي","reportBody":"التقرير القوي لا يدّعي معرفة كل شيء. يشرح ما تم التحقق منه، وما بقي غير مؤكد، وما التصرف المسؤول قبل المشاركة.","authentic":"أصلي","needsContext":"حقيقي ويحتاج سياقًا","manipulated":"مُتلاعب به أو اصطناعي"},"NotFound":{"title":"هذه الصفحة غير موجودة","description":"يبدو أنك ضللت الطريق. لا تقلق، حتى الباحثون عن الحقيقة يضلون أحيانًا. دعنا نعود إلى المسار الصحيح.","goHome":"العودة للرئيسية","exploreContent":"استكشف المحتوى","needHelp":"هل تحتاج مساعدة في العثور على ما تبحث عنه؟","learningPath":"مسار التعلم","truthLab":"مختبر الحقائق","spreadSimulator":"محاكي الانتشار","goBack":"العودة للخلف","searchPlaceholder":"ابحث عن ما تبحث عنه...","tryAgain":"حاول مرة أخرى"}},"now":"$undefined","timeZone":"UTC","children":["$L1b","$L1c"]}]
+1d:I[15498,["/truthlab-kids/_next/static/chunks/0.hos3dy5750~.js","/truthlab-kids/_next/static/chunks/0xt0vdtmw0cqp.js","/truthlab-kids/_next/static/chunks/09n~9.h4~wc0s.js"],"default"]
+1b:["$","$L1d",null,{}]
+1e:T288a,
+            .tl404 {
+              --void: #05070b;
+              --panel: rgba(8, 16, 24, 0.82);
+              --line: rgba(232, 228, 220, 0.14);
+              --text: #e8e4dc;
+              --muted: #a7b0c0;
+              --cyan: #5affd5;
+              --blue: #3b7dd8;
+              --amber: #d4853a;
+              --red: #c94040;
+              min-height: 100vh;
+              margin: 0;
+              color: var(--text);
+              background:
+                radial-gradient(circle at 20% 18%, rgba(90, 255, 213, 0.14), transparent 32%),
+                radial-gradient(circle at 82% 12%, rgba(59, 125, 216, 0.18), transparent 30%),
+                linear-gradient(135deg, #05070b 0%, #101722 52%, #05070b 100%);
+              font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+              overflow-x: hidden;
+            }
+            .tl404 * { box-sizing: border-box; }
+            .tl404::before {
+              content: "";
+              position: fixed;
+              inset: 0;
+              pointer-events: none;
+              opacity: 0.18;
+              background-image:
+                linear-gradient(rgba(232,228,220,0.14) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(232,228,220,0.14) 1px, transparent 1px);
+              background-size: 44px 44px;
+            }
+            .tl404-wrap {
+              position: relative;
+              z-index: 1;
+              width: min(1180px, calc(100% - 32px));
+              min-height: 100vh;
+              margin: 0 auto;
+              display: grid;
+              grid-template-columns: 1fr 0.9fr;
+              gap: 56px;
+              align-items: center;
+              padding: 56px 0;
+            }
+            .tl404-logo {
+              display: inline-flex;
+              align-items: center;
+              gap: 12px;
+              margin-bottom: 38px;
+            }
+            .tl404-mark {
+              width: 52px;
+              height: 52px;
+              border-radius: 16px;
+              display: grid;
+              place-items: center;
+              background: #080b10;
+              border: 1px solid rgba(90,255,213,0.35);
+              box-shadow: 0 18px 40px rgba(90,255,213,0.16);
+            }
+            .tl404-brand strong {
+              display: block;
+              font-size: 22px;
+              letter-spacing: -0.04em;
+              line-height: 1;
+            }
+            .tl404-brand span {
+              display: block;
+              margin-top: 5px;
+              color: rgba(90,255,213,0.86);
+              font-size: 10px;
+              font-weight: 900;
+              letter-spacing: 0.28em;
+            }
+            .tl404-kicker {
+              display: inline-flex;
+              align-items: center;
+              gap: 10px;
+              border: 1px solid rgba(90,255,213,0.24);
+              background: rgba(90,255,213,0.08);
+              color: #bffef0;
+              border-radius: 999px;
+              padding: 10px 14px;
+              font-size: 12px;
+              font-weight: 900;
+              letter-spacing: 0.18em;
+              text-transform: uppercase;
+            }
+            .tl404 h1 {
+              margin: 30px 0 0;
+              max-width: 760px;
+              color: #fff;
+              font-size: clamp(48px, 7vw, 86px);
+              line-height: 0.95;
+              letter-spacing: -0.06em;
+            }
+            .tl404-copy {
+              max-width: 660px;
+              margin: 26px 0 0;
+              color: var(--muted);
+              font-size: 20px;
+              line-height: 1.7;
+            }
+            .tl404-actions {
+              display: flex;
+              flex-wrap: wrap;
+              gap: 14px;
+              margin-top: 36px;
+            }
+            .tl404 a {
+              color: inherit;
+              text-decoration: none;
+            }
+            .tl404-primary,
+            .tl404-secondary {
+              display: inline-flex;
+              min-height: 54px;
+              align-items: center;
+              justify-content: center;
+              border-radius: 10px;
+              padding: 0 24px;
+              font-weight: 900;
+            }
+            .tl404-primary {
+              color: #031014;
+              background: var(--cyan);
+              box-shadow: 0 18px 44px rgba(90,255,213,0.22);
+            }
+            .tl404-secondary {
+              color: #fff;
+              border: 1px solid rgba(255,255,255,0.14);
+              background: rgba(255,255,255,0.08);
+            }
+            .tl404-shortcuts {
+              display: flex;
+              flex-wrap: wrap;
+              gap: 10px;
+              margin-top: 26px;
+            }
+            .tl404-shortcuts a {
+              border: 1px solid rgba(255,255,255,0.1);
+              border-radius: 999px;
+              background: rgba(255,255,255,0.055);
+              color: #cbd5e1;
+              padding: 9px 14px;
+              font-size: 14px;
+            }
+            .tl404-card {
+              position: relative;
+              border: 1px solid rgba(255,255,255,0.12);
+              border-radius: 22px;
+              background: var(--panel);
+              box-shadow: 0 30px 80px rgba(0,0,0,0.45);
+              backdrop-filter: blur(18px);
+              overflow: hidden;
+            }
+            .tl404-card::before {
+              content: "";
+              position: absolute;
+              inset: -80px;
+              background: radial-gradient(circle, rgba(90,255,213,0.14), transparent 62%);
+              pointer-events: none;
+            }
+            .tl404-card-head {
+              position: relative;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              border-bottom: 1px solid rgba(255,255,255,0.1);
+              padding: 18px 20px;
+              color: #cbd5e1;
+              font-size: 13px;
+              font-weight: 900;
+              letter-spacing: 0.14em;
+            }
+            .tl404-pill {
+              border: 1px solid rgba(201,64,64,0.26);
+              border-radius: 999px;
+              background: rgba(201,64,64,0.12);
+              color: #fecaca;
+              padding: 6px 10px;
+              font-size: 10px;
+              text-transform: uppercase;
+            }
+            .tl404-radar {
+              position: relative;
+              margin: 26px;
+              aspect-ratio: 1;
+              border: 1px solid rgba(90,255,213,0.16);
+              border-radius: 16px;
+              background: #081018;
+              overflow: hidden;
+            }
+            .tl404-radar::before {
+              content: "";
+              position: absolute;
+              inset: 0;
+              opacity: 0.32;
+              background-image:
+                linear-gradient(rgba(90,255,213,0.24) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(90,255,213,0.24) 1px, transparent 1px);
+              background-size: 28px 28px;
+            }
+            .tl404-ring,
+            .tl404-ring2 {
+              position: absolute;
+              inset: 20%;
+              border: 1px solid rgba(90,255,213,0.28);
+              border-radius: 999px;
+            }
+            .tl404-ring2 {
+              inset: 32%;
+              border-color: rgba(212,133,58,0.34);
+            }
+            .tl404-num {
+              position: absolute;
+              left: 50%;
+              top: 50%;
+              transform: translate(-50%, -50%);
+              width: 108px;
+              height: 108px;
+              display: grid;
+              place-items: center;
+              border: 1px solid rgba(212,133,58,0.45);
+              border-radius: 999px;
+              background: rgba(212,133,58,0.12);
+              color: #fde68a;
+              font-size: 40px;
+              font-weight: 1000;
+            }
+            .tl404-dot {
+              position: absolute;
+              width: 10px;
+              height: 10px;
+              border-radius: 999px;
+              box-shadow: 0 0 22px currentColor;
+            }
+            .tl404-dot.a { left: 18%; top: 24%; color: var(--cyan); background: var(--cyan); }
+            .tl404-dot.b { right: 20%; top: 34%; color: var(--blue); background: var(--blue); }
+            .tl404-dot.c { left: 33%; bottom: 22%; color: var(--red); background: var(--red); }
+            .tl404-status {
+              position: absolute;
+              left: 18px;
+              right: 18px;
+              bottom: 18px;
+              border: 1px solid rgba(255,255,255,0.1);
+              border-radius: 12px;
+              background: rgba(0,0,0,0.38);
+              padding: 14px;
+              backdrop-filter: blur(10px);
+            }
+            .tl404-status strong {
+              display: block;
+              color: #fde68a;
+              font-size: 12px;
+              letter-spacing: 0.14em;
+              text-transform: uppercase;
+            }
+            .tl404-bar {
+              height: 8px;
+              margin-top: 10px;
+              border-radius: 999px;
+              overflow: hidden;
+              background: rgba(255,255,255,0.1);
+            }
+            .tl404-bar span {
+              display: block;
+              width: 18%;
+              height: 100%;
+              border-radius: inherit;
+              background: var(--red);
+            }
+            .tl404-meta {
+              display: grid;
+              gap: 10px;
+              padding: 0 26px 26px;
+              color: #cbd5e1;
+              font-size: 14px;
+            }
+            .tl404-row {
+              display: flex;
+              justify-content: space-between;
+              gap: 18px;
+              border: 1px solid rgba(255,255,255,0.1);
+              border-radius: 10px;
+              background: rgba(255,255,255,0.04);
+              padding: 13px 14px;
+            }
+            .tl404-row code { color: #fecaca; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+            .tl404-row b { color: #bffef0; }
+            @media (max-width: 860px) {
+              .tl404-wrap {
+                grid-template-columns: 1fr;
+                gap: 32px;
+                padding: 34px 0;
+              }
+              .tl404-copy { font-size: 17px; }
+              .tl404-card { max-width: 520px; width: 100%; margin: 0 auto; }
+            }
+          1c:["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"tl404","children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$1e"}}],"$L1f"]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
+1f:["$","div",null,{"className":"tl404-wrap","children":[["$","section",null,{"children":[["$","div",null,{"className":"tl404-logo","children":[["$","span",null,{"className":"tl404-mark","children":["$","svg",null,{"viewBox":"0 0 72 72","width":"38","height":"38","aria-hidden":"true","children":[["$","path",null,{"d":"M36 5.5c13.6 0 24.7 5.4 29.7 9.2v31.5C61.2 57 49.8 66.5 36 66.5S10.8 57 6.3 46.2V14.7c5-3.8 16.1-9.2 29.7-9.2Z","fill":"#080B10","stroke":"#5AFFD5","strokeWidth":"2.6"}],["$","path",null,{"d":"M13.8 36s8.5-13.3 22.2-13.3S58.2 36 58.2 36 49.7 49.3 36 49.3 13.8 36 13.8 36Z","fill":"rgba(90,255,213,0.12)","stroke":"#5AFFD5","strokeWidth":"2.2"}],["$","path",null,{"d":"M29.8 29.5h12.4M36 29.5v16.1","stroke":"#E8E4DC","strokeWidth":"3","strokeLinecap":"round"}]]}]}],["$","span",null,{"className":"tl404-brand","children":[["$","strong",null,{"children":"TruthLab"}],["$","span",null,{"children":"KIDS"}]]}]]}],["$","div",null,{"className":"tl404-kicker","children":"Missing Evidence Case"}],["$","h1",null,{"children":"This page could not be found"}],["$","p",null,{"className":"tl404-copy","children":"The evidence trail does not lead to this page. Return to TruthLab Kids and keep investigating."}],["$","div",null,{"className":"tl404-actions","children":[["$","a",null,{"className":"tl404-primary","href":"/truthlab-kids/ar/","children":"العربية"}],["$","a",null,{"className":"tl404-secondary","href":"/truthlab-kids/en/","children":"English"}]]}],["$","div",null,{"className":"tl404-shortcuts","children":[["$","a",null,{"href":"/truthlab-kids/ar/path/","children":"Learning Path"}],["$","a",null,{"href":"/truthlab-kids/ar/truth-lab/","children":"Truth Lab"}],["$","a",null,{"href":"/truthlab-kids/ar/spread-simulator/","children":"Spread Simulator"}]]}]]}],["$","aside",null,{"className":"tl404-card","children":[["$","div",null,{"className":"tl404-card-head","children":[["$","span",null,{"children":"CASE FILE"}],["$","span",null,{"className":"tl404-pill","children":"unresolved"}]]}],["$","div",null,{"className":"tl404-radar","children":[["$","span",null,{"className":"tl404-ring"}],["$","span",null,{"className":"tl404-ring2"}],["$","span",null,{"className":"tl404-num","children":"404"}],["$","span",null,{"className":"tl404-dot a"}],["$","span",null,{"className":"tl404-dot b"}],["$","span",null,{"className":"tl404-dot c"}],["$","div",null,{"className":"tl404-status","children":[["$","strong",null,{"children":"route confidence: 0%"}],["$","div",null,{"className":"tl404-bar","children":["$","span",null,{}]}]]}]]}],["$","div",null,{"className":"tl404-meta","children":[["$","div",null,{"className":"tl404-row","children":[["$","span",null,{"children":"Source path"}],["$","code",null,{"children":"not found"}]]}],["$","div",null,{"className":"tl404-row","children":[["$","span",null,{"children":"Recommended action"}],["$","b",null,{"children":"return →"}]]}]]}]]}]]}]
+20:I[27201,["/truthlab-kids/_next/static/chunks/01xlw8hd842-c.js","/truthlab-kids/_next/static/chunks/0d3shmwh5_nmn.js"],"IconMark"]
+13:null
+18:[["$","title","0",{"children":"TruthLab Kids"}],["$","meta","1",{"name":"description","content":"A media literacy learning experience for young digital citizens."}],["$","link","2",{"rel":"icon","href":"/truthlab-kids/favicon.ico?favicon.0x3dzn~oxb6tn.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","3",{"rel":"icon","href":"/truthlab-kids/icon.svg?icon.0zka38yf0q7jd.svg","sizes":"any","type":"image/svg+xml"}],["$","$L20","4",{}]]
