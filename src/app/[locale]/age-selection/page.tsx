@@ -25,6 +25,12 @@ interface ProfessionalAgeSelectionProps {
     sourceInvestigation: string;
     contextAnalysis: string;
     claimVerification: string;
+    advancedAIConcepts: string;
+    algorithmAnalysis: string;
+    evidenceStandards: string;
+    progressiveLearningPath: string;
+    progressiveLearningPathDesc: string;
+    foundationStage: string;
     foundationStageDesc: string;
     explorationStage: string;
     explorationStageDesc: string;
@@ -60,6 +66,12 @@ export default function AgeSelection() {
           sourceInvestigation: t('sourceInvestigation'),
           contextAnalysis: t('contextAnalysis'),
           claimVerification: t('claimVerification'),
+          advancedAIConcepts: t('advancedAIConcepts'),
+          algorithmAnalysis: t('algorithmAnalysis'),
+          evidenceStandards: t('evidenceStandards'),
+          progressiveLearningPath: t('progressiveLearningPath'),
+          progressiveLearningPathDesc: t('progressiveLearningPathDesc'),
+          foundationStage: t('foundationStage'),
           foundationStageDesc: t('foundationStageDesc'),
           explorationStage: t('explorationStage'),
           explorationStageDesc: t('explorationStageDesc'),
@@ -69,5 +81,4 @@ export default function AgeSelection() {
       />
     </div>
   );
-}
 }
